@@ -1,0 +1,65 @@
+# Build mgs2.apworld, test it, tag the commit and publish a GitHub Release.
+#
+# The version comes from the committed files: world_version in
+# worlds/mgs2/archipelago.json and APWORLD_VERSION in worlds/mgs2/Config/Config.py.
+# They must agree. To release: bump both, commit and push, then run this from
+# Actions -> "Release MGS2 apworld" -> Run workflow on the branch to release.
+# It fails if the two fields differ or if that version was already released.
+name: Release MGS2 apworld
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write   # create the tag and the release
+
+concurrency:
+  group: release-mgs2
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6.0.2
+
+      - uses: actions/setup-python@v6.2.0
+        with:
+          python-version: "3.13"
+
+      - name: Read the version
+        run: |
+          VERSION=$(python tools/build_apworld.py --print-version)
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+          echo "TAG=mgs2-v$VERSION" >> "$GITHUB_ENV"
+          echo "Releasing $VERSION"
+
+      - name: Check this version wasn't released yet
+        run: |
+          if git ls-remote --exit-code --tags origin "refs/tags/$TAG" >/dev/null; then
+            echo "::error::$TAG already exists. Bump world_version and APWORLD_VERSION for a new release."
+            exit 1
+          fi
+
+      - name: Install Archipelago dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python ModuleUpdate.py --yes --force
+          python Launcher.py --update_settings   # creates host.yaml
+
+      - name: Test-generate a seed
+        run: |
+          python Generate.py --player_files_path tools/ci_players --outputpath ci_output --seed 1
+          ls ci_output/*.zip
+
+      - name: Build mgs2.apworld
+        run: python tools/build_apworld.py --expect "$VERSION" --out dist
+
+      - name: Create the tag and the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$TAG" dist/mgs2.apworld tools/ci_players/MGS2.yaml \
+            --target "$GITHUB_SHA" \
+            --title "MGS2 apworld $VERSION" \
+            --notes "Built from ${GITHUB_SHA::7} on ${GITHUB_REF_NAME}. Install: double-click mgs2.apworld, or put it in your Archipelago custom_worlds folder."

@@ -1,0 +1,6 @@
+name: Player1
+game: "Metal Gear Solid 2: Sons of Liberty"
+description: MGS2 Tanker + Plant
+"Metal Gear Solid 2: Sons of Liberty":
+  progression_balancing: 50
+  accessibility: full
