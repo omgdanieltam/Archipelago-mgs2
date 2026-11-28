@@ -199,3 +199,7 @@ _speedups.html
 .LSOverride
 Thumbs.db
 [Dd]esktop.ini
+
+# MGS2
+worlds/mgs2/client/logs/
+worlds/mgs2/client/local_grants/

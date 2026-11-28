@@ -35,7 +35,9 @@ CONFIG_PATH = os.path.join(WORLD_DIR, "Config", "Config.py")
 # rejects anything higher than its handler.
 COMPATIBLE_VERSION = 7
 
-SKIP_DIRS = {"__pycache__", ".git", ".idea", ".vscode"}
+# "logs" and "local_grants" are written by the client at runtime (client/logs,
+# client/local_grants): personal, never shipped.
+SKIP_DIRS = {"__pycache__", ".git", ".idea", ".vscode", "logs", "local_grants"}
 SKIP_SUFFIXES = (".pyc", ".pyo", ".orig", ".rej", ".log")
 SKIP_NAMES = {".DS_Store", "Thumbs.db"}
 SKIP_RELATIVE = {"mgs2_spawn_catalogue.md"}   # development-only files

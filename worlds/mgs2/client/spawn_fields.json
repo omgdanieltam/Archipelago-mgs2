@@ -1,0 +1,6691 @@
+[
+ {
+  "stage": "w00a",
+  "spawn": "NearbyLeftsideBodyDump",
+  "ap_name": "Aft Deck - Ration (Left side)",
+  "vanilla_item": "Ration",
+  "spawn_id": 11013742,
+  "x": -18500,
+  "y": -17500,
+  "positions": [
+   [
+    -18500,
+    0,
+    -17500
+   ]
+  ],
+  "field": 940,
+  "status": "vanilla",
+  "conditions": [
+   "(difficulty <= 40)"
+  ],
+  "chapter": "tanker",
+  "flag": 940,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w00a",
+  "spawn": "NearSnakeSpawn",
+  "ap_name": null,
+  "vanilla_item": "Ration",
+  "spawn_id": 11013743,
+  "x": 5000,
+  "y": 18750,
+  "positions": [
+   [
+    5000,
+    0,
+    18750
+   ]
+  ],
+  "field": 946,
+  "status": "vanilla",
+  "conditions": [
+   "(difficulty <= 10)"
+  ],
+  "chapter": "tanker",
+  "flag": 946,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w00a",
+  "spawn": "RightsideLifeboats",
+  "ap_name": "Aft Deck - Bandage (Right side lifeboats)",
+  "vanilla_item": "Bandage",
+  "spawn_id": 2530894,
+  "x": 16000,
+  "y": -17000,
+  "positions": [
+   [
+    16000,
+    3000,
+    -17000
+   ]
+  ],
+  "field": 943,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 943,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w00a",
+  "spawn": "UnderLeftsideStairs",
+  "ap_name": "Aft Deck - Bandage (Under left stairs)",
+  "vanilla_item": "Bandage",
+  "spawn_id": 2530895,
+  "x": -7750,
+  "y": 4500,
+  "positions": [
+   [
+    -7750,
+    0,
+    4500
+   ]
+  ],
+  "field": 947,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 947,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w00a",
+  "spawn": "NearbyRightsideBodyDump",
+  "ap_name": "Aft Deck - Pentazemin (Right side)",
+  "vanilla_item": "Pentazemin",
+  "spawn_id": 11387613,
+  "x": 18500,
+  "y": -17500,
+  "positions": [
+   [
+    18500,
+    0,
+    -17500
+   ]
+  ],
+  "field": 941,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 941,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w00a",
+  "spawn": "RightsideBehindCrates",
+  "ap_name": "Aft Deck - Chaff Grenade (Right side behind crates)",
+  "vanilla_item": "Chaff",
+  "spawn_id": 9126569,
+  "x": 10000,
+  "y": -500,
+  "positions": [
+   [
+    10000,
+    2000,
+    -500
+   ]
+  ],
+  "field": 942,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 942,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w00a",
+  "spawn": "Overlook",
+  "ap_name": null,
+  "vanilla_item": "ColdMeds",
+  "spawn_id": 27735,
+  "x": 6000,
+  "y": 0,
+  "positions": [
+   [
+    0,
+    6000,
+    5500
+   ]
+  ],
+  "field": 944,
+  "status": "vanilla",
+  "conditions": [
+   "(difficulty >= 40)"
+  ],
+  "chapter": "tanker",
+  "flag": 944,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w01a",
+  "spawn": "Locker1",
+  "ap_name": "Deck A Crew Quarters - M9 Ammo (Locker)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 2391673,
+  "x": 4500,
+  "y": 3550,
+  "positions": [
+   [
+    4500,
+    0,
+    3550
+   ]
+  ],
+  "field": 1165,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1165,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w01a",
+  "spawn": "Locker2",
+  "ap_name": "Deck A Crew Quarters - Ration (Locker)",
+  "vanilla_item": "Ration",
+  "spawn_id": 5728766,
+  "x": -4520,
+  "y": 3550,
+  "positions": [
+   [
+    -4520,
+    0,
+    3550
+   ]
+  ],
+  "field": 1164,
+  "status": "unwritten",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1164,
+  "flag_source": "reserved, unused"
+ },
+ {
+  "stage": "w01b",
+  "spawn": "UnderRightsideStairs",
+  "ap_name": "Deck A Crew Quarters Starboard - M9 Ammo (Under right stairs)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 10163264,
+  "x": 11000,
+  "y": -14750,
+  "positions": [
+   [
+    11000,
+    3000,
+    -14750
+   ]
+  ],
+  "field": 1221,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1221,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w01b",
+  "spawn": "RightsideAlcove",
+  "ap_name": "Deck A Crew Quarters Starboard - Ration (Right side alcove)",
+  "vanilla_item": "Ration",
+  "spawn_id": 22505982,
+  "x": 3500,
+  "y": 2250,
+  "positions": [
+   [
+    3500,
+    3000,
+    2250
+   ]
+  ],
+  "field": 1222,
+  "status": "unwritten",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1222,
+  "flag_source": "reserved, unused"
+ },
+ {
+  "stage": "w01b",
+  "spawn": "Locker",
+  "ap_name": "Deck A Crew Quarters Starboard - USP Ammo (Locker)",
+  "vanilla_item": "UspAmmo",
+  "spawn_id": 47284124,
+  "x": 1000,
+  "y": 5500,
+  "positions": [
+   [
+    1000,
+    3000,
+    5500
+   ]
+  ],
+  "field": 1224,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1224,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w01c",
+  "spawn": "Crawlspace",
+  "ap_name": "Deck C Crew Quarters - Ration (Crawlspace)",
+  "vanilla_item": "Ration",
+  "spawn_id": 5728766,
+  "x": 9500,
+  "y": -16250,
+  "positions": [
+   [
+    9500,
+    6000,
+    -16250
+   ]
+  ],
+  "field": 1233,
+  "status": "vanilla",
+  "conditions": [
+   "(difficulty <= 30)"
+  ],
+  "chapter": "tanker",
+  "flag": 1233,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w01c",
+  "spawn": "Locker",
+  "ap_name": "Deck C Crew Quarters - Chaff Grenade (Locker)",
+  "vanilla_item": "Chaff",
+  "spawn_id": 6693579,
+  "x": -1500,
+  "y": -18160,
+  "positions": [
+   [
+    -1500,
+    6200,
+    -18160
+   ]
+  ],
+  "field": 1234,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1234,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w01d",
+  "spawn": "UnderTable1",
+  "ap_name": "Deck D Crew Quarters - M9 Ammo (Under table)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 12072265,
+  "x": -4750,
+  "y": -13000,
+  "positions": [
+   [
+    -4750,
+    8850,
+    -13000
+   ]
+  ],
+  "field": 1246,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1246,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w01d",
+  "spawn": "Stove",
+  "ap_name": "Deck D Crew Quarters - Ration (Stove)",
+  "vanilla_item": "Ration",
+  "spawn_id": 11013742,
+  "x": -10000,
+  "y": -18500,
+  "positions": [
+   [
+    -10000,
+    9000,
+    -18500
+   ]
+  ],
+  "field": 1244,
+  "status": "vanilla",
+  "conditions": [
+   "(difficulty < 50)"
+  ],
+  "chapter": "tanker",
+  "flag": 1244,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w01d",
+  "spawn": "UnderTable2",
+  "ap_name": "Deck D Crew Quarters - USP Ammo (Under table)",
+  "vanilla_item": "UspAmmo",
+  "spawn_id": 7715315,
+  "x": -9250,
+  "y": -13000,
+  "positions": [
+   [
+    -9250,
+    8850,
+    -13000
+   ]
+  ],
+  "field": 1245,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1245,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w01d",
+  "spawn": "NextToCamera",
+  "ap_name": "Deck D Crew Quarters - USP Ammo (Under camera)",
+  "vanilla_item": "UspAmmo",
+  "spawn_id": 7715316,
+  "x": -2500,
+  "y": -11875,
+  "positions": [
+   [
+    -2500,
+    9000,
+    -11875
+   ]
+  ],
+  "field": 1247,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1247,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w01d",
+  "spawn": "Pantry1",
+  "ap_name": "Deck D Crew Quarters - M9 Ammo (Pantry)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 12072266,
+  "x": 7700,
+  "y": -11850,
+  "positions": [
+   [
+    7700,
+    9000,
+    -11850
+   ]
+  ],
+  "field": 1248,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1248,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w01d",
+  "spawn": "Pantry2",
+  "ap_name": "Deck D Crew Quarters - Box (Pantry)",
+  "vanilla_item": "Box1",
+  "spawn_id": 11466484,
+  "x": 10000,
+  "y": -10000,
+  "positions": [
+   [
+    10000,
+    9000,
+    -10000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(Snake holds no item 16)"
+  ],
+  "chapter": "tanker",
+  "flag": 648,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w01e",
+  "spawn": "NearLeftDoor",
+  "ap_name": null,
+  "vanilla_item": "Ration",
+  "spawn_id": 5728766,
+  "x": -4500,
+  "y": -15750,
+  "positions": [
+   [
+    -4500,
+    12000,
+    -15750
+   ]
+  ],
+  "field": 1260,
+  "status": "vanilla",
+  "conditions": [
+   "(difficulty <= 20)"
+  ],
+  "chapter": "tanker",
+  "flag": 1260,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w01e",
+  "spawn": "NearRightDoor",
+  "ap_name": "Deck E Bridge - USP Ammo (Right side)",
+  "vanilla_item": "UspAmmo",
+  "spawn_id": 13729692,
+  "x": 4817,
+  "y": -18682,
+  "positions": [
+   [
+    4817,
+    12000,
+    -18682
+   ]
+  ],
+  "field": 1261,
+  "status": "vanilla",
+  "conditions": [
+   "linkvarbuf_0x1A4[2,36]"
+  ],
+  "chapter": "tanker",
+  "flag": 1261,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w01f",
+  "spawn": "Bar",
+  "ap_name": "Deck A Crew Lounge - M9 Ammo (Bar)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 10163264,
+  "x": 9000,
+  "y": -18500,
+  "positions": [
+   [
+    9000,
+    0,
+    -18500
+   ]
+  ],
+  "field": 1212,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1212,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w01f",
+  "spawn": "TV",
+  "ap_name": "Deck A Crew Lounge - Ration (TV)",
+  "vanilla_item": "Ration",
+  "spawn_id": 5728766,
+  "x": -8600,
+  "y": -18250,
+  "positions": [
+   [
+    -8600,
+    0,
+    -18250
+   ]
+  ],
+  "field": 1213,
+  "status": "vanilla",
+  "conditions": [
+   "(difficulty <= 30)"
+  ],
+  "chapter": "tanker",
+  "flag": 1213,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w01f",
+  "spawn": "StinkyRationMan",
+  "ap_name": "Deck A Crew Lounge - USP Ammo (Stinky ration man)",
+  "vanilla_item": "UspAmmo",
+  "spawn_id": 13729692,
+  "x": -12500,
+  "y": -12500,
+  "positions": [
+   [
+    -12500,
+    -5000,
+    -12500
+   ]
+  ],
+  "field": 1214,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1214,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w00c",
+  "spawn": "NearLeftsidePlatform",
+  "ap_name": "Navigational Deck - Ration (Left side platform)",
+  "vanilla_item": "Ration",
+  "spawn_id": 11013742,
+  "x": -11500,
+  "y": -18750,
+  "positions": [
+   [
+    -11500,
+    12000,
+    -18750
+   ]
+  ],
+  "field": 1157,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1157,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w00c",
+  "spawn": "RightsidePlatform",
+  "ap_name": "Navigational Deck - Wet Box (Right side platform)",
+  "vanilla_item": "WetBox",
+  "spawn_id": 1163626,
+  "x": 18000,
+  "y": -15000,
+  "positions": [
+   [
+    18000,
+    12750,
+    -15000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 647,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w00c",
+  "spawn": "CrowsNest1",
+  "ap_name": "Navigational Deck - Thermal Goggles (Crow's Nest)",
+  "vanilla_item": "Thermals",
+  "spawn_id": 3393341,
+  "x": 750,
+  "y": -13000,
+  "positions": [
+   [
+    750,
+    27500,
+    -13000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 645,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w00c",
+  "spawn": "CrowsNest2",
+  "ap_name": null,
+  "vanilla_item": "UspSupp",
+  "spawn_id": 232082,
+  "x": -750,
+  "y": -13250,
+  "positions": [
+   [
+    -750,
+    24000,
+    -13250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(linkvarbuf_0x2 >= 1)"
+  ],
+  "chapter": "tanker",
+  "flag": 646,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w01f",
+  "spawn": "EngineRoomAccess",
+  "ap_name": "Deck A Crew Lounge - Stun Grenade (Engine room access)",
+  "vanilla_item": "Stun",
+  "spawn_id": 15045352,
+  "x": 12500,
+  "y": -12500,
+  "positions": [
+   [
+    12500,
+    -5000,
+    -12500
+   ]
+  ],
+  "field": 1215,
+  "status": "vanilla",
+  "conditions": [
+   "(difficulty < 50)"
+  ],
+  "chapter": "tanker",
+  "flag": 1215,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w02a",
+  "spawn": "UnderRightsideStairs",
+  "ap_name": "Engine Room - M9 Ammo (Under right stairs)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 16382370,
+  "x": 7000,
+  "y": -19500,
+  "positions": [
+   [
+    7000,
+    -13000,
+    -19500
+   ]
+  ],
+  "field": 1266,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1266,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w02a",
+  "spawn": "RightsideConnectingCatwalk",
+  "ap_name": "Engine Room - Ration (Right side catwalk)",
+  "vanilla_item": "Ration",
+  "spawn_id": 11013742,
+  "x": 2250,
+  "y": -18000,
+  "positions": [
+   [
+    2250,
+    -14000,
+    -18000
+   ]
+  ],
+  "field": 1267,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1267,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w02a",
+  "spawn": "UnderLeftsideStairs",
+  "ap_name": "Engine Room - USP Ammo (Under left stairs)",
+  "vanilla_item": "UspAmmo",
+  "spawn_id": 10419002,
+  "x": -5500,
+  "y": -21500,
+  "positions": [
+   [
+    -5500,
+    -13000,
+    -21500
+   ]
+  ],
+  "field": 1268,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1268,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w02a",
+  "spawn": "LeftsideBottomFront",
+  "ap_name": "Engine Room - Grenade (Left side bottom front)",
+  "vanilla_item": "Grenade",
+  "spawn_id": 10971892,
+  "x": -12000,
+  "y": 1000,
+  "positions": [
+   [
+    -12000,
+    -13000,
+    1000
+   ]
+  ],
+  "field": 1269,
+  "status": "vanilla",
+  "conditions": [
+   "(varbuf_0x6 >= 29)"
+  ],
+  "chapter": "tanker",
+  "flag": 1269,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w02a",
+  "spawn": "LeftsideAlcove",
+  "ap_name": "Engine Room - USP Ammo (Left side alcove)",
+  "vanilla_item": "UspAmmo",
+  "spawn_id": 10419003,
+  "x": -6500,
+  "y": -10000,
+  "positions": [
+   [
+    -6500,
+    -9000,
+    -10000
+   ]
+  ],
+  "field": 1270,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1270,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w02a",
+  "spawn": "SmallPortSideRoom",
+  "ap_name": "Engine Room - USP Ammo (Small port side room)",
+  "vanilla_item": "UspAmmo",
+  "spawn_id": 10419004,
+  "x": -16000,
+  "y": -22250,
+  "positions": [
+   [
+    -16000,
+    -4000,
+    -22250
+   ]
+  ],
+  "field": 1271,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1271,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w02a",
+  "spawn": "RavenCrates",
+  "ap_name": "Engine Room - USP Ammo (Raven crates)",
+  "vanilla_item": "UspAmmo",
+  "spawn_id": 10419005,
+  "x": 16224,
+  "y": -22618,
+  "positions": [
+   [
+    16224,
+    -4000,
+    -22618
+   ]
+  ],
+  "field": 1272,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1272,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w03a",
+  "spawn": "DeadguySideRoom",
+  "ap_name": "Deck 2 Port - Ration (Deadguy side room)",
+  "vanilla_item": "Ration",
+  "spawn_id": 11013742,
+  "x": -12250,
+  "y": 23536,
+  "positions": [
+   [
+    -12250,
+    -5000,
+    -42000
+   ]
+  ],
+  "field": 1314,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1314,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w03a",
+  "spawn": "CloseSideRoom",
+  "ap_name": "Deck 2 Port - USP Ammo (Close side room)",
+  "vanilla_item": "UspAmmo",
+  "spawn_id": 7715315,
+  "x": -14000,
+  "y": -2964,
+  "positions": [
+   [
+    -14000,
+    -5000,
+    -68500
+   ]
+  ],
+  "field": 1315,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1315,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w03a",
+  "spawn": "MiddleShortHallway",
+  "ap_name": "Deck 2 Port - USP Ammo (Middle short hallway)",
+  "vanilla_item": "UspAmmo",
+  "spawn_id": 7715316,
+  "x": -4000,
+  "y": 3072,
+  "positions": [
+   [
+    -4000,
+    -5000,
+    -128000
+   ]
+  ],
+  "field": 1316,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1316,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w03b",
+  "spawn": "StartOfHallway",
+  "ap_name": "Deck 2 Starboard - USP Ammo (Entryway)",
+  "vanilla_item": "UspAmmo",
+  "spawn_id": 7715315,
+  "x": 15750,
+  "y": 2572,
+  "positions": [
+   [
+    15750,
+    -5000,
+    -128500
+   ]
+  ],
+  "field": 1322,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1322,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w03b",
+  "spawn": "SideRoomPipes",
+  "ap_name": "Deck 2 Starboard - USP Ammo (Side rooms pipes)",
+  "vanilla_item": "UspAmmo",
+  "spawn_id": 7715316,
+  "x": 12750,
+  "y": 30822,
+  "positions": [
+   [
+    12750,
+    -5000,
+    -100250
+   ]
+  ],
+  "field": 1323,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1323,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w03b",
+  "spawn": "Sideroom",
+  "ap_name": "Deck 2 Starboard - Ration (Side room)",
+  "vanilla_item": "Ration",
+  "spawn_id": 11013742,
+  "x": 13000,
+  "y": -31714,
+  "positions": [
+   [
+    13000,
+    -5000,
+    -97250
+   ]
+  ],
+  "field": 1324,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1324,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w03b",
+  "spawn": "EntrywayPipes",
+  "ap_name": "Deck 2 Starboard - M9 Ammo (Entryway pipes)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 12072265,
+  "x": 12300,
+  "y": 2322,
+  "positions": [
+   [
+    12300,
+    -5000,
+    -128750
+   ]
+  ],
+  "field": 1325,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1325,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w04a",
+  "spawn": "LeftLadder1",
+  "ap_name": "Hold 1 - M9 Ammo (Left ladder)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 12072265,
+  "x": -11000,
+  "y": -500,
+  "positions": [
+   [
+    -11000,
+    -9000,
+    -500
+   ]
+  ],
+  "field": 1328,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1328,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w04a",
+  "spawn": "BehindHatch1",
+  "ap_name": "Hold 1 - M9 Ammo (Behind hatch)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 12072266,
+  "x": 7000,
+  "y": 1750,
+  "positions": [
+   [
+    7000,
+    -5000,
+    1750
+   ]
+  ],
+  "field": 1329,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1329,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w04a",
+  "spawn": "BehindHatch2",
+  "ap_name": "Hold 1 - Ration (Behind hatch)",
+  "vanilla_item": "Ration",
+  "spawn_id": 11013742,
+  "x": 10000,
+  "y": 3250,
+  "positions": [
+   [
+    10000,
+    -5000,
+    3250
+   ]
+  ],
+  "field": 1330,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 1330,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w04a",
+  "spawn": "LeftLadder2",
+  "ap_name": null,
+  "vanilla_item": "ColdMeds",
+  "spawn_id": 3393341,
+  "x": -10500,
+  "y": -3500,
+  "positions": [
+   [
+    -10500,
+    -5000,
+    -3500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(Snake holds no item 13)"
+  ],
+  "chapter": "tanker",
+  "flag": 649,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w11a",
+  "spawn": "WhiteCrates2",
+  "ap_name": null,
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 19168889,
+  "x": -7750,
+  "y": 15125,
+  "positions": [
+   [
+    -7750,
+    -44250,
+    15125
+   ]
+  ],
+  "field": 1379,
+  "status": "vanilla",
+  "conditions": [
+   "(difficulty <= 20)"
+  ],
+  "chapter": "plant",
+  "flag": 1379,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w11a",
+  "spawn": "WhiteCrates1",
+  "ap_name": null,
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 35946105,
+  "x": -8625,
+  "y": 14375,
+  "positions": [
+   [
+    -8625,
+    -44250,
+    14375
+   ]
+  ],
+  "field": 1380,
+  "status": "vanilla",
+  "conditions": [
+   "(difficulty <= 20)"
+  ],
+  "chapter": "plant",
+  "flag": 1380,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w11a",
+  "spawn": "UnderWireRack",
+  "ap_name": null,
+  "vanilla_item": "M9",
+  "spawn_id": 16668063,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -18000,
+    -46250,
+    20250
+   ],
+   [
+    -5250,
+    -46000,
+    22125
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(difficulty == 10)",
+   "(varbuf_0x55E[4,16] == 0)"
+  ],
+  "chapter": "plant",
+  "flag": 668,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w11a",
+  "spawn": "Locker",
+  "ap_name": "Strut A SeaDock - Ration (Locker)",
+  "vanilla_item": "Ration",
+  "spawn_id": 22505982,
+  "x": -15750,
+  "y": 14250,
+  "positions": [
+   [
+    -15750,
+    -44800,
+    14250
+   ]
+  ],
+  "field": 1374,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1374,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w11a",
+  "spawn": "RightSideAlcove",
+  "ap_name": "Strut A SeaDock - Ration (Right side alcove)",
+  "vanilla_item": "Ration",
+  "spawn_id": 39283198,
+  "x": -3750,
+  "y": 16875,
+  "positions": [
+   [
+    -3750,
+    -46000,
+    16875
+   ]
+  ],
+  "field": 1375,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1375,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w11a",
+  "spawn": "DivingCage",
+  "ap_name": null,
+  "vanilla_item": "Shaver",
+  "spawn_id": 12955398,
+  "x": -10000,
+  "y": 19000,
+  "positions": [
+   [
+    -10000,
+    -46000,
+    19000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "((Raiden holds no item 19) && (difficulty >= 40))"
+  ],
+  "chapter": "plant",
+  "flag": 666,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w11a",
+  "spawn": "Pool",
+  "ap_name": "Strut A SeaDock - Thermal Goggles (Pool)",
+  "vanilla_item": "Thermals",
+  "spawn_id": 3393341,
+  "x": -5500,
+  "y": 26500,
+  "positions": [
+   [
+    -5500,
+    -54000,
+    26500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(Raiden holds no item 13)"
+  ],
+  "chapter": "plant",
+  "flag": 667,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w12a",
+  "spawn": "Boxes",
+  "ap_name": "Strut A Roof - Bandage (Boxes)",
+  "vanilla_item": "Bandage",
+  "spawn_id": 21973410,
+  "x": 3000,
+  "y": -6000,
+  "positions": [
+   [
+    3000,
+    6000,
+    -6000
+   ]
+  ],
+  "field": 1469,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1469,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w12a",
+  "spawn": "RightCage",
+  "ap_name": "Strut A Roof - Chaff Grenade (Right cage)",
+  "vanilla_item": "Chaff",
+  "spawn_id": 23470795,
+  "x": 6000,
+  "y": -13000,
+  "positions": [
+   [
+    6000,
+    5000,
+    -13000
+   ]
+  ],
+  "field": 1468,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1468,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w12a",
+  "spawn": "BottomLeft",
+  "ap_name": "Strut A Roof - M9 Ammo (Bottom left)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 33160965,
+  "x": -8000,
+  "y": -2500,
+  "positions": [
+   [
+    -8000,
+    5000,
+    -2500
+   ]
+  ],
+  "field": 1470,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1470,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w12a",
+  "spawn": "LeftCage",
+  "ap_name": null,
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 22333721,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -4800,
+    5000,
+    -12175
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(difficulty <= 20)",
+   "(varbuf_0x5BC[3,4] == 0)"
+  ],
+  "chapter": "plant",
+  "flag": 669,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w12b",
+  "spawn": "UnderDeskNearNode",
+  "ap_name": "Strut A Pump Room - M9 Ammo (Under desk near node)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 33160965,
+  "x": 0,
+  "y": -6250,
+  "positions": [
+   [
+    0,
+    -200,
+    -6250
+   ]
+  ],
+  "field": 1482,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1482,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w12b",
+  "spawn": "TopOfStairs",
+  "ap_name": "Strut A Pump Room - M9 Ammo (Top of stairs)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 49938181,
+  "x": 6250,
+  "y": -7875,
+  "positions": [
+   [
+    6250,
+    5000,
+    -7875
+   ]
+  ],
+  "field": 1483,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1483,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w12b",
+  "spawn": "Locker1",
+  "ap_name": "Strut A Pump Room - SOCOM Ammo (Locker)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 29821089,
+  "x": -9500,
+  "y": -4250,
+  "positions": [
+   [
+    -9500,
+    200,
+    -4250
+   ]
+  ],
+  "field": 1480,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1480,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w12b",
+  "spawn": "Locker2",
+  "ap_name": "Strut A Pump Room - Ration (Locker)",
+  "vanilla_item": "Ration",
+  "spawn_id": 22505982,
+  "x": 10375,
+  "y": -4250,
+  "positions": [
+   [
+    10375,
+    200,
+    -4250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 670,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w23a",
+  "spawn": "BottomBridgeLeftSide",
+  "ap_name": "FA Connecting Bridge - Chaff Grenade (Bottom bridge)",
+  "vanilla_item": "Chaff",
+  "spawn_id": 23470795,
+  "x": -13000,
+  "y": 2000,
+  "positions": [
+   [
+    -13000,
+    -4500,
+    2000
+   ]
+  ],
+  "field": 2028,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2028,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "OutsidePSG1Room",
+  "ap_name": "Strut F Warehouse - SOCOM Ammo (Outside PSG1 room)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 42693051,
+  "x": -2536,
+  "y": -25000,
+  "positions": [
+   [
+    -2536,
+    0,
+    -25000
+   ]
+  ],
+  "field": 1895,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1895,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "OutsideM9Room",
+  "ap_name": "Strut F Warehouse - Ration (Outside M9 room)",
+  "vanilla_item": "Ration",
+  "spawn_id": 22505982,
+  "x": -6786,
+  "y": -18000,
+  "positions": [
+   [
+    -6786,
+    0,
+    -18000
+   ]
+  ],
+  "field": 1930,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1930,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "BottomFloorMiddleCrates",
+  "ap_name": "Strut F Warehouse - Book (Bottom floor middle crates)",
+  "vanilla_item": "Book",
+  "spawn_id": 39860303,
+  "x": -12536,
+  "y": -29000,
+  "positions": [
+   [
+    -12536,
+    -3250,
+    -29000
+   ]
+  ],
+  "field": 1934,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1934,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "OutsideAKRoom",
+  "ap_name": "Strut F Warehouse - Stun Grenade (Outside AK room)",
+  "vanilla_item": "Stun",
+  "spawn_id": 31822568,
+  "x": -13036,
+  "y": 32286,
+  "positions": [
+   [
+    -13036,
+    -5000,
+    -33250
+   ]
+  ],
+  "field": 1928,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1928,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "BottomFloorParkourBoxes",
+  "ap_name": "Strut F Warehouse - M9 Ammo (Bottom floor parkour boxes)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 69500537,
+  "x": -6536,
+  "y": -26000,
+  "positions": [
+   [
+    -6536,
+    -3250,
+    -26000
+   ]
+  ],
+  "field": 1893,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1893,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "BottomFloorRightCrates",
+  "ap_name": "Strut F Warehouse - SOCOM Ammo (Bottom floor right crates)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 109801915,
+  "x": -6911,
+  "y": -28500,
+  "positions": [
+   [
+    -6911,
+    -4250,
+    -28500
+   ]
+  ],
+  "field": 1899,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1899,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "OutsideNodeRoom",
+  "ap_name": "Strut F Warehouse - Chaff Grenade (Outside node room)",
+  "vanilla_item": "Chaff",
+  "spawn_id": 23470795,
+  "x": -14536,
+  "y": -18625,
+  "positions": [
+   [
+    -14536,
+    -5000,
+    -18625
+   ]
+  ],
+  "field": 1929,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1929,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "M9Room1",
+  "ap_name": "Strut F Warehouse - M9 Ammo (M9 room 1)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 16668063,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -10286,
+    0,
+    -23250
+   ]
+  ],
+  "field": 1889,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1889,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "M9Room2",
+  "ap_name": "Strut F Warehouse - M9 Ammo (M9 room 2)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 19168889,
+  "x": -9036,
+  "y": -23750,
+  "positions": [
+   [
+    -9036,
+    0,
+    -23750
+   ]
+  ],
+  "field": 1890,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1890,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "M9Room3",
+  "ap_name": "Strut F Warehouse - M9 Ammo (M9 room 3)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 35946105,
+  "x": -8036,
+  "y": -22250,
+  "positions": [
+   [
+    -8036,
+    0,
+    -22250
+   ]
+  ],
+  "field": 1891,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1891,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w14a",
+  "spawn": "Catwalk",
+  "ap_name": "Strut B Transformer Room - M9 Ammo (Catwalk)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 33160965,
+  "x": 18911,
+  "y": 30661,
+  "positions": [
+   [
+    -46625,
+    0,
+    -34875
+   ]
+  ],
+  "field": 1550,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1550,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w14a",
+  "spawn": "Node",
+  "ap_name": "Strut B Transformer Room - SOCOM Ammo (Node)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 29821089,
+  "x": 16786,
+  "y": -24500,
+  "positions": [
+   [
+    -48750,
+    -2000,
+    -24500
+   ]
+  ],
+  "field": 1548,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1548,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w14a",
+  "spawn": "Locker1",
+  "ap_name": "Strut B Transformer Room - SOCOM Ammo (Locker)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 46598305,
+  "x": 15036,
+  "y": 22411,
+  "positions": [
+   [
+    -50500,
+    200,
+    -43125
+   ]
+  ],
+  "field": 1549,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1549,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w14a",
+  "spawn": "BottomSideElectrical",
+  "ap_name": null,
+  "vanilla_item": "SocomSupp",
+  "spawn_id": 617066,
+  "x": 13536,
+  "y": -23750,
+  "positions": [
+   [
+    -52000,
+    0,
+    -23750
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(difficulty == 10)",
+   "((Raiden holds no item 29) && ((linkvarbuf_0x114 & 16) == 0))"
+  ],
+  "chapter": "plant",
+  "flag": 673,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w14a",
+  "spawn": "Locker2",
+  "ap_name": "Strut B Transformer Room - Ration (Locker)",
+  "vanilla_item": "Ration",
+  "spawn_id": 22505982,
+  "x": 16036,
+  "y": 22411,
+  "positions": [
+   [
+    -49500,
+    200,
+    -43125
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 674,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w15a",
+  "spawn": "BrokenBridge",
+  "ap_name": "BC Connecting Bridge - Chaff Grenade (Broken bridge)",
+  "vanilla_item": "Chaff",
+  "spawn_id": 23470795,
+  "x": 17786,
+  "y": 5536,
+  "positions": [
+   [
+    -47750,
+    0,
+    -60000
+   ]
+  ],
+  "field": 1592,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1592,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w12b",
+  "spawn": "UnderPipes",
+  "ap_name": null,
+  "vanilla_item": "Ration",
+  "spawn_id": 39283198,
+  "x": -1500,
+  "y": 7250,
+  "positions": [
+   [
+    -1500,
+    0,
+    7250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(difficulty < 30)"
+  ],
+  "chapter": "plant",
+  "flag": 672,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w12b",
+  "spawn": "UnderCamera",
+  "ap_name": "Strut A Pump Room - SOCOM Ammo (Under camera)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 46598305,
+  "x": -8500,
+  "y": 1000,
+  "positions": [
+   [
+    -8500,
+    0,
+    1000
+   ]
+  ],
+  "field": 1481,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1481,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w12b",
+  "spawn": "UpperLeft",
+  "ap_name": "Strut A Pump Room - Bandage (Upper left)",
+  "vanilla_item": "Bandage",
+  "spawn_id": 21973410,
+  "x": -4500,
+  "y": 5500,
+  "positions": [
+   [
+    -4500,
+    0,
+    5500
+   ]
+  ],
+  "field": 1486,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1486,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w12b",
+  "spawn": "LowerLeft",
+  "ap_name": "Strut A Pump Room - Box 1 (Lower left)",
+  "vanilla_item": "Box1",
+  "spawn_id": 24701880,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -4750,
+    0,
+    11500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 671,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w16a",
+  "spawn": "LadiesRoom1",
+  "ap_name": "Strut C Dining Hall - M9 Ammo (Ladies room)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 33160965,
+  "x": 21786,
+  "y": -20339,
+  "positions": [
+   [
+    -43750,
+    0,
+    -85875
+   ]
+  ],
+  "field": 1604,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1604,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w16a",
+  "spawn": "MensRoom",
+  "ap_name": "Strut C Dining Hall - SOCOM Ammo (Mens room)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 29821089,
+  "x": 5036,
+  "y": -20339,
+  "positions": [
+   [
+    -60500,
+    0,
+    -85875
+   ]
+  ],
+  "field": 1602,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1602,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w16a",
+  "spawn": "LadiesRoom2",
+  "ap_name": "Strut C Dining Hall - Pentazemin (Ladies room)",
+  "vanilla_item": "Pentazemin",
+  "spawn_id": 24324971,
+  "x": 18411,
+  "y": -20339,
+  "positions": [
+   [
+    -47125,
+    0,
+    -85875
+   ]
+  ],
+  "field": 1605,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1605,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w16a",
+  "spawn": "DiningRoom",
+  "ap_name": "Strut C Dining Hall - Ration (Dining room)",
+  "vanilla_item": "Ration",
+  "spawn_id": 22505982,
+  "x": 5286,
+  "y": 31572,
+  "positions": [
+   [
+    -60250,
+    -200,
+    -99500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 675,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w16a",
+  "spawn": "PantryRoom",
+  "ap_name": "Strut C Dining Hall - Sensor B (Pantry room)",
+  "vanilla_item": "SensorB",
+  "spawn_id": 17034061,
+  "x": 17286,
+  "y": 27072,
+  "positions": [
+   [
+    -48250,
+    0,
+    -104000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(varbuf_0x68 >= 0x60)",
+   "(Raiden holds no item 11)"
+  ],
+  "chapter": "plant",
+  "flag": 676,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w18a",
+  "spawn": "UnderStairs",
+  "ap_name": "Strut D Sediment Pool - M9 Ammo (Under stairs)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 2391673,
+  "x": -6500,
+  "y": -2428,
+  "positions": [
+   [
+    -6500,
+    -4000,
+    -133500
+   ]
+  ],
+  "field": 3892,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 3892,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w18a",
+  "spawn": "RightsideDoor",
+  "ap_name": "Strut D Sediment Pool - PSG1 Ammo (Rightside door)",
+  "vanilla_item": "Psg1Ammo",
+  "spawn_id": 16362317,
+  "x": 8500,
+  "y": 21572,
+  "positions": [
+   [
+    8500,
+    -1000,
+    -109500
+   ]
+  ],
+  "field": 3895,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 3895,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w18a",
+  "spawn": "LeftsideDoor",
+  "ap_name": "Strut D Sediment Pool - SOCOM Ammo (Leftside door)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 9138619,
+  "x": -8500,
+  "y": 21572,
+  "positions": [
+   [
+    -8500,
+    -1000,
+    -109500
+   ]
+  ],
+  "field": 3894,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 3894,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w18a",
+  "spawn": "CenterAlcove",
+  "ap_name": "Strut D Sediment Pool - Ration (Center alcove)",
+  "vanilla_item": "Ration",
+  "spawn_id": 5728766,
+  "x": 1250,
+  "y": 11822,
+  "positions": [
+   [
+    1250,
+    -1000,
+    -119250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 677,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w19a",
+  "spawn": "LowerBridgeRightside1",
+  "ap_name": "DE Connecting Bridge - SOCOM Ammo (Lower bridge rightside)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 25915835,
+  "x": 12750,
+  "y": 3500,
+  "positions": [
+   [
+    12750,
+    -4500,
+    3500
+   ]
+  ],
+  "field": 1701,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1701,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w19a",
+  "spawn": "LowerBridgeRightside2",
+  "ap_name": "DE Connecting Bridge - Stun Grenade (Lower bridge rightside)",
+  "vanilla_item": "Stun",
+  "spawn_id": 31822568,
+  "x": 13250,
+  "y": 2750,
+  "positions": [
+   [
+    13250,
+    -4500,
+    2750
+   ]
+  ],
+  "field": 1700,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1700,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w20a",
+  "spawn": "OutsideLevel5Doors",
+  "ap_name": "Strut E Parcel Room - Mine Detector (Outside level 5 doors)",
+  "vanilla_item": "MineDetector",
+  "spawn_id": 15365081,
+  "x": -19036,
+  "y": -21464,
+  "positions": [
+   [
+    -19036,
+    -4500,
+    -87000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(Raiden holds no item 9)"
+  ],
+  "chapter": "plant",
+  "flag": 679,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w20a",
+  "spawn": "BottomFloorCrawlspace",
+  "ap_name": "Strut E Parcel Room - Ration (Bottom floor crawlspace)",
+  "vanilla_item": "Ration",
+  "spawn_id": 22505982,
+  "x": -22786,
+  "y": -20464,
+  "positions": [
+   [
+    -22786,
+    -4750,
+    -86000
+   ]
+  ],
+  "field": 1711,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1711,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w20a",
+  "spawn": "Unnamed",
+  "ap_name": "Strut E Parcel Room - Box 5 (Unnamed)",
+  "vanilla_item": null,
+  "spawn_id": 4994460,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -25036,
+    -4500,
+    -92000
+   ],
+   [
+    -8036,
+    750,
+    -94500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(varbuf_0x68 < 0x143)",
+   "(varbuf_0x5D7 == 0)"
+  ],
+  "chapter": "plant",
+  "flag": 680,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w20a",
+  "spawn": "Unnamed#2",
+  "ap_name": null,
+  "vanilla_item": null,
+  "spawn_id": 4994460,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -25036,
+    -4500,
+    -92000
+   ],
+   [
+    -8036,
+    750,
+    -94500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(varbuf_0x68 < 0x143)",
+   "(varbuf_0x5D7 == 0)"
+  ],
+  "chapter": "plant",
+  "flag": 681,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w20a",
+  "spawn": "BottomsideMiddleBoxes",
+  "ap_name": "Strut E Parcel Room - M4 Ammo (Bottomside middle boxes)",
+  "vanilla_item": "M4Ammo",
+  "spawn_id": 19163769,
+  "x": -12036,
+  "y": -19214,
+  "positions": [
+   [
+    -12036,
+    0,
+    -84750
+   ]
+  ],
+  "field": 1709,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1709,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w20a",
+  "spawn": "LeftsideMiddleBoxes",
+  "ap_name": "Strut E Parcel Room - M9 Ammo (Leftside middle boxes)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 19168889,
+  "x": -13536,
+  "y": -21964,
+  "positions": [
+   [
+    -13536,
+    0,
+    -87500
+   ]
+  ],
+  "field": 1705,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1705,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w20a",
+  "spawn": "UnderWireRackByEDBridge",
+  "ap_name": "Strut E Parcel Room - SOCOM Ammo (Under wire rack by ED bridge)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 25915835,
+  "x": -17536,
+  "y": 31072,
+  "positions": [
+   [
+    -17536,
+    -250,
+    -100000
+   ]
+  ],
+  "field": 1706,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1706,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w20a",
+  "spawn": "UnderWireRackByNode",
+  "ap_name": "Strut E Parcel Room - SOCOM Ammo (Under wire rack by node)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 42693051,
+  "x": -9536,
+  "y": 31072,
+  "positions": [
+   [
+    -9536,
+    -250,
+    -100000
+   ]
+  ],
+  "field": 1707,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1707,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w20a",
+  "spawn": "UnderConveyerBelt",
+  "ap_name": "Strut E Parcel Room - Stun Grenade (Under conveyer belt)",
+  "vanilla_item": "Stun",
+  "spawn_id": 31822568,
+  "x": -14036,
+  "y": -26464,
+  "positions": [
+   [
+    -14036,
+    -250,
+    -92000
+   ]
+  ],
+  "field": 1710,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1710,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w20b",
+  "spawn": "RoofBottomLeftRacks",
+  "ap_name": "Strut E Heliport - Box 3 (Roof bottom left racks)",
+  "vanilla_item": "Box3",
+  "spawn_id": 24701880,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -14036,
+    11500,
+    -84400
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 683,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w20b",
+  "spawn": "LowerLevelSleepingGuard",
+  "ap_name": "Strut E Heliport - Claymore (Lower level sleeping guard)",
+  "vanilla_item": "Claymore",
+  "spawn_id": 32145835,
+  "x": -23536,
+  "y": 32072,
+  "positions": [
+   [
+    -23536,
+    5500,
+    -99000
+   ]
+  ],
+  "field": 1857,
+  "status": "vanilla",
+  "conditions": [
+   "(varbuf_0x98 != 0xF07080)"
+  ],
+  "chapter": "plant",
+  "flag": 1857,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w20b",
+  "spawn": "TopOfStairs",
+  "ap_name": "Strut E Heliport - SOCOM Ammo (Top of stairs)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 80152737,
+  "x": -6536,
+  "y": -14964,
+  "positions": [
+   [
+    -6536,
+    11500,
+    -80500
+   ]
+  ],
+  "field": 1858,
+  "status": "vanilla",
+  "conditions": [
+   "((0x74 <= varbuf_0x68) && (varbuf_0x68 < 0x77))"
+  ],
+  "chapter": "plant",
+  "flag": 1858,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w20b",
+  "spawn": "LeftsideCrates",
+  "ap_name": "Strut E Heliport - Stun Grenade (Leftside crates)",
+  "vanilla_item": "Stun",
+  "spawn_id": 31822568,
+  "x": -18536,
+  "y": -30714,
+  "positions": [
+   [
+    -18536,
+    11500,
+    -96250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(varbuf_0xA7D || (varbuf_0x68 == 0x76))"
+  ],
+  "chapter": "plant",
+  "flag": 682,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w21a",
+  "spawn": "NearShell1Core",
+  "ap_name": "EF Connecting Bridge - AKS-74u Ammo (Near shell 1 core)",
+  "vanilla_item": "Aks74uAmmo",
+  "spawn_id": 23381624,
+  "x": 23000,
+  "y": 4286,
+  "positions": [
+   [
+    23000,
+    -1500,
+    -61250
+   ]
+  ],
+  "field": 1864,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1864,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "RoomAcrossNode1",
+  "ap_name": "Strut F Warehouse - SOCOM Ammo (Room across node 1)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 76247483,
+  "x": -11286,
+  "y": -19375,
+  "positions": [
+   [
+    -11286,
+    -5000,
+    -19375
+   ]
+  ],
+  "field": 1897,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1897,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "RoomAcrossNode3.1",
+  "ap_name": "Strut F Warehouse - Mine Detector (Room across node)",
+  "vanilla_item": "Bandage",
+  "spawn_id": 15365081,
+  "x": -10161,
+  "y": -23625,
+  "positions": [
+   [
+    -10161,
+    -5000,
+    -23625
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(Raiden holds no item 9)"
+  ],
+  "chapter": "plant",
+  "flag": 686,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "RoomAcrossNode3.2",
+  "ap_name": null,
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 93024699,
+  "x": -7911,
+  "y": -20375,
+  "positions": [
+   [
+    -7911,
+    -5000,
+    -20375
+   ]
+  ],
+  "field": 1898,
+  "status": "vanilla",
+  "conditions": [
+   "(varbuf_0x68 >= 0x74)"
+  ],
+  "chapter": "plant",
+  "flag": 1898,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "RoomAcrossNode2",
+  "ap_name": "Strut F Warehouse - SOCOM Ammo (Room across node 2)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 617066,
+  "x": -7911,
+  "y": -20375,
+  "positions": [
+   [
+    -7911,
+    -5000,
+    -20375
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "((Raiden holds no item 29) && ((linkvarbuf_0x114 & 16) == 0))"
+  ],
+  "chapter": "plant",
+  "flag": 685,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "RoomWithNode",
+  "ap_name": "Strut F Warehouse - Box 2 (Room with node)",
+  "vanilla_item": "Box2",
+  "spawn_id": 6196769,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -19036,
+    -5000,
+    -18750
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 687,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "LockerNearNode1",
+  "ap_name": "Strut F Warehouse - Pentazemin (Locker near node)",
+  "vanilla_item": "Pentazemin",
+  "spawn_id": 24324971,
+  "x": -17286,
+  "y": -23940,
+  "positions": [
+   [
+    -17286,
+    -5000,
+    -23940
+   ]
+  ],
+  "field": 1932,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1932,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "LockerNearNode2",
+  "ap_name": "Strut F Warehouse - Ration (Locker near node)",
+  "vanilla_item": "Ration",
+  "spawn_id": 39283198,
+  "x": -19976,
+  "y": -20500,
+  "positions": [
+   [
+    -19976,
+    -5000,
+    -20500
+   ]
+  ],
+  "field": 1931,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1931,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "RoomAcrossNode4",
+  "ap_name": "Strut F Warehouse - M9 Ammo (Room across node)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 52723321,
+  "x": -8036,
+  "y": -23250,
+  "positions": [
+   [
+    -8036,
+    -5250,
+    -23250
+   ]
+  ],
+  "field": 1892,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1892,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "LockerNearNode3",
+  "ap_name": "Strut F Warehouse - Book (Locker near node)",
+  "vanilla_item": "Book",
+  "spawn_id": 23083087,
+  "x": -19976,
+  "y": -21500,
+  "positions": [
+   [
+    -19976,
+    -5000,
+    -21500
+   ]
+  ],
+  "field": 1933,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1933,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "AKRoom1",
+  "ap_name": null,
+  "vanilla_item": "AkSupp",
+  "spawn_id": 12739888,
+  "x": -18786,
+  "y": 25161,
+  "positions": [
+   [
+    -18786,
+    -5000,
+    -40375
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(((Raiden holds no item 30) && ((linkvarbuf_0x114 & 32) == 0)) && (difficulty == 10))"
+  ],
+  "chapter": "plant",
+  "flag": 684,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "AKRoom2",
+  "ap_name": "Strut F Warehouse - AKS-74u Ammo (AK room 2)",
+  "vanilla_item": "Aks74uAmmo",
+  "spawn_id": 17444537,
+  "x": -18661,
+  "y": 21286,
+  "positions": [
+   [
+    -18661,
+    -5000,
+    -44250
+   ]
+  ],
+  "field": 1907,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1907,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "AKRoom3",
+  "ap_name": "Strut F Warehouse - AKS-74u Ammo (AK room 3)",
+  "vanilla_item": "Aks74uAmmo",
+  "spawn_id": 34221753,
+  "x": -15536,
+  "y": 29286,
+  "positions": [
+   [
+    -15536,
+    -5000,
+    -36250
+   ]
+  ],
+  "field": 1908,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1908,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "AKRoom4.2",
+  "ap_name": "Strut F Warehouse - AKS-74u Ammo (AK room 4-2)",
+  "vanilla_item": "Aks74uAmmo",
+  "spawn_id": 50998969,
+  "x": -11536,
+  "y": 29286,
+  "positions": [
+   [
+    -11536,
+    -5000,
+    -36250
+   ]
+  ],
+  "field": 1909,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1909,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "AKRoom4.1",
+  "ap_name": "Strut F Warehouse - AKS-74u (AK room)",
+  "vanilla_item": "Aks74u",
+  "spawn_id": 12539190,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -8411,
+    -5000,
+    -44250
+   ]
+  ],
+  "field": 1906,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1906,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "AKRoom5",
+  "ap_name": "Strut F Warehouse - SOCOM Ammo (AK room)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 59470267,
+  "x": -14286,
+  "y": 21161,
+  "positions": [
+   [
+    -14286,
+    -5000,
+    -44375
+   ]
+  ],
+  "field": 1896,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1896,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "AKRoom6",
+  "ap_name": "Strut F Warehouse - M4 Ammo (AK room)",
+  "vanilla_item": "M4Ammo",
+  "spawn_id": 86272633,
+  "x": -8786,
+  "y": 25036,
+  "positions": [
+   [
+    -8786,
+    -5000,
+    -40500
+   ]
+  ],
+  "field": 1905,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1905,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "C4Room1",
+  "ap_name": "Strut F Warehouse - C4 (C4 room 1)",
+  "vanilla_item": "C4",
+  "spawn_id": 22323476,
+  "x": -11286,
+  "y": 26036,
+  "positions": [
+   [
+    -11286,
+    0,
+    -39500
+   ]
+  ],
+  "field": 1920,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1920,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "C4Room2",
+  "ap_name": "Strut F Warehouse - C4 (C4 room 2)",
+  "vanilla_item": "C4",
+  "spawn_id": 39100692,
+  "x": -11476,
+  "y": 27536,
+  "positions": [
+   [
+    -11476,
+    0,
+    -38000
+   ]
+  ],
+  "field": 1921,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1921,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "C4Room3",
+  "ap_name": "Strut F Warehouse - C4 (C4 room 3)",
+  "vanilla_item": "C4",
+  "spawn_id": 55877908,
+  "x": -7536,
+  "y": 25536,
+  "positions": [
+   [
+    -7536,
+    0,
+    -40000
+   ]
+  ],
+  "field": 1922,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1922,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "C4Room4",
+  "ap_name": "Strut F Warehouse - Claymore (C4 room 4)",
+  "vanilla_item": "Claymore",
+  "spawn_id": 32145835,
+  "x": -11476,
+  "y": 28536,
+  "positions": [
+   [
+    -11476,
+    0,
+    -37000
+   ]
+  ],
+  "field": 1923,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1923,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "C4Room5",
+  "ap_name": "Strut F Warehouse - Claymore (C4 room 5)",
+  "vanilla_item": "Claymore",
+  "spawn_id": 48923051,
+  "x": -7536,
+  "y": 28161,
+  "positions": [
+   [
+    -7536,
+    0,
+    -37375
+   ]
+  ],
+  "field": 1924,
+  "status": "vanilla",
+  "conditions": [
+   "(varbuf_0x68 >= 0xB4)"
+  ],
+  "chapter": "plant",
+  "flag": 1924,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "M4Room1",
+  "ap_name": "Strut F Warehouse - M4 Ammo (M4 room 1)",
+  "vanilla_item": "M4Ammo",
+  "spawn_id": 19163769,
+  "x": -23036,
+  "y": -31500,
+  "positions": [
+   [
+    -23036,
+    0,
+    -31500
+   ]
+  ],
+  "field": 1901,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1901,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "M4Room2",
+  "ap_name": "Strut F Warehouse - M4 Ammo (M4 room 2)",
+  "vanilla_item": "M4Ammo",
+  "spawn_id": 35940985,
+  "x": -23976,
+  "y": -28500,
+  "positions": [
+   [
+    -23976,
+    0,
+    -28500
+   ]
+  ],
+  "field": 1902,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1902,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "M4Room3",
+  "ap_name": "Strut F Warehouse - M4 (M4 room)",
+  "vanilla_item": "M4",
+  "spawn_id": 11425183,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -21786,
+    0,
+    -32000
+   ]
+  ],
+  "field": 1900,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1900,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "M4Room4",
+  "ap_name": "Strut F Warehouse - PSG1 Ammo (M4 room)",
+  "vanilla_item": "Psg1Ammo",
+  "spawn_id": 33139533,
+  "x": -27286,
+  "y": -31000,
+  "positions": [
+   [
+    -27286,
+    -250,
+    -31000
+   ]
+  ],
+  "field": 1911,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1911,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w24a",
+  "spawn": "LockerRoom1",
+  "ap_name": null,
+  "vanilla_item": "Aks74uAmmo",
+  "spawn_id": 6603397,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    2500,
+    0,
+    -49750
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(difficulty == 10)"
+  ],
+  "chapter": "plant",
+  "flag": 691,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24a",
+  "spawn": "LockerRoom2",
+  "ap_name": "Shell 1 Core - Book (Locker room)",
+  "vanilla_item": "Book",
+  "spawn_id": 3509160,
+  "x": -750,
+  "y": 19736,
+  "positions": [
+   [
+    -750,
+    0,
+    -45800
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 692,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24a",
+  "spawn": "LockerRoom3",
+  "ap_name": "Shell 1 Core - C4 (Locker room)",
+  "vanilla_item": "C4",
+  "spawn_id": 5546260,
+  "x": -1750,
+  "y": 19711,
+  "positions": [
+   [
+    -1750,
+    0,
+    -45825
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 693,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24a",
+  "spawn": "LockerRoom4",
+  "ap_name": "Shell 1 Core - Chaff Grenade (Locker room)",
+  "vanilla_item": "Chaff",
+  "spawn_id": 6693579,
+  "x": -1000,
+  "y": 13536,
+  "positions": [
+   [
+    -1000,
+    1000,
+    -52000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 694,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24a",
+  "spawn": "LockerRoom5",
+  "ap_name": "Shell 1 Core - Claymore (Locker room)",
+  "vanilla_item": "Claymore",
+  "spawn_id": 15368619,
+  "x": 1250,
+  "y": 19711,
+  "positions": [
+   [
+    1250,
+    0,
+    -45825
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 695,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24a",
+  "spawn": "LockerRoom6",
+  "ap_name": "Shell 1 Core - M4 Ammo (Locker room)",
+  "vanilla_item": "M4Ammo",
+  "spawn_id": 2386553,
+  "x": -3750,
+  "y": 12286,
+  "positions": [
+   [
+    -3750,
+    0,
+    -53250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 696,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24a",
+  "spawn": "LockerRoom7",
+  "ap_name": "Shell 1 Core - M9 Ammo (Locker room)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 2391673,
+  "x": -3750,
+  "y": 14286,
+  "positions": [
+   [
+    -3750,
+    0,
+    -51250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 697,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24a",
+  "spawn": "BrokenDoor",
+  "ap_name": "Shell 1 Core - SOCOM Ammo (Broken door)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 9138619,
+  "x": -18500,
+  "y": 9786,
+  "positions": [
+   [
+    -18500,
+    -1500,
+    -55750
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 688,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24a",
+  "spawn": "LockerRoom8",
+  "ap_name": "Shell 1 Core - SOCOM Ammo (Locker room)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 3114226,
+  "x": 2250,
+  "y": 19711,
+  "positions": [
+   [
+    2250,
+    0,
+    -45825
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(Raiden holds no item 29)"
+  ],
+  "chapter": "plant",
+  "flag": 698,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24b",
+  "spawn": "Hallway",
+  "ap_name": "Shell 1 Core B1 - M4 Ammo (Hallway)",
+  "vanilla_item": "M4Ammo",
+  "spawn_id": 12067145,
+  "x": -11250,
+  "y": 1536,
+  "positions": [
+   [
+    -11250,
+    -4500,
+    -64000
+   ]
+  ],
+  "field": 2108,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2108,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w24b",
+  "spawn": "LoungeLocker1",
+  "ap_name": "Shell 1 Core B1 - SOCOM Ammo (Lounge locker)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 7799797,
+  "x": -8500,
+  "y": -3564,
+  "positions": [
+   [
+    -8500,
+    -4500,
+    -69100
+   ]
+  ],
+  "field": 2109,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2109,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w24b",
+  "spawn": "LoungeLocker2",
+  "ap_name": "Shell 1 Core B1 - Stun Grenade (Lounge locker)",
+  "vanilla_item": "Stun",
+  "spawn_id": 4962471,
+  "x": -10500,
+  "y": -3564,
+  "positions": [
+   [
+    -10500,
+    -4500,
+    -69100
+   ]
+  ],
+  "field": 2110,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2110,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w24b",
+  "spawn": "NodeLocker",
+  "ap_name": "Shell 1 Core B1 - Ration (Node locker)",
+  "vanilla_item": "Ration",
+  "spawn_id": 11013742,
+  "x": 5750,
+  "y": -8214,
+  "positions": [
+   [
+    5750,
+    -4500,
+    -73750
+   ]
+  ],
+  "field": 2107,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2107,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w24c",
+  "spawn": "BottomLeft",
+  "ap_name": "Shell 1 Core Hostage Room - Bandage (Bottom left)",
+  "vanilla_item": "Bandage",
+  "spawn_id": 2530894,
+  "x": -11000,
+  "y": 17036,
+  "positions": [
+   [
+    -11000,
+    -8500,
+    -48500
+   ]
+  ],
+  "field": 2050,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2050,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w24c",
+  "spawn": "BottomRight",
+  "ap_name": "Shell 1 Core Hostage Room - Ration (Bottom right)",
+  "vanilla_item": "Ration",
+  "spawn_id": 11013742,
+  "x": 7750,
+  "y": 14536,
+  "positions": [
+   [
+    7750,
+    -8500,
+    -51000
+   ]
+  ],
+  "field": 2049,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2049,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w24c",
+  "spawn": "Podium",
+  "ap_name": "Shell 1 Core Hostage Room - Thermal Goggles (Podium)",
+  "vanilla_item": "Pentazemin",
+  "spawn_id": 3393341,
+  "x": -10000,
+  "y": 11036,
+  "positions": [
+   [
+    -10000,
+    -7500,
+    -54500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(Raiden holds no item 13)"
+  ],
+  "chapter": "plant",
+  "flag": 699,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24d",
+  "spawn": "Node1",
+  "ap_name": "Shell 1 Core B2 - AKS-74u Ammo (Node)",
+  "vanilla_item": "Aks74uAmmo",
+  "spawn_id": 16285001,
+  "x": 4500,
+  "y": 10536,
+  "positions": [
+   [
+    4500,
+    -16000,
+    -55000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 703,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24d",
+  "spawn": "UnderDesk",
+  "ap_name": "Shell 1 Core B2 - Bandage (Under desk)",
+  "vanilla_item": "Bandage",
+  "spawn_id": 5196194,
+  "x": 0,
+  "y": 14286,
+  "positions": [
+   [
+    0,
+    -16000,
+    -51250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 707,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24d",
+  "spawn": "Node2",
+  "ap_name": "Shell 1 Core B2 - Box 4 (Node)",
+  "vanilla_item": "Box4",
+  "spawn_id": 11466503,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    3750,
+    -16000,
+    -55000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 704,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24d",
+  "spawn": "Parrot",
+  "ap_name": "Shell 1 Core B2 - D. Mic (Parrot)",
+  "vanilla_item": "Dmic1",
+  "spawn_id": 3483303,
+  "x": -3500,
+  "y": 8036,
+  "positions": [
+   [
+    -3500,
+    -16000,
+    -57500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(linkvarbuf_0x2AC[12,36] == -1)"
+  ],
+  "chapter": "plant",
+  "flag": 705,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24d",
+  "spawn": "Locker1",
+  "ap_name": "Shell 1 Core B2 - M4 Ammo (Locker)",
+  "vanilla_item": "M4Ammo",
+  "spawn_id": 929283,
+  "x": -8625,
+  "y": 13536,
+  "positions": [
+   [
+    -8625,
+    -16000,
+    -52000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 700,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24d",
+  "spawn": "Locker2",
+  "ap_name": "Shell 1 Core B2 - M9 Ammo (Locker)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 929288,
+  "x": 8625,
+  "y": 12536,
+  "positions": [
+   [
+    8625,
+    -16000,
+    -53000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 701,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24d",
+  "spawn": "Locker3",
+  "ap_name": "Shell 1 Core B2 - SOCOM Ammo (Locker)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 12131771,
+  "x": -8625,
+  "y": 15536,
+  "positions": [
+   [
+    -8625,
+    -16000,
+    -50000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 702,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24d",
+  "spawn": "RightAlcove",
+  "ap_name": "Shell 1 Core B2 - Ration (Right alcove)",
+  "vanilla_item": "Ration",
+  "spawn_id": 5728766,
+  "x": 7250,
+  "y": 36,
+  "positions": [
+   [
+    7250,
+    -16000,
+    -65500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 706,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "M4Room5",
+  "ap_name": "Strut F Warehouse - M4 Ammo (M4 room 5)",
+  "vanilla_item": "M4Ammo",
+  "spawn_id": 52718201,
+  "x": -21036,
+  "y": -31000,
+  "positions": [
+   [
+    -21036,
+    0,
+    -31000
+   ]
+  ],
+  "field": 1903,
+  "status": "vanilla",
+  "conditions": [
+   "(varbuf_0x68 >= 0xB4)"
+  ],
+  "chapter": "plant",
+  "flag": 1903,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "M4Room6",
+  "ap_name": "Strut F Warehouse - M4 Ammo (M4 room 6)",
+  "vanilla_item": "M4Ammo",
+  "spawn_id": 69495417,
+  "x": -20036,
+  "y": -28250,
+  "positions": [
+   [
+    -20036,
+    0,
+    -28250
+   ]
+  ],
+  "field": 1904,
+  "status": "vanilla",
+  "conditions": [
+   "(varbuf_0x68 >= 0xB4)"
+  ],
+  "chapter": "plant",
+  "flag": 1904,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "RgbRoom1",
+  "ap_name": "Strut F Warehouse - PSG1-T Ammo (RGB room)",
+  "vanilla_item": "Psg1tAmmo",
+  "spawn_id": 27558808,
+  "x": -15596,
+  "y": 28286,
+  "positions": [
+   [
+    -15596,
+    0,
+    -37250
+   ]
+  ],
+  "field": 1915,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1915,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "RgbRoom2",
+  "ap_name": "Strut F Warehouse - RGB6 Ammo (RGB room 2)",
+  "vanilla_item": "Rgb6Ammo",
+  "spawn_id": 28032077,
+  "x": -18536,
+  "y": 27286,
+  "positions": [
+   [
+    -18536,
+    750,
+    -38250
+   ]
+  ],
+  "field": 1918,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1918,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "RgbRoom3",
+  "ap_name": "Strut F Warehouse - RGB6 Ammo (RGB room 3)",
+  "vanilla_item": "Rgb6Ammo",
+  "spawn_id": 44809293,
+  "x": -15786,
+  "y": 25286,
+  "positions": [
+   [
+    -15786,
+    0,
+    -40250
+   ]
+  ],
+  "field": 1919,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1919,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "RgbRoom4",
+  "ap_name": "Strut F Warehouse - RGB6 (RGB room)",
+  "vanilla_item": "Rgb6",
+  "spawn_id": 16099260,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -19661,
+    0,
+    -39375
+   ]
+  ],
+  "field": 1917,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1917,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "Psg1Room1",
+  "ap_name": "Strut F Warehouse - PSG1 Ammo (PSG1 room 1)",
+  "vanilla_item": "Psg1Ammo",
+  "spawn_id": 49916749,
+  "x": -7286,
+  "y": -30250,
+  "positions": [
+   [
+    -7286,
+    0,
+    -30250
+   ]
+  ],
+  "field": 1912,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1912,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "Psg1Room2",
+  "ap_name": "Strut F Warehouse - PSG1 Ammo (PSG1 room 2)",
+  "vanilla_item": "Psg1Ammo",
+  "spawn_id": 66693965,
+  "x": -7476,
+  "y": -31250,
+  "positions": [
+   [
+    -7476,
+    0,
+    -31250
+   ]
+  ],
+  "field": 1913,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1913,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "Psg1Room3",
+  "ap_name": "Strut F Warehouse - PSG1 (PSG1 room)",
+  "vanilla_item": "Psg1",
+  "spawn_id": 11643124,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -5536,
+    0,
+    -32000
+   ]
+  ],
+  "field": 1910,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1910,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "Psg1Room4",
+  "ap_name": "Strut F Warehouse - PSG1-T (PSG1 room)",
+  "vanilla_item": "Psg1t",
+  "spawn_id": 1233824,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    66750,
+    -250,
+    -31000
+   ]
+  ],
+  "field": 1914,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1914,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "GrenadeRoom1",
+  "ap_name": "Strut F Warehouse - Grenade (Grenade room 1)",
+  "vanilla_item": "Grenade",
+  "spawn_id": 24701397,
+  "x": -17286,
+  "y": -23250,
+  "positions": [
+   [
+    -17286,
+    0,
+    -23250
+   ]
+  ],
+  "field": 1925,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1925,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "GrenadeRoom2",
+  "ap_name": "Strut F Warehouse - Grenade (Grenade room 2)",
+  "vanilla_item": "Grenade",
+  "spawn_id": 41478613,
+  "x": -18286,
+  "y": -22000,
+  "positions": [
+   [
+    -18286,
+    0,
+    -22000
+   ]
+  ],
+  "field": 1926,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1926,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "GrenadeRoom3",
+  "ap_name": "Strut F Warehouse - Grenade (Grenade room 3)",
+  "vanilla_item": "Grenade",
+  "spawn_id": 58255829,
+  "x": -17286,
+  "y": -20875,
+  "positions": [
+   [
+    -17286,
+    0,
+    -20875
+   ]
+  ],
+  "field": 1927,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1927,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "GrenadeRoom4",
+  "ap_name": "Strut F Warehouse - PSG1-T Ammo (Grenade room)",
+  "vanilla_item": "Psg1tAmmo",
+  "spawn_id": 44336024,
+  "x": -19286,
+  "y": -23940,
+  "positions": [
+   [
+    -19286,
+    0,
+    -23940
+   ]
+  ],
+  "field": 1916,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1916,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w22a",
+  "spawn": "GrenadeRoom5",
+  "ap_name": "Strut F Warehouse - SOCOM Ammo (Grenade room)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 25915835,
+  "x": -16036,
+  "y": -19750,
+  "positions": [
+   [
+    -16036,
+    0,
+    -19750
+   ]
+  ],
+  "field": 1894,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1894,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w24a",
+  "spawn": "FrontDoor1",
+  "ap_name": "Shell 1 Core - M9 Ammo (Front door)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 12004175,
+  "x": 15750,
+  "y": 9786,
+  "positions": [
+   [
+    15750,
+    -1500,
+    -55750
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "((varbuf_0x68 >= 0xB4) && (varbuf_0x68 < 0x147))"
+  ],
+  "chapter": "plant",
+  "flag": 689,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w24a",
+  "spawn": "FrontDoor2",
+  "ap_name": "Shell 1 Core - SOCOM Ammo (Front door)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 4115462,
+  "x": 17250,
+  "y": 9786,
+  "positions": [
+   [
+    17250,
+    -1500,
+    -55750
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "((varbuf_0x68 >= 0xB4) && (varbuf_0x68 < 0x147))"
+  ],
+  "chapter": "plant",
+  "flag": 690,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w25b",
+  "spawn": "BehindFireHaveAkSupp",
+  "ap_name": null,
+  "vanilla_item": "Aks74uAmmo",
+  "spawn_id": 9755695,
+  "x": -2000,
+  "y": -32053,
+  "positions": [
+   [
+    -2000,
+    -4000,
+    -163125
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "((linkvarbuf_0x114 & 32) || (linkvarbuf_0x33C[30,48] > 0))"
+  ],
+  "chapter": "plant",
+  "flag": 709,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w25b",
+  "spawn": "BehindFireOtherwise",
+  "ap_name": "Shell 1-2 Connecting Bridge - AKS-74u Suppressor (Behind fire)",
+  "vanilla_item": "Aks74uAmmo",
+  "spawn_id": 12739888,
+  "x": -2000,
+  "y": -32053,
+  "positions": [
+   [
+    -2000,
+    -4000,
+    -163125
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 710,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w25b",
+  "spawn": "FrontFire",
+  "ap_name": "Shell 1-2 Connecting Bridge - PSG1 Ammo (Front fire)",
+  "vanilla_item": "Psg1Ammo",
+  "spawn_id": 16362317,
+  "x": 499,
+  "y": -32525,
+  "positions": [
+   [
+    -1500,
+    -5250,
+    -156000
+   ],
+   [
+    499,
+    -3500,
+    -163597
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 713,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w25b",
+  "spawn": "BrokenCatwalk",
+  "ap_name": null,
+  "vanilla_item": "Psg1Ammo",
+  "spawn_id": 16362317,
+  "x": 499,
+  "y": -32525,
+  "positions": [
+   [
+    -1500,
+    -5250,
+    -156000
+   ],
+   [
+    499,
+    -3500,
+    -163597
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 711,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w25b",
+  "spawn": "FrontFire#2",
+  "ap_name": "Shell 1-2 Connecting Bridge - PSG1-T Ammo (Front fire)",
+  "vanilla_item": "Psg1tAmmo",
+  "spawn_id": 10781592,
+  "x": 499,
+  "y": -32525,
+  "positions": [
+   [
+    499,
+    -3500,
+    -163597
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(linkvarbuf_0x2AC[19,36] >= 0)"
+  ],
+  "chapter": "plant",
+  "flag": 714,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w25b",
+  "spawn": "Pipe",
+  "ap_name": "Shell 1-2 Connecting Bridge - Ration (Pipe)",
+  "vanilla_item": "Ration",
+  "spawn_id": 5728766,
+  "x": 8375,
+  "y": -13928,
+  "positions": [
+   [
+    8375,
+    -3875,
+    -145000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 715,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w25b",
+  "spawn": "BrokenStairs",
+  "ap_name": "Shell 1-2 Connecting Bridge - Ration (Broken stairs)",
+  "vanilla_item": "Ration",
+  "spawn_id": 8128582,
+  "x": -3250,
+  "y": -15928,
+  "positions": [
+   [
+    -3250,
+    -4250,
+    -147000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 712,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w25c",
+  "spawn": "LowerCatwalk",
+  "ap_name": "Strut L Perimeter - AKS-74u Ammo (Lower catwalk)",
+  "vanilla_item": "Aks74uAmmo",
+  "spawn_id": 667321,
+  "x": -6536,
+  "y": -29892,
+  "positions": [
+   [
+    -6536,
+    -3000,
+    -226500
+   ]
+  ],
+  "field": 5248,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 5248,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w25c",
+  "spawn": "ConnectingBridge",
+  "ap_name": "Strut L Perimeter - Chaff Grenade (Connecting bridge)",
+  "vanilla_item": "Chaff",
+  "spawn_id": 9126591,
+  "x": -12036,
+  "y": 9144,
+  "positions": [
+   [
+    -12036,
+    0,
+    -253000
+   ]
+  ],
+  "field": 5245,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 5245,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w25c",
+  "spawn": "ConnectingBridge#2",
+  "ap_name": "Strut L Perimeter - PSG1 Ammo (Connecting bridge)",
+  "vanilla_item": "Psg1Ammo",
+  "spawn_id": 16362317,
+  "x": -15036,
+  "y": 9144,
+  "positions": [
+   [
+    -15036,
+    0,
+    -253000
+   ]
+  ],
+  "field": 5244,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 5244,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w25c",
+  "spawn": "ConnectingBridge#3",
+  "ap_name": "Strut L Perimeter - SOCOM Ammo (Connecting bridge)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 9138619,
+  "x": -12286,
+  "y": -30392,
+  "positions": [
+   [
+    -12286,
+    0,
+    -227000
+   ]
+  ],
+  "field": 5246,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 5246,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w25c",
+  "spawn": "LowerCatwalk#2",
+  "ap_name": "Strut L Perimeter - Ration (Lower catwalk)",
+  "vanilla_item": "Ration",
+  "spawn_id": 5728766,
+  "x": -6286,
+  "y": 9144,
+  "positions": [
+   [
+    -6286,
+    -3000,
+    -253000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 716,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31a",
+  "spawn": "StrutHDoor1",
+  "ap_name": "Shell 2 Core - Chaff Grenade (Strut H door)",
+  "vanilla_item": "Chaff",
+  "spawn_id": 23470795,
+  "x": -18000,
+  "y": 26144,
+  "positions": [
+   [
+    -18000,
+    0,
+    -236000
+   ]
+  ],
+  "field": 2260,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2260,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31a",
+  "spawn": "RightsideAlcove1",
+  "ap_name": "Shell 2 Core - M4 Ammo (Rightside alcove)",
+  "vanilla_item": "M4Ammo",
+  "spawn_id": 19163769,
+  "x": 8500,
+  "y": 10144,
+  "positions": [
+   [
+    8500,
+    0,
+    -252000
+   ]
+  ],
+  "field": 2248,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2248,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31a",
+  "spawn": "BreakRoom",
+  "ap_name": "Shell 2 Core - M4 Ammo (Break room)",
+  "vanilla_item": "M4Ammo",
+  "spawn_id": 35940985,
+  "x": -4500,
+  "y": 18394,
+  "positions": [
+   [
+    -4500,
+    0,
+    -243750
+   ]
+  ],
+  "field": 2249,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2249,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31a",
+  "spawn": "StrutHDoor2",
+  "ap_name": "Shell 2 Core - M4 Ammo (Strut H door)",
+  "vanilla_item": "M4Ammo",
+  "spawn_id": 11425183,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -18000,
+    0,
+    -234000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 719,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31a",
+  "spawn": "LeftsideStairs",
+  "ap_name": "Shell 2 Core - M9 Ammo (Leftside stairs)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 19168889,
+  "x": -6500,
+  "y": -31892,
+  "positions": [
+   [
+    -6500,
+    -2000,
+    -228500
+   ]
+  ],
+  "field": 2242,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2242,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31a",
+  "spawn": "CameraRoomConditional",
+  "ap_name": "Shell 2 Core - Nikita Ammo (Camera room conditional)",
+  "vanilla_item": "NikitaAmmo",
+  "spawn_id": 25553353,
+  "x": -5500,
+  "y": 30394,
+  "positions": [
+   [
+    -5500,
+    750,
+    -231750
+   ]
+  ],
+  "field": 2252,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2252,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31a",
+  "spawn": "RightsideStairsConditional",
+  "ap_name": "Shell 2 Core - Nikita Ammo (Rightside stairs conditional)",
+  "vanilla_item": "NikitaAmmo",
+  "spawn_id": 42330569,
+  "x": 6500,
+  "y": -31892,
+  "positions": [
+   [
+    6500,
+    -2000,
+    -228500
+   ]
+  ],
+  "field": 2253,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2253,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31a",
+  "spawn": "CameraRoom",
+  "ap_name": null,
+  "vanilla_item": "NikitaAmmo",
+  "spawn_id": 25553353,
+  "x": -5500,
+  "y": 30394,
+  "positions": [
+   [
+    -5500,
+    750,
+    -231750
+   ]
+  ],
+  "field": 2252,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2252,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31a",
+  "spawn": "RightsideStairs",
+  "ap_name": null,
+  "vanilla_item": "NikitaAmmo",
+  "spawn_id": 42330569,
+  "x": 6500,
+  "y": -31892,
+  "positions": [
+   [
+    6500,
+    -2000,
+    -228500
+   ]
+  ],
+  "field": 2253,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2253,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31a",
+  "spawn": "RightsideAlcove2",
+  "ap_name": "Shell 2 Core - RGB6 Ammo (Rightside alcove)",
+  "vanilla_item": "Rgb6Ammo",
+  "spawn_id": 16099260,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    6500,
+    0,
+    -252000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 718,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31a",
+  "spawn": "ClimbableBoxes",
+  "ap_name": "Shell 2 Core - SOCOM Ammo (Climbable boxes)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 42693051,
+  "x": 3000,
+  "y": -31892,
+  "positions": [
+   [
+    3000,
+    -1250,
+    -228500
+   ]
+  ],
+  "field": 2245,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2245,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31a",
+  "spawn": "LeftsideLanding",
+  "ap_name": "Shell 2 Core - Ration (Leftside landing)",
+  "vanilla_item": "Ration",
+  "spawn_id": 22505982,
+  "x": -12500,
+  "y": 30644,
+  "positions": [
+   [
+    -12500,
+    0,
+    -231500
+   ]
+  ],
+  "field": 2262,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2262,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31b",
+  "spawn": "MiddleHallwayAlcove",
+  "ap_name": "Shell 2 Filtration Chamber 1 - M4 Ammo (Middle hallway alcove)",
+  "vanilla_item": "M4Ammo",
+  "spawn_id": 2386553,
+  "x": 9500,
+  "y": 24644,
+  "positions": [
+   [
+    9500,
+    -10500,
+    -237500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 726,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31b",
+  "spawn": "DeadendMiddleHallway",
+  "ap_name": "Shell 2 Filtration Chamber 1 - NVG (Deadend middle hallway)",
+  "vanilla_item": "NVG",
+  "spawn_id": 6686469,
+  "x": 4250,
+  "y": 17394,
+  "positions": [
+   [
+    4250,
+    -10500,
+    -244750
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(Raiden holds no item 12)"
+  ],
+  "chapter": "plant",
+  "flag": 724,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31b",
+  "spawn": "NikitaSpawn1",
+  "ap_name": "Shell 2 Filtration Chamber 1 - Nikita (Nikita spawn)",
+  "vanilla_item": "Nikita",
+  "spawn_id": 1442150,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    11500,
+    -10250,
+    -249500
+   ],
+   [
+    -750,
+    -10250,
+    -242750
+   ],
+   [
+    5000,
+    -10250,
+    -236250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "1",
+   "(difficulty == 10)"
+  ],
+  "chapter": "plant",
+  "flag": 727,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31b",
+  "spawn": "NikitaSpawn2",
+  "ap_name": null,
+  "vanilla_item": "NikitaAmmo",
+  "spawn_id": 1442150,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    11500,
+    -10250,
+    -249500
+   ],
+   [
+    -750,
+    -10250,
+    -242750
+   ],
+   [
+    5000,
+    -10250,
+    -236250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "1",
+   "(difficulty == 10)"
+  ],
+  "chapter": "plant",
+  "flag": 728,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31b",
+  "spawn": "NikitaSpawn3",
+  "ap_name": null,
+  "vanilla_item": "NikitaAmmo",
+  "spawn_id": 1442150,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    11500,
+    -10250,
+    -249500
+   ],
+   [
+    -750,
+    -10250,
+    -242750
+   ],
+   [
+    5000,
+    -10250,
+    -236250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "1",
+   "(difficulty == 10)"
+  ],
+  "chapter": "plant",
+  "flag": 729,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31b",
+  "spawn": "CollapsedRoom1",
+  "ap_name": "Shell 2 Filtration Chamber 1 - PSG1-T Ammo (Collapsed room)",
+  "vanilla_item": "Psg1tAmmo",
+  "spawn_id": 10266906,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -2000,
+    -6250,
+    -223000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 722,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31b",
+  "spawn": "AirPocket2",
+  "ap_name": "Shell 2 Filtration Chamber 1 - RGB6 Ammo (Air pocket)",
+  "vanilla_item": "Rgb6Ammo",
+  "spawn_id": 13232872,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -1500,
+    -6250,
+    -249500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 720,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31b",
+  "spawn": "CollapsedRoom2",
+  "ap_name": "Shell 2 Filtration Chamber 1 - Stinger Ammo (Collapsed room)",
+  "vanilla_item": "StingerAmmo",
+  "spawn_id": 11654377,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -2000,
+    -10500,
+    -223000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 723,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31b",
+  "spawn": "AirPocket3",
+  "ap_name": "Shell 2 Filtration Chamber 1 - Ration (Air pocket)",
+  "vanilla_item": "Ration",
+  "spawn_id": 5728766,
+  "x": -9500,
+  "y": -25392,
+  "positions": [
+   [
+    -9500,
+    -6250,
+    -222000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 721,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31a",
+  "spawn": "Vents2",
+  "ap_name": "Shell 2 Core - Book (Vents)",
+  "vanilla_item": "Book",
+  "spawn_id": 23083087,
+  "x": -3750,
+  "y": 24394,
+  "positions": [
+   [
+    -3750,
+    0,
+    -237750
+   ]
+  ],
+  "field": 2261,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2261,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31a",
+  "spawn": "Vents1",
+  "ap_name": "Shell 2 Core - Stinger Ammo (Vents)",
+  "vanilla_item": "StingerAmmo",
+  "spawn_id": 28431593,
+  "x": -2000,
+  "y": 23894,
+  "positions": [
+   [
+    -2000,
+    0,
+    -238250
+   ]
+  ],
+  "field": 2257,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2257,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31a",
+  "spawn": "ElectricalRoom",
+  "ap_name": "Shell 2 Core - SOCOM Ammo (Electrical room)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 25915835,
+  "x": 625,
+  "y": 15894,
+  "positions": [
+   [
+    625,
+    0,
+    -246250
+   ]
+  ],
+  "field": 2244,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2244,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31c",
+  "spawn": "SideRoom1",
+  "ap_name": "Shell 2 Filtration Chamber 2 - AKS-74u Ammo (Side room)",
+  "vanilla_item": "Aks74uAmmo",
+  "spawn_id": 17444537,
+  "x": -18000,
+  "y": 9644,
+  "positions": [
+   [
+    -18000,
+    -9500,
+    -252500
+   ]
+  ],
+  "field": 2355,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2355,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31c",
+  "spawn": "Locker1",
+  "ap_name": "Shell 2 Filtration Chamber 2 - Body Armor (Locker)",
+  "vanilla_item": "BodyArmor",
+  "spawn_id": 15819682,
+  "x": -4000,
+  "y": 2644,
+  "positions": [
+   [
+    -4000,
+    -10750,
+    -259500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(Raiden holds no item 7)"
+  ],
+  "chapter": "plant",
+  "flag": 730,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31c",
+  "spawn": "Locker2",
+  "ap_name": "Shell 2 Filtration Chamber 2 - Book (Locker)",
+  "vanilla_item": "Book",
+  "spawn_id": 23083087,
+  "x": -18250,
+  "y": 8644,
+  "positions": [
+   [
+    -18250,
+    -7000,
+    -253500
+   ]
+  ],
+  "field": 2362,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2362,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31c",
+  "spawn": "Locker3",
+  "ap_name": "Shell 2 Filtration Chamber 2 - C4 (Locker)",
+  "vanilla_item": "C4",
+  "spawn_id": 22323476,
+  "x": -18250,
+  "y": 3644,
+  "positions": [
+   [
+    -18250,
+    -7000,
+    -258500
+   ]
+  ],
+  "field": 2360,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2360,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31c",
+  "spawn": "DeadendHallway",
+  "ap_name": "Shell 2 Filtration Chamber 2 - C4 (Deadend hallway)",
+  "vanilla_item": "C4",
+  "spawn_id": 39100692,
+  "x": -18250,
+  "y": 4644,
+  "positions": [
+   [
+    -18250,
+    -7000,
+    -257500
+   ]
+  ],
+  "field": 2361,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2361,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31c",
+  "spawn": "SideRoom2",
+  "ap_name": "Shell 2 Filtration Chamber 2 - PSG1-T Ammo (Side room)",
+  "vanilla_item": "Psg1tAmmo",
+  "spawn_id": 27558808,
+  "x": -6250,
+  "y": 15394,
+  "positions": [
+   [
+    -6250,
+    -8750,
+    -246750
+   ]
+  ],
+  "field": 2356,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2356,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31c",
+  "spawn": "NodeStairs",
+  "ap_name": "Shell 2 Filtration Chamber 2 - Pentazemin (Node stairs)",
+  "vanilla_item": "Pentazemin",
+  "spawn_id": 24324971,
+  "x": -15125,
+  "y": 10019,
+  "positions": [
+   [
+    -15125,
+    -7000,
+    -252125
+   ]
+  ],
+  "field": 2363,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2363,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31c",
+  "spawn": "OutsidePurificationChamber",
+  "ap_name": "Shell 2 Filtration Chamber 2 - Ration (Outside purification chamber)",
+  "vanilla_item": "Ration",
+  "spawn_id": 56060414,
+  "x": -5000,
+  "y": 13894,
+  "positions": [
+   [
+    -5000,
+    -6250,
+    -248250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(varbuf_0x92E[9,25] == 0)"
+  ],
+  "chapter": "plant",
+  "flag": 732,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31c",
+  "spawn": "Locker4",
+  "ap_name": "Shell 2 Filtration Chamber 2 - Thermal Goggles (Locker)",
+  "vanilla_item": "Pentazemin",
+  "spawn_id": 3393341,
+  "x": -11250,
+  "y": 5644,
+  "positions": [
+   [
+    -11250,
+    -7000,
+    -256500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(Raiden holds no item 13)"
+  ],
+  "chapter": "plant",
+  "flag": 731,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w25d",
+  "spawn": "ShellEntrance",
+  "ap_name": "KL Connecting Bridge - Chaff Grenade (Shell entrance)",
+  "vanilla_item": "Chaff",
+  "spawn_id": 6693579,
+  "x": 23000,
+  "y": 23644,
+  "positions": [
+   [
+    23000,
+    -1500,
+    -238500
+   ]
+  ],
+  "field": 5281,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 5281,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w25d",
+  "spawn": "LowerCatwalk",
+  "ap_name": "KL Connecting Bridge - M4 Ammo (Lower catwalk)",
+  "vanilla_item": "M4Ammo",
+  "spawn_id": 2386553,
+  "x": -6786,
+  "y": 26144,
+  "positions": [
+   [
+    -6786,
+    -3000,
+    -236000
+   ]
+  ],
+  "field": 5283,
+  "status": "unwritten",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 5283,
+  "flag_source": "reserved, unused"
+ },
+ {
+  "stage": "w25d",
+  "spawn": "ShellEntrance#2",
+  "ap_name": "KL Connecting Bridge - PSG1 Ammo (Shell entrance)",
+  "vanilla_item": "Psg1Ammo",
+  "spawn_id": 16362317,
+  "x": 23000,
+  "y": 20644,
+  "positions": [
+   [
+    23000,
+    -1500,
+    -241500
+   ]
+  ],
+  "field": 5280,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 5280,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w25d",
+  "spawn": "LowerCatwalk#2",
+  "ap_name": "KL Connecting Bridge - SOCOM Ammo (Lower catwalk)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 9138619,
+  "x": -6536,
+  "y": 9144,
+  "positions": [
+   [
+    -6536,
+    -3000,
+    -253000
+   ]
+  ],
+  "field": 5284,
+  "status": "unwritten",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 5284,
+  "flag_source": "reserved, unused"
+ },
+ {
+  "stage": "w25d",
+  "spawn": "ShellEntrance#3",
+  "ap_name": "KL Connecting Bridge - Ration (Shell entrance)",
+  "vanilla_item": "Ration",
+  "spawn_id": 5728766,
+  "x": 20000,
+  "y": 20894,
+  "positions": [
+   [
+    20000,
+    -1500,
+    -241250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 717,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31b",
+  "spawn": "Elevator",
+  "ap_name": "Shell 2 Filtration Chamber 1 - M4 Ammo (Elevator)",
+  "vanilla_item": "M4Ammo",
+  "spawn_id": 2391673,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -2750,
+    -4000,
+    -250750
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(varbuf_0x68 >= 0x119)"
+  ],
+  "chapter": "plant",
+  "flag": 725,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w31d",
+  "spawn": "RightsideAlcove",
+  "ap_name": "Shell 2 Core with Emma - AKS-74u Ammo (Rightside alcove)",
+  "vanilla_item": "Aks74uAmmo",
+  "spawn_id": 17444537,
+  "x": 8500,
+  "y": 10144,
+  "positions": [
+   [
+    8500,
+    0,
+    -252000
+   ]
+  ],
+  "field": 2250,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2250,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31d",
+  "spawn": "ElectricalRoom1",
+  "ap_name": "Shell 2 Core with Emma - AKS-74u Ammo (Electrical room)",
+  "vanilla_item": "Aks74uAmmo",
+  "spawn_id": 34221753,
+  "x": 7500,
+  "y": 18644,
+  "positions": [
+   [
+    7500,
+    0,
+    -243500
+   ]
+  ],
+  "field": 2251,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2251,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31d",
+  "spawn": "ElectricalRoom2",
+  "ap_name": "Shell 2 Core with Emma - M9 Ammo (Electrical room)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 35946105,
+  "x": -2000,
+  "y": 16644,
+  "positions": [
+   [
+    -2000,
+    0,
+    -245500
+   ]
+  ],
+  "field": 2243,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2243,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31d",
+  "spawn": "ElectricalRoom3",
+  "ap_name": "Shell 2 Core with Emma - PSG1 Ammo (Electrical room)",
+  "vanilla_item": "Psg1Ammo",
+  "spawn_id": 33139533,
+  "x": 4750,
+  "y": 17644,
+  "positions": [
+   [
+    4750,
+    0,
+    -244500
+   ]
+  ],
+  "field": 2254,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2254,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31d",
+  "spawn": "Vents1",
+  "ap_name": "Shell 2 Core with Emma - PSG1-T Ammo (Vents)",
+  "vanilla_item": "Psg1tAmmo",
+  "spawn_id": 27558808,
+  "x": -2000,
+  "y": 23894,
+  "positions": [
+   [
+    -2000,
+    0,
+    -238250
+   ]
+  ],
+  "field": 2255,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2255,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31d",
+  "spawn": "Vents2",
+  "ap_name": "Shell 2 Core with Emma - RGB6 Ammo (Vents)",
+  "vanilla_item": "Rgb6Ammo",
+  "spawn_id": 28032077,
+  "x": -3750,
+  "y": 24394,
+  "positions": [
+   [
+    -3750,
+    0,
+    -237750
+   ]
+  ],
+  "field": 2256,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2256,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31d",
+  "spawn": "LeftsideAlcove",
+  "ap_name": "Shell 2 Core with Emma - SOCOM Ammo (Leftside alcove)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 59470267,
+  "x": -11500,
+  "y": 10144,
+  "positions": [
+   [
+    -11500,
+    0,
+    -252000
+   ]
+  ],
+  "field": 2246,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2246,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31d",
+  "spawn": "StrutHDoor",
+  "ap_name": "Shell 2 Core with Emma - SOCOM Ammo (Strut H door)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 76247483,
+  "x": -18000,
+  "y": 28144,
+  "positions": [
+   [
+    -18000,
+    0,
+    -234000
+   ]
+  ],
+  "field": 2247,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2247,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31d",
+  "spawn": "LeftsideLanding",
+  "ap_name": "Shell 2 Core with Emma - Pentazemin (Leftside landing)",
+  "vanilla_item": "Pentazemin",
+  "spawn_id": 24324971,
+  "x": -12500,
+  "y": -29892,
+  "positions": [
+   [
+    -12500,
+    0,
+    -226500
+   ]
+  ],
+  "field": 2264,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2264,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w31d",
+  "spawn": "ElectricalRoom4",
+  "ap_name": "Shell 2 Core with Emma - Ration (Electrical room)",
+  "vanilla_item": "Ration",
+  "spawn_id": 39283198,
+  "x": -500,
+  "y": 18644,
+  "positions": [
+   [
+    -500,
+    0,
+    -243500
+   ]
+  ],
+  "field": 2263,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2263,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w20a",
+  "spawn": "BottomRightConveyer",
+  "ap_name": "Strut E Parcel Room - PSG1-T Ammo (Bottom right conveyer)",
+  "vanilla_item": "Psg1tAmmo",
+  "spawn_id": 27558808,
+  "x": -10036,
+  "y": -15964,
+  "positions": [
+   [
+    -10036,
+    0,
+    -81500
+   ]
+  ],
+  "field": 1712,
+  "status": "vanilla",
+  "conditions": [
+   "(varbuf_0x68 >= 0x145)"
+  ],
+  "chapter": "plant",
+  "flag": 1712,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w20a",
+  "spawn": "UnderTopsideConveyerBelt",
+  "ap_name": "Strut E Parcel Room - Stinger Ammo (Under topside conveyer belt)",
+  "vanilla_item": "StingerAmmo",
+  "spawn_id": 28431593,
+  "x": -15536,
+  "y": -30964,
+  "positions": [
+   [
+    -15536,
+    -250,
+    -96500
+   ]
+  ],
+  "field": 1713,
+  "status": "vanilla",
+  "conditions": [
+   "(varbuf_0x68 >= 0x145)"
+  ],
+  "chapter": "plant",
+  "flag": 1713,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w20a",
+  "spawn": "Level5DoorRoom",
+  "ap_name": "Strut E Parcel Room - Digital Camera (Level 5 door room)",
+  "vanilla_item": "DigitalCamera",
+  "spawn_id": 14326934,
+  "x": -23036,
+  "y": -30464,
+  "positions": [
+   [
+    -23036,
+    -4500,
+    -96000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(Raiden holds no item 15)"
+  ],
+  "chapter": "plant",
+  "flag": 678,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w20a",
+  "spawn": "PerimeterAccessRoom",
+  "ap_name": "Strut E Parcel Room - SOCOM Ammo (Perimeter access room)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 59470267,
+  "x": -12536,
+  "y": -27464,
+  "positions": [
+   [
+    -12536,
+    -4500,
+    -93000
+   ]
+  ],
+  "field": 1708,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1708,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w21b",
+  "spawn": "NearStrutF",
+  "ap_name": "EF Connecting Bridge (Return) - Chaff Grenade (Near strut F)",
+  "vanilla_item": "Chaff",
+  "spawn_id": 23470795,
+  "x": -7286,
+  "y": 20286,
+  "positions": [
+   [
+    -7286,
+    0,
+    -45250
+   ]
+  ],
+  "field": 1865,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1865,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w28a",
+  "spawn": "SewageTreatment",
+  "ap_name": "Sewage Treatment - SOCOM Ammo (Sewage treatment)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 9138619,
+  "x": -8786,
+  "y": -25642,
+  "positions": [
+   [
+    -8786,
+    0,
+    -222250
+   ]
+  ],
+  "field": 5312,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 5312,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w41a",
+  "spawn": "TortureRoom",
+  "ap_name": "Arsenal Stomach - Ration (Torture room)",
+  "vanilla_item": "Ration",
+  "spawn_id": 22505982,
+  "x": -5250,
+  "y": -3500,
+  "positions": [
+   [
+    -5250,
+    0,
+    -3500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 733,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w42a",
+  "spawn": "LeftCatwalk",
+  "ap_name": "Arsenal Jejunum - Box (Left catwalk)",
+  "vanilla_item": "Pentazemin",
+  "spawn_id": 28243720,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    9250,
+    4000,
+    -13000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 734,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w42a",
+  "spawn": "BackLeftMainArea",
+  "ap_name": "Arsenal Jejunum - Cold Medicine (Back left main area)",
+  "vanilla_item": "Pentazemin",
+  "spawn_id": 30507029,
+  "x": 9500,
+  "y": -464,
+  "positions": [
+   [
+    9500,
+    0,
+    -66000
+   ]
+  ],
+  "field": 2449,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2449,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w42a",
+  "spawn": "RightsideMainArea",
+  "ap_name": "Arsenal Jejunum - Ration (Rightside main area)",
+  "vanilla_item": "Ration",
+  "spawn_id": 22505982,
+  "x": 17750,
+  "y": 23536,
+  "positions": [
+   [
+    17750,
+    0,
+    -42000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 735,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w43a",
+  "spawn": "BackOfHallway",
+  "ap_name": "Arsenal Ascending Colon - Ration (Back of hallway)",
+  "vanilla_item": "Ration",
+  "spawn_id": 22505982,
+  "x": -31286,
+  "y": 23286,
+  "positions": [
+   [
+    -31286,
+    4000,
+    -42250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 736,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w45a",
+  "spawn": "EntryRoom",
+  "ap_name": "Arsenal Sigmoid Colon - Ration (Entry room)",
+  "vanilla_item": "Ration",
+  "spawn_id": 22505982,
+  "x": 2500,
+  "y": -7678,
+  "positions": [
+   [
+    2500,
+    0,
+    -138750
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 737,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w11a",
+  "spawn": "StoryRation",
+  "ap_name": "Strut A SeaDock - Ration (Story)",
+  "vanilla_item": "Ration",
+  "spawn_id": 56060414,
+  "x": -5500,
+  "y": -3500,
+  "positions": [
+   [
+    -5500,
+    -44000,
+    -3500
+   ]
+  ],
+  "field": 1376,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1376,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w11b",
+  "spawn": "LateRation",
+  "ap_name": "Strut A SeaDock - Ration (late)",
+  "vanilla_item": "Ration",
+  "spawn_id": 72837630,
+  "x": -5500,
+  "y": -1250,
+  "positions": [
+   [
+    -5500,
+    -45000,
+    -1250
+   ]
+  ],
+  "field": 1377,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1377,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w11b",
+  "spawn": "LateSocomAmmo1",
+  "ap_name": "Strut A SeaDock - SOCOM Ammo (late 1)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 25915835,
+  "x": 500,
+  "y": -500,
+  "positions": [
+   [
+    500,
+    -45000,
+    -500
+   ]
+  ],
+  "field": 1381,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1381,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w11b",
+  "spawn": "LateSocomAmmo2",
+  "ap_name": "Strut A SeaDock - SOCOM Ammo (late 2)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 42693051,
+  "x": 5500,
+  "y": -1000,
+  "positions": [
+   [
+    5500,
+    -45000,
+    -1000
+   ]
+  ],
+  "field": 1382,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1382,
+  "flag_source": "reserved, written"
+ },
+ {
+  "stage": "w25a",
+  "spawn": "HarrierStinger",
+  "ap_name": "Shell 1-2 Connecting Bridge - Stinger",
+  "vanilla_item": "Stinger",
+  "spawn_id": 15789166,
+  "x": 2125,
+  "y": -213036,
+  "positions": [
+   [
+    2125,
+    -1000,
+    -147500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 708,
+  "flag_source": "ours"
+ },
+ {
+  "stage": "w11b",
+  "spawn": "WhiteCrates2",
+  "ap_name": null,
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 19168889,
+  "x": -7750,
+  "y": 15125,
+  "positions": [
+   [
+    -7750,
+    -44250,
+    15125
+   ]
+  ],
+  "field": 1379,
+  "status": "vanilla",
+  "conditions": [
+   "(difficulty <= 20)"
+  ],
+  "chapter": "plant",
+  "flag": 1379,
+  "flag_source": "reserved, written",
+  "variant_of": "w11a"
+ },
+ {
+  "stage": "w11b",
+  "spawn": "WhiteCrates1",
+  "ap_name": null,
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 35946105,
+  "x": -8625,
+  "y": 14375,
+  "positions": [
+   [
+    -8625,
+    -44250,
+    14375
+   ]
+  ],
+  "field": 1380,
+  "status": "vanilla",
+  "conditions": [
+   "(difficulty <= 20)"
+  ],
+  "chapter": "plant",
+  "flag": 1380,
+  "flag_source": "reserved, written",
+  "variant_of": "w11a"
+ },
+ {
+  "stage": "w11b",
+  "spawn": "UnderWireRack",
+  "ap_name": null,
+  "vanilla_item": "M9",
+  "spawn_id": 16668063,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -18000,
+    -46250,
+    20250
+   ],
+   [
+    -5250,
+    -46000,
+    22125
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(difficulty == 10)",
+   "(varbuf_0x55E[4,16] == 0)"
+  ],
+  "chapter": "plant",
+  "flag": 668,
+  "flag_source": "ours",
+  "variant_of": "w11a"
+ },
+ {
+  "stage": "w11b",
+  "spawn": "Locker",
+  "ap_name": "Strut A SeaDock - Ration (Locker)",
+  "vanilla_item": "Ration",
+  "spawn_id": 22505982,
+  "x": -15750,
+  "y": 14250,
+  "positions": [
+   [
+    -15750,
+    -44800,
+    14250
+   ]
+  ],
+  "field": 1374,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1374,
+  "flag_source": "reserved, written",
+  "variant_of": "w11a"
+ },
+ {
+  "stage": "w11b",
+  "spawn": "RightSideAlcove",
+  "ap_name": "Strut A SeaDock - Ration (Right side alcove)",
+  "vanilla_item": "Ration",
+  "spawn_id": 39283198,
+  "x": -3750,
+  "y": 16875,
+  "positions": [
+   [
+    -3750,
+    -46000,
+    16875
+   ]
+  ],
+  "field": 1375,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1375,
+  "flag_source": "reserved, written",
+  "variant_of": "w11a"
+ },
+ {
+  "stage": "w11b",
+  "spawn": "Pool",
+  "ap_name": "Strut A SeaDock - Thermal Goggles (Pool)",
+  "vanilla_item": "Thermals",
+  "spawn_id": 3393341,
+  "x": -5500,
+  "y": 26500,
+  "positions": [
+   [
+    -5500,
+    -54000,
+    26500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(Raiden holds no item 13)"
+  ],
+  "chapter": "plant",
+  "flag": 667,
+  "flag_source": "ours",
+  "variant_of": "w11a"
+ },
+ {
+  "stage": "w11c",
+  "spawn": "LateRation",
+  "ap_name": "Strut A SeaDock - Ration (late)",
+  "vanilla_item": "Ration",
+  "spawn_id": 72837630,
+  "x": -5500,
+  "y": -1250,
+  "positions": [
+   [
+    -5500,
+    -45000,
+    -1250
+   ]
+  ],
+  "field": 1377,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1377,
+  "flag_source": "reserved, written",
+  "variant_of": "w11b"
+ },
+ {
+  "stage": "w11c",
+  "spawn": "LateSocomAmmo1",
+  "ap_name": "Strut A SeaDock - SOCOM Ammo (late 1)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 25915835,
+  "x": 500,
+  "y": -500,
+  "positions": [
+   [
+    500,
+    -45000,
+    -500
+   ]
+  ],
+  "field": 1381,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1381,
+  "flag_source": "reserved, written",
+  "variant_of": "w11b"
+ },
+ {
+  "stage": "w11c",
+  "spawn": "LateSocomAmmo2",
+  "ap_name": "Strut A SeaDock - SOCOM Ammo (late 2)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 42693051,
+  "x": 5500,
+  "y": -1000,
+  "positions": [
+   [
+    5500,
+    -45000,
+    -1000
+   ]
+  ],
+  "field": 1382,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1382,
+  "flag_source": "reserved, written",
+  "variant_of": "w11b"
+ },
+ {
+  "stage": "w12c",
+  "spawn": "Boxes",
+  "ap_name": "Strut A Roof - Bandage (Boxes)",
+  "vanilla_item": "Bandage",
+  "spawn_id": 21973410,
+  "x": 3000,
+  "y": -6000,
+  "positions": [
+   [
+    3000,
+    6000,
+    -6000
+   ]
+  ],
+  "field": 1469,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1469,
+  "flag_source": "reserved, written",
+  "variant_of": "w12a"
+ },
+ {
+  "stage": "w12c",
+  "spawn": "RightCage",
+  "ap_name": "Strut A Roof - Chaff Grenade (Right cage)",
+  "vanilla_item": "Chaff",
+  "spawn_id": 23470795,
+  "x": 6000,
+  "y": -13000,
+  "positions": [
+   [
+    6000,
+    5000,
+    -13000
+   ]
+  ],
+  "field": 1468,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1468,
+  "flag_source": "reserved, written",
+  "variant_of": "w12a"
+ },
+ {
+  "stage": "w12c",
+  "spawn": "BottomLeft",
+  "ap_name": "Strut A Roof - M9 Ammo (Bottom left)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 33160965,
+  "x": -8000,
+  "y": -2500,
+  "positions": [
+   [
+    -8000,
+    5000,
+    -2500
+   ]
+  ],
+  "field": 1470,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1470,
+  "flag_source": "reserved, written",
+  "variant_of": "w12a"
+ },
+ {
+  "stage": "w12c",
+  "spawn": "LeftCage",
+  "ap_name": null,
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 22333721,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -4800,
+    5000,
+    -12175
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(difficulty <= 20)",
+   "(varbuf_0x5BC[3,4] == 0)"
+  ],
+  "chapter": "plant",
+  "flag": 669,
+  "flag_source": "ours",
+  "variant_of": "w12a"
+ },
+ {
+  "stage": "w15b",
+  "spawn": "BrokenBridge",
+  "ap_name": "BC Connecting Bridge - Chaff Grenade (Broken bridge)",
+  "vanilla_item": "Chaff",
+  "spawn_id": 23470795,
+  "x": 17786,
+  "y": 5536,
+  "positions": [
+   [
+    -47750,
+    0,
+    -60000
+   ]
+  ],
+  "field": 1592,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1592,
+  "flag_source": "reserved, written",
+  "variant_of": "w15a"
+ },
+ {
+  "stage": "w16b",
+  "spawn": "LadiesRoom1",
+  "ap_name": "Strut C Dining Hall - M9 Ammo (Ladies room)",
+  "vanilla_item": "M9Ammo",
+  "spawn_id": 33160965,
+  "x": 21786,
+  "y": -20339,
+  "positions": [
+   [
+    -43750,
+    0,
+    -85875
+   ]
+  ],
+  "field": 1604,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1604,
+  "flag_source": "reserved, written",
+  "variant_of": "w16a"
+ },
+ {
+  "stage": "w16b",
+  "spawn": "MensRoom",
+  "ap_name": "Strut C Dining Hall - SOCOM Ammo (Mens room)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 29821089,
+  "x": 5036,
+  "y": -20339,
+  "positions": [
+   [
+    -60500,
+    0,
+    -85875
+   ]
+  ],
+  "field": 1602,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1602,
+  "flag_source": "reserved, written",
+  "variant_of": "w16a"
+ },
+ {
+  "stage": "w16b",
+  "spawn": "LadiesRoom2",
+  "ap_name": "Strut C Dining Hall - Pentazemin (Ladies room)",
+  "vanilla_item": "Pentazemin",
+  "spawn_id": 24324971,
+  "x": 18411,
+  "y": -20339,
+  "positions": [
+   [
+    -47125,
+    0,
+    -85875
+   ]
+  ],
+  "field": 1605,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1605,
+  "flag_source": "reserved, written",
+  "variant_of": "w16a"
+ },
+ {
+  "stage": "w16b",
+  "spawn": "DiningRoom",
+  "ap_name": "Strut C Dining Hall - Ration (Dining room)",
+  "vanilla_item": "Ration",
+  "spawn_id": 22505982,
+  "x": 5286,
+  "y": 31572,
+  "positions": [
+   [
+    -60250,
+    -200,
+    -99500
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 675,
+  "flag_source": "ours",
+  "variant_of": "w16a"
+ },
+ {
+  "stage": "w16b",
+  "spawn": "PantryRoom",
+  "ap_name": "Strut C Dining Hall - Sensor B (Pantry room)",
+  "vanilla_item": "SensorB",
+  "spawn_id": 17034061,
+  "x": 17286,
+  "y": 27072,
+  "positions": [
+   [
+    -48250,
+    0,
+    -104000
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(varbuf_0x68 >= 0x60)",
+   "(Raiden holds no item 11)"
+  ],
+  "chapter": "plant",
+  "flag": 676,
+  "flag_source": "ours",
+  "variant_of": "w16a"
+ },
+ {
+  "stage": "w20c",
+  "spawn": "RoofBottomLeftRacks",
+  "ap_name": "Strut E Heliport - Box 3 (Roof bottom left racks)",
+  "vanilla_item": "Box3",
+  "spawn_id": 24701880,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -14036,
+    11500,
+    -84400
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 683,
+  "flag_source": "ours",
+  "variant_of": "w20b"
+ },
+ {
+  "stage": "w20d",
+  "spawn": "RoofBottomLeftRacks",
+  "ap_name": "Strut E Heliport - Box 3 (Roof bottom left racks)",
+  "vanilla_item": "Box3",
+  "spawn_id": 24701880,
+  "x": 0,
+  "y": 0,
+  "positions": [
+   [
+    -14036,
+    11500,
+    -84400
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 683,
+  "flag_source": "ours",
+  "variant_of": "w20b"
+ },
+ {
+  "stage": "w20c",
+  "spawn": "LowerLevelSleepingGuard",
+  "ap_name": "Strut E Heliport - Claymore (Lower level sleeping guard)",
+  "vanilla_item": "Claymore",
+  "spawn_id": 32145835,
+  "x": -23536,
+  "y": 32072,
+  "positions": [
+   [
+    -23536,
+    5500,
+    -99000
+   ]
+  ],
+  "field": 1857,
+  "status": "vanilla",
+  "conditions": [
+   "(varbuf_0x98 != 0xF07080)"
+  ],
+  "chapter": "plant",
+  "flag": 1857,
+  "flag_source": "reserved, written",
+  "variant_of": "w20b"
+ },
+ {
+  "stage": "w20d",
+  "spawn": "LowerLevelSleepingGuard",
+  "ap_name": "Strut E Heliport - Claymore (Lower level sleeping guard)",
+  "vanilla_item": "Claymore",
+  "spawn_id": 32145835,
+  "x": -23536,
+  "y": 32072,
+  "positions": [
+   [
+    -23536,
+    5500,
+    -99000
+   ]
+  ],
+  "field": 1857,
+  "status": "vanilla",
+  "conditions": [
+   "(varbuf_0x98 != 0xF07080)"
+  ],
+  "chapter": "plant",
+  "flag": 1857,
+  "flag_source": "reserved, written",
+  "variant_of": "w20b"
+ },
+ {
+  "stage": "w20c",
+  "spawn": "TopOfStairs",
+  "ap_name": "Strut E Heliport - SOCOM Ammo (Top of stairs)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 80152737,
+  "x": -6536,
+  "y": -14964,
+  "positions": [
+   [
+    -6536,
+    11500,
+    -80500
+   ]
+  ],
+  "field": 1858,
+  "status": "vanilla",
+  "conditions": [
+   "((0x74 <= varbuf_0x68) && (varbuf_0x68 < 0x77))"
+  ],
+  "chapter": "plant",
+  "flag": 1858,
+  "flag_source": "reserved, written",
+  "variant_of": "w20b"
+ },
+ {
+  "stage": "w20d",
+  "spawn": "TopOfStairs",
+  "ap_name": "Strut E Heliport - SOCOM Ammo (Top of stairs)",
+  "vanilla_item": "SocomAmmo",
+  "spawn_id": 80152737,
+  "x": -6536,
+  "y": -14964,
+  "positions": [
+   [
+    -6536,
+    11500,
+    -80500
+   ]
+  ],
+  "field": 1858,
+  "status": "vanilla",
+  "conditions": [
+   "((0x74 <= varbuf_0x68) && (varbuf_0x68 < 0x77))"
+  ],
+  "chapter": "plant",
+  "flag": 1858,
+  "flag_source": "reserved, written",
+  "variant_of": "w20b"
+ },
+ {
+  "stage": "w20c",
+  "spawn": "LeftsideCrates",
+  "ap_name": "Strut E Heliport - Stun Grenade (Leftside crates)",
+  "vanilla_item": "Stun",
+  "spawn_id": 31822568,
+  "x": -18536,
+  "y": -30714,
+  "positions": [
+   [
+    -18536,
+    11500,
+    -96250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(varbuf_0xA7D || (varbuf_0x68 == 0x76))"
+  ],
+  "chapter": "plant",
+  "flag": 682,
+  "flag_source": "ours",
+  "variant_of": "w20b"
+ },
+ {
+  "stage": "w20d",
+  "spawn": "LeftsideCrates",
+  "ap_name": "Strut E Heliport - Stun Grenade (Leftside crates)",
+  "vanilla_item": "Stun",
+  "spawn_id": 31822568,
+  "x": -18536,
+  "y": -30714,
+  "positions": [
+   [
+    -18536,
+    11500,
+    -96250
+   ]
+  ],
+  "field": null,
+  "status": "unguarded",
+  "conditions": [
+   "(varbuf_0xA7D || (varbuf_0x68 == 0x76))"
+  ],
+  "chapter": "plant",
+  "flag": 682,
+  "flag_source": "ours",
+  "variant_of": "w20b"
+ },
+ {
+  "stage": "w21b",
+  "spawn": "NearShell1Core",
+  "ap_name": "EF Connecting Bridge - AKS-74u Ammo (Near shell 1 core)",
+  "vanilla_item": "Aks74uAmmo",
+  "spawn_id": 23381624,
+  "x": 23000,
+  "y": 4286,
+  "positions": [
+   [
+    23000,
+    -1500,
+    -61250
+   ]
+  ],
+  "field": 1864,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 1864,
+  "flag_source": "reserved, written",
+  "variant_of": "w21a"
+ },
+ {
+  "stage": "w23b",
+  "spawn": "BottomBridgeLeftSide",
+  "ap_name": "FA Connecting Bridge - Chaff Grenade (Bottom bridge)",
+  "vanilla_item": "Chaff",
+  "spawn_id": 23470795,
+  "x": -13000,
+  "y": 2000,
+  "positions": [
+   [
+    -13000,
+    -4500,
+    2000
+   ]
+  ],
+  "field": 2028,
+  "status": "vanilla",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 2028,
+  "flag_source": "reserved, written",
+  "variant_of": "w23a"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Tanker Start - M9",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 640,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Tanker Start - Camera",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 641,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Tanker Start - Cigs",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 642,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Tanker Start - AP Sensor",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 643,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Navigational Deck - Olga (Reward)",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "tanker",
+  "flag": 644,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Plant Start - AP Sensor",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 650,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Plant Start - Binoculars",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 651,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Strut B Transformer Room - Pliskin SOCOM",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 652,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Strut C Dining Hall - Stillman Coolant",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 653,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Strut C Dining Hall - Stillman Sensor A",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 654,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Strut C Dining Hall - Stillman Progressive Card",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 655,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Strut E Heliport - B.D.U.",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 656,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Strut E Heliport - Phone",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 657,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Strut E Heliport - Progressive Card",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 658,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Shell 1 Core Hostage Room - Progressive Card",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 659,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Shell 2 Core - M.O. Disc",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 660,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Shell 2 Core - Progressive Card",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 661,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "KL Connecting Bridge with Emma - Progressive Card",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 662,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Strut A Pump Room - Fortune (Reward)",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 663,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Strut E Heliport - Fatman (Reward)",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 664,
+  "flag_source": "ours"
+ },
+ {
+  "stage": null,
+  "spawn": null,
+  "ap_name": "Shell 1-2 Connecting Bridge - Harrier (Reward)",
+  "vanilla_item": null,
+  "field": null,
+  "status": "non-spawn",
+  "conditions": [],
+  "chapter": "plant",
+  "flag": 665,
+  "flag_source": "ours"
+ }
+]

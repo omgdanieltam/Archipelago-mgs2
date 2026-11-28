@@ -1,0 +1,5023 @@
+[
+ {
+  "location": "Aft Deck - Ration (Left side)",
+  "stage": "w00a",
+  "spawn": "NearbyLeftsideBodyDump",
+  "vanilla_item": "Ration",
+  "flag": 940,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w00a": [
+    [
+     -18500,
+     0,
+     -17500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "w00a NearSnakeSpawn",
+  "stage": "w00a",
+  "spawn": "NearSnakeSpawn",
+  "vanilla_item": "Ration",
+  "flag": 946,
+  "normal": false,
+  "note": "Very Easy only",
+  "razor": true,
+  "positions": {
+   "w00a": [
+    [
+     5000,
+     0,
+     18750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Aft Deck - Bandage (Right side lifeboats)",
+  "stage": "w00a",
+  "spawn": "RightsideLifeboats",
+  "vanilla_item": "Bandage",
+  "flag": 943,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w00a": [
+    [
+     16000,
+     3000,
+     -17000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Aft Deck - Bandage (Under left stairs)",
+  "stage": "w00a",
+  "spawn": "UnderLeftsideStairs",
+  "vanilla_item": "Bandage",
+  "flag": 947,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w00a": [
+    [
+     -7750,
+     0,
+     4500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Aft Deck - Pentazemin (Right side)",
+  "stage": "w00a",
+  "spawn": "NearbyRightsideBodyDump",
+  "vanilla_item": "Pentazemin",
+  "flag": 941,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w00a": [
+    [
+     18500,
+     0,
+     -17500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Aft Deck - Chaff Grenade (Right side behind crates)",
+  "stage": "w00a",
+  "spawn": "RightsideBehindCrates",
+  "vanilla_item": "Chaff",
+  "flag": 942,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w00a": [
+    [
+     10000,
+     2000,
+     -500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "w00a Overlook",
+  "stage": "w00a",
+  "spawn": "Overlook",
+  "vanilla_item": "ColdMeds",
+  "flag": 944,
+  "normal": false,
+  "note": "Hard and up",
+  "razor": true,
+  "positions": {
+   "w00a": [
+    [
+     0,
+     6000,
+     5500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Navigational Deck - Ration (Left side platform)",
+  "stage": "w00c",
+  "spawn": "NearLeftsidePlatform",
+  "vanilla_item": "Ration",
+  "flag": 1157,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w00c": [
+    [
+     -11500,
+     12000,
+     -18750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Navigational Deck - Wet Box (Right side platform)",
+  "stage": "w00c",
+  "spawn": "RightsidePlatform",
+  "vanilla_item": "WetBox",
+  "flag": 647,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w00c": [
+    [
+     18000,
+     12750,
+     -15000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Navigational Deck - Thermal Goggles (Crow's Nest)",
+  "stage": "w00c",
+  "spawn": "CrowsNest1",
+  "vanilla_item": "Thermals",
+  "flag": 645,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w00c": [
+    [
+     750,
+     27500,
+     -13000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "w00c CrowsNest2",
+  "stage": "w00c",
+  "spawn": "CrowsNest2",
+  "vanilla_item": "UspSupp",
+  "flag": 646,
+  "normal": false,
+  "note": "NG+ only",
+  "razor": true,
+  "positions": {
+   "w00c": [
+    [
+     -750,
+     24000,
+     -13250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck A Crew Quarters - M9 Ammo (Locker)",
+  "stage": "w01a",
+  "spawn": "Locker1",
+  "vanilla_item": "M9Ammo",
+  "flag": 1165,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01a": [
+    [
+     4500,
+     0,
+     3550
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck A Crew Quarters - Ration (Locker)",
+  "stage": "w01a",
+  "spawn": "Locker2",
+  "vanilla_item": "Ration",
+  "flag": 1164,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01a": [
+    [
+     -4520,
+     0,
+     3550
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck A Crew Quarters Starboard - M9 Ammo (Under right stairs)",
+  "stage": "w01b",
+  "spawn": "UnderRightsideStairs",
+  "vanilla_item": "M9Ammo",
+  "flag": 1221,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01b": [
+    [
+     11000,
+     3000,
+     -14750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck A Crew Quarters Starboard - Ration (Right side alcove)",
+  "stage": "w01b",
+  "spawn": "RightsideAlcove",
+  "vanilla_item": "Ration",
+  "flag": 1222,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01b": [
+    [
+     3500,
+     3000,
+     2250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck A Crew Quarters Starboard - USP Ammo (Locker)",
+  "stage": "w01b",
+  "spawn": "Locker",
+  "vanilla_item": "UspAmmo",
+  "flag": 1224,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01b": [
+    [
+     1000,
+     3000,
+     5500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck C Crew Quarters - Ration (Crawlspace)",
+  "stage": "w01c",
+  "spawn": "Crawlspace",
+  "vanilla_item": "Ration",
+  "flag": 1233,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01c": [
+    [
+     9500,
+     6000,
+     -16250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck C Crew Quarters - Chaff Grenade (Locker)",
+  "stage": "w01c",
+  "spawn": "Locker",
+  "vanilla_item": "Chaff",
+  "flag": 1234,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01c": [
+    [
+     -1500,
+     6200,
+     -18160
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck D Crew Quarters - M9 Ammo (Under table)",
+  "stage": "w01d",
+  "spawn": "UnderTable1",
+  "vanilla_item": "M9Ammo",
+  "flag": 1246,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01d": [
+    [
+     -4750,
+     8850,
+     -13000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck D Crew Quarters - Ration (Stove)",
+  "stage": "w01d",
+  "spawn": "Stove",
+  "vanilla_item": "Ration",
+  "flag": 1244,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01d": [
+    [
+     -10000,
+     9000,
+     -18500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck D Crew Quarters - USP Ammo (Under table)",
+  "stage": "w01d",
+  "spawn": "UnderTable2",
+  "vanilla_item": "UspAmmo",
+  "flag": 1245,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01d": [
+    [
+     -9250,
+     8850,
+     -13000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck D Crew Quarters - USP Ammo (Under camera)",
+  "stage": "w01d",
+  "spawn": "NextToCamera",
+  "vanilla_item": "UspAmmo",
+  "flag": 1247,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01d": [
+    [
+     -2500,
+     9000,
+     -11875
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck D Crew Quarters - M9 Ammo (Pantry)",
+  "stage": "w01d",
+  "spawn": "Pantry1",
+  "vanilla_item": "M9Ammo",
+  "flag": 1248,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01d": [
+    [
+     7700,
+     9000,
+     -11850
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck D Crew Quarters - Box (Pantry)",
+  "stage": "w01d",
+  "spawn": "Pantry2",
+  "vanilla_item": "Box1",
+  "flag": 648,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01d": [
+    [
+     10000,
+     9000,
+     -10000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "w01e NearLeftDoor",
+  "stage": "w01e",
+  "spawn": "NearLeftDoor",
+  "vanilla_item": "Ration",
+  "flag": 1260,
+  "normal": false,
+  "note": "Easy and below",
+  "razor": true,
+  "positions": {
+   "w01e": [
+    [
+     -4500,
+     12000,
+     -15750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck E Bridge - USP Ammo (Right side)",
+  "stage": "w01e",
+  "spawn": "NearRightDoor",
+  "vanilla_item": "UspAmmo",
+  "flag": 1261,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01e": [
+    [
+     4817,
+     12000,
+     -18682
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck A Crew Lounge - M9 Ammo (Bar)",
+  "stage": "w01f",
+  "spawn": "Bar",
+  "vanilla_item": "M9Ammo",
+  "flag": 1212,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01f": [
+    [
+     9000,
+     0,
+     -18500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck A Crew Lounge - Ration (TV)",
+  "stage": "w01f",
+  "spawn": "TV",
+  "vanilla_item": "Ration",
+  "flag": 1213,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01f": [
+    [
+     -8600,
+     0,
+     -18250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck A Crew Lounge - USP Ammo (Stinky ration man)",
+  "stage": "w01f",
+  "spawn": "StinkyRationMan",
+  "vanilla_item": "UspAmmo",
+  "flag": 1214,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01f": [
+    [
+     -12500,
+     -5000,
+     -12500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck A Crew Lounge - Stun Grenade (Engine room access)",
+  "stage": "w01f",
+  "spawn": "EngineRoomAccess",
+  "vanilla_item": "Stun",
+  "flag": 1215,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w01f": [
+    [
+     12500,
+     -5000,
+     -12500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Engine Room - M9 Ammo (Under right stairs)",
+  "stage": "w02a",
+  "spawn": "UnderRightsideStairs",
+  "vanilla_item": "M9Ammo",
+  "flag": 1266,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w02a": [
+    [
+     7000,
+     -13000,
+     -19500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Engine Room - Ration (Right side catwalk)",
+  "stage": "w02a",
+  "spawn": "RightsideConnectingCatwalk",
+  "vanilla_item": "Ration",
+  "flag": 1267,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w02a": [
+    [
+     2250,
+     -14000,
+     -18000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Engine Room - USP Ammo (Under left stairs)",
+  "stage": "w02a",
+  "spawn": "UnderLeftsideStairs",
+  "vanilla_item": "UspAmmo",
+  "flag": 1268,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w02a": [
+    [
+     -5500,
+     -13000,
+     -21500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Engine Room - Grenade (Left side bottom front)",
+  "stage": "w02a",
+  "spawn": "LeftsideBottomFront",
+  "vanilla_item": "Grenade",
+  "flag": 1269,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w02a": [
+    [
+     -12000,
+     -13000,
+     1000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Engine Room - USP Ammo (Left side alcove)",
+  "stage": "w02a",
+  "spawn": "LeftsideAlcove",
+  "vanilla_item": "UspAmmo",
+  "flag": 1270,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w02a": [
+    [
+     -6500,
+     -9000,
+     -10000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Engine Room - USP Ammo (Small port side room)",
+  "stage": "w02a",
+  "spawn": "SmallPortSideRoom",
+  "vanilla_item": "UspAmmo",
+  "flag": 1271,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w02a": [
+    [
+     -16000,
+     -4000,
+     -22250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Engine Room - USP Ammo (Raven crates)",
+  "stage": "w02a",
+  "spawn": "RavenCrates",
+  "vanilla_item": "UspAmmo",
+  "flag": 1272,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w02a": [
+    [
+     16224,
+     -4000,
+     -22618
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck 2 Port - Ration (Deadguy side room)",
+  "stage": "w03a",
+  "spawn": "DeadguySideRoom",
+  "vanilla_item": "Ration",
+  "flag": 1314,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w03a": [
+    [
+     -12250,
+     -5000,
+     -42000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck 2 Port - USP Ammo (Close side room)",
+  "stage": "w03a",
+  "spawn": "CloseSideRoom",
+  "vanilla_item": "UspAmmo",
+  "flag": 1315,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w03a": [
+    [
+     -14000,
+     -5000,
+     -68500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck 2 Port - USP Ammo (Middle short hallway)",
+  "stage": "w03a",
+  "spawn": "MiddleShortHallway",
+  "vanilla_item": "UspAmmo",
+  "flag": 1316,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w03a": [
+    [
+     -4000,
+     -5000,
+     -128000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck 2 Starboard - USP Ammo (Entryway)",
+  "stage": "w03b",
+  "spawn": "StartOfHallway",
+  "vanilla_item": "UspAmmo",
+  "flag": 1322,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w03b": [
+    [
+     15750,
+     -5000,
+     -128500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck 2 Starboard - USP Ammo (Side rooms pipes)",
+  "stage": "w03b",
+  "spawn": "SideRoomPipes",
+  "vanilla_item": "UspAmmo",
+  "flag": 1323,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w03b": [
+    [
+     12750,
+     -5000,
+     -100250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck 2 Starboard - Ration (Side room)",
+  "stage": "w03b",
+  "spawn": "Sideroom",
+  "vanilla_item": "Ration",
+  "flag": 1324,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w03b": [
+    [
+     13000,
+     -5000,
+     -97250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Deck 2 Starboard - M9 Ammo (Entryway pipes)",
+  "stage": "w03b",
+  "spawn": "EntrywayPipes",
+  "vanilla_item": "M9Ammo",
+  "flag": 1325,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w03b": [
+    [
+     12300,
+     -5000,
+     -128750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Hold 1 - M9 Ammo (Left ladder)",
+  "stage": "w04a",
+  "spawn": "LeftLadder1",
+  "vanilla_item": "M9Ammo",
+  "flag": 1328,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w04a": [
+    [
+     -11000,
+     -9000,
+     -500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Hold 1 - M9 Ammo (Behind hatch)",
+  "stage": "w04a",
+  "spawn": "BehindHatch1",
+  "vanilla_item": "M9Ammo",
+  "flag": 1329,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w04a": [
+    [
+     7000,
+     -5000,
+     1750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Hold 1 - Ration (Behind hatch)",
+  "stage": "w04a",
+  "spawn": "BehindHatch2",
+  "vanilla_item": "Ration",
+  "flag": 1330,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w04a": [
+    [
+     10000,
+     -5000,
+     3250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "w11a WhiteCrates2",
+  "stage": "w11a",
+  "spawn": "WhiteCrates2",
+  "vanilla_item": "M9Ammo",
+  "flag": 1379,
+  "normal": false,
+  "note": "Easy and below",
+  "razor": true,
+  "positions": {
+   "w11a": [
+    [
+     -7750,
+     -44250,
+     15125
+    ]
+   ],
+   "w11b": [
+    [
+     -7750,
+     -44250,
+     15125
+    ]
+   ]
+  }
+ },
+ {
+  "location": "w11a WhiteCrates1",
+  "stage": "w11a",
+  "spawn": "WhiteCrates1",
+  "vanilla_item": "M9Ammo",
+  "flag": 1380,
+  "normal": false,
+  "note": "Easy and below",
+  "razor": true,
+  "positions": {
+   "w11a": [
+    [
+     -8625,
+     -44250,
+     14375
+    ]
+   ],
+   "w11b": [
+    [
+     -8625,
+     -44250,
+     14375
+    ]
+   ]
+  }
+ },
+ {
+  "location": "w11a UnderWireRack",
+  "stage": "w11a",
+  "spawn": "UnderWireRack",
+  "vanilla_item": "M9",
+  "flag": 668,
+  "normal": false,
+  "note": "Very Easy only",
+  "razor": true,
+  "positions": {
+   "w11a": [
+    [
+     -18000,
+     -46250,
+     20250
+    ],
+    [
+     -5250,
+     -46000,
+     22125
+    ]
+   ],
+   "w11b": [
+    [
+     -18000,
+     -46250,
+     20250
+    ],
+    [
+     -5250,
+     -46000,
+     22125
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A SeaDock - Ration (Locker)",
+  "stage": "w11a",
+  "spawn": "Locker",
+  "vanilla_item": "Ration",
+  "flag": 1374,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w11a": [
+    [
+     -15750,
+     -44800,
+     14250
+    ]
+   ],
+   "w11b": [
+    [
+     -15750,
+     -44800,
+     14250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A SeaDock - Ration (Right side alcove)",
+  "stage": "w11a",
+  "spawn": "RightSideAlcove",
+  "vanilla_item": "Ration",
+  "flag": 1375,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w11a": [
+    [
+     -3750,
+     -46000,
+     16875
+    ]
+   ],
+   "w11b": [
+    [
+     -3750,
+     -46000,
+     16875
+    ]
+   ]
+  }
+ },
+ {
+  "location": "w11a DivingCage",
+  "stage": "w11a",
+  "spawn": "DivingCage",
+  "vanilla_item": "Shaver",
+  "flag": 666,
+  "normal": false,
+  "note": "Hard and up",
+  "razor": true,
+  "positions": {
+   "w11a": [
+    [
+     -10000,
+     -46000,
+     19000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A SeaDock - Thermal Goggles (Pool)",
+  "stage": "w11a",
+  "spawn": "Pool",
+  "vanilla_item": "Thermals",
+  "flag": 667,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w11a": [
+    [
+     -5500,
+     -54000,
+     26500
+    ]
+   ],
+   "w11b": [
+    [
+     -5500,
+     -54000,
+     26500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A SeaDock - Ration (Story)",
+  "stage": "w11a",
+  "spawn": "StoryRation",
+  "vanilla_item": "Ration",
+  "flag": 1376,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w11a": [
+    [
+     -5500,
+     -44000,
+     -3500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A SeaDock - Ration (late)",
+  "stage": "w11b",
+  "spawn": "LateRation",
+  "vanilla_item": "Ration",
+  "flag": 1377,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w11b": [
+    [
+     -5500,
+     -45000,
+     -1250
+    ]
+   ],
+   "w11c": [
+    [
+     -5500,
+     -45000,
+     -1250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A SeaDock - SOCOM Ammo (late 1)",
+  "stage": "w11b",
+  "spawn": "LateSocomAmmo1",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1381,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w11b": [
+    [
+     500,
+     -45000,
+     -500
+    ]
+   ],
+   "w11c": [
+    [
+     500,
+     -45000,
+     -500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A SeaDock - SOCOM Ammo (late 2)",
+  "stage": "w11b",
+  "spawn": "LateSocomAmmo2",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1382,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w11b": [
+    [
+     5500,
+     -45000,
+     -1000
+    ]
+   ],
+   "w11c": [
+    [
+     5500,
+     -45000,
+     -1000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A Roof - Bandage (Boxes)",
+  "stage": "w12a",
+  "spawn": "Boxes",
+  "vanilla_item": "Bandage",
+  "flag": 1469,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w12a": [
+    [
+     3000,
+     6000,
+     -6000
+    ]
+   ],
+   "w12c": [
+    [
+     3000,
+     6000,
+     -6000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A Roof - Chaff Grenade (Right cage)",
+  "stage": "w12a",
+  "spawn": "RightCage",
+  "vanilla_item": "Chaff",
+  "flag": 1468,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w12a": [
+    [
+     6000,
+     5000,
+     -13000
+    ]
+   ],
+   "w12c": [
+    [
+     6000,
+     5000,
+     -13000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A Roof - M9 Ammo (Bottom left)",
+  "stage": "w12a",
+  "spawn": "BottomLeft",
+  "vanilla_item": "M9Ammo",
+  "flag": 1470,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w12a": [
+    [
+     -8000,
+     5000,
+     -2500
+    ]
+   ],
+   "w12c": [
+    [
+     -8000,
+     5000,
+     -2500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "w12a LeftCage",
+  "stage": "w12a",
+  "spawn": "LeftCage",
+  "vanilla_item": "M9Ammo",
+  "flag": 669,
+  "normal": false,
+  "note": "Easy and below",
+  "razor": true,
+  "positions": {
+   "w12a": [
+    [
+     -4800,
+     5000,
+     -12175
+    ]
+   ],
+   "w12c": [
+    [
+     -4800,
+     5000,
+     -12175
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A Pump Room - M9 Ammo (Under desk near node)",
+  "stage": "w12b",
+  "spawn": "UnderDeskNearNode",
+  "vanilla_item": "M9Ammo",
+  "flag": 1482,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w12b": [
+    [
+     0,
+     -200,
+     -6250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A Pump Room - M9 Ammo (Top of stairs)",
+  "stage": "w12b",
+  "spawn": "TopOfStairs",
+  "vanilla_item": "M9Ammo",
+  "flag": 1483,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w12b": [
+    [
+     6250,
+     5000,
+     -7875
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A Pump Room - SOCOM Ammo (Locker)",
+  "stage": "w12b",
+  "spawn": "Locker1",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1480,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w12b": [
+    [
+     -9500,
+     200,
+     -4250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A Pump Room - Ration (Locker)",
+  "stage": "w12b",
+  "spawn": "Locker2",
+  "vanilla_item": "Ration",
+  "flag": 670,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w12b": [
+    [
+     10375,
+     200,
+     -4250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "w12b UnderPipes",
+  "stage": "w12b",
+  "spawn": "UnderPipes",
+  "vanilla_item": "Ration",
+  "flag": 672,
+  "normal": false,
+  "note": "Easy and below",
+  "razor": true,
+  "positions": {
+   "w12b": [
+    [
+     -1500,
+     0,
+     7250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A Pump Room - SOCOM Ammo (Under camera)",
+  "stage": "w12b",
+  "spawn": "UnderCamera",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1481,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w12b": [
+    [
+     -8500,
+     0,
+     1000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A Pump Room - Bandage (Upper left)",
+  "stage": "w12b",
+  "spawn": "UpperLeft",
+  "vanilla_item": "Bandage",
+  "flag": 1486,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w12b": [
+    [
+     -4500,
+     0,
+     5500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut A Pump Room - Box 1 (Lower left)",
+  "stage": "w12b",
+  "spawn": "LowerLeft",
+  "vanilla_item": "Box1",
+  "flag": 671,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w12b": [
+    [
+     -4750,
+     0,
+     11500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut B Transformer Room - M9 Ammo (Catwalk)",
+  "stage": "w14a",
+  "spawn": "Catwalk",
+  "vanilla_item": "M9Ammo",
+  "flag": 1550,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w14a": [
+    [
+     -46625,
+     0,
+     -34875
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut B Transformer Room - SOCOM Ammo (Node)",
+  "stage": "w14a",
+  "spawn": "Node",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1548,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w14a": [
+    [
+     -48750,
+     -2000,
+     -24500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut B Transformer Room - SOCOM Ammo (Locker)",
+  "stage": "w14a",
+  "spawn": "Locker1",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1549,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w14a": [
+    [
+     -50500,
+     200,
+     -43125
+    ]
+   ]
+  }
+ },
+ {
+  "location": "w14a BottomSideElectrical",
+  "stage": "w14a",
+  "spawn": "BottomSideElectrical",
+  "vanilla_item": "SocomSupp",
+  "flag": 673,
+  "normal": false,
+  "note": "Very Easy only",
+  "razor": true,
+  "positions": {
+   "w14a": [
+    [
+     -52000,
+     0,
+     -23750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut B Transformer Room - Ration (Locker)",
+  "stage": "w14a",
+  "spawn": "Locker2",
+  "vanilla_item": "Ration",
+  "flag": 674,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w14a": [
+    [
+     -49500,
+     200,
+     -43125
+    ]
+   ]
+  }
+ },
+ {
+  "location": "BC Connecting Bridge - Chaff Grenade (Broken bridge)",
+  "stage": "w15a",
+  "spawn": "BrokenBridge",
+  "vanilla_item": "Chaff",
+  "flag": 1592,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w15a": [
+    [
+     -47750,
+     0,
+     -60000
+    ]
+   ],
+   "w15b": [
+    [
+     -47750,
+     0,
+     -60000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut C Dining Hall - M9 Ammo (Ladies room)",
+  "stage": "w16a",
+  "spawn": "LadiesRoom1",
+  "vanilla_item": "M9Ammo",
+  "flag": 1604,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w16a": [
+    [
+     -43750,
+     0,
+     -85875
+    ]
+   ],
+   "w16b": [
+    [
+     -43750,
+     0,
+     -85875
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut C Dining Hall - SOCOM Ammo (Mens room)",
+  "stage": "w16a",
+  "spawn": "MensRoom",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1602,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w16a": [
+    [
+     -60500,
+     0,
+     -85875
+    ]
+   ],
+   "w16b": [
+    [
+     -60500,
+     0,
+     -85875
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut C Dining Hall - Pentazemin (Ladies room)",
+  "stage": "w16a",
+  "spawn": "LadiesRoom2",
+  "vanilla_item": "Pentazemin",
+  "flag": 1605,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w16a": [
+    [
+     -47125,
+     0,
+     -85875
+    ]
+   ],
+   "w16b": [
+    [
+     -47125,
+     0,
+     -85875
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut C Dining Hall - Ration (Dining room)",
+  "stage": "w16a",
+  "spawn": "DiningRoom",
+  "vanilla_item": "Ration",
+  "flag": 675,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w16a": [
+    [
+     -60250,
+     -200,
+     -99500
+    ]
+   ],
+   "w16b": [
+    [
+     -60250,
+     -200,
+     -99500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut C Dining Hall - Sensor B (Pantry room)",
+  "stage": "w16a",
+  "spawn": "PantryRoom",
+  "vanilla_item": "SensorB",
+  "flag": 676,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w16a": [
+    [
+     -48250,
+     0,
+     -104000
+    ]
+   ],
+   "w16b": [
+    [
+     -48250,
+     0,
+     -104000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut D Sediment Pool - M9 Ammo (Under stairs)",
+  "stage": "w18a",
+  "spawn": "UnderStairs",
+  "vanilla_item": "M9Ammo",
+  "flag": 3892,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w18a": [
+    [
+     -6500,
+     -4000,
+     -133500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut D Sediment Pool - PSG1 Ammo (Rightside door)",
+  "stage": "w18a",
+  "spawn": "RightsideDoor",
+  "vanilla_item": "Psg1Ammo",
+  "flag": 3895,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w18a": [
+    [
+     8500,
+     -1000,
+     -109500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut D Sediment Pool - SOCOM Ammo (Leftside door)",
+  "stage": "w18a",
+  "spawn": "LeftsideDoor",
+  "vanilla_item": "SocomAmmo",
+  "flag": 3894,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w18a": [
+    [
+     -8500,
+     -1000,
+     -109500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut D Sediment Pool - Ration (Center alcove)",
+  "stage": "w18a",
+  "spawn": "CenterAlcove",
+  "vanilla_item": "Ration",
+  "flag": 677,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w18a": [
+    [
+     1250,
+     -1000,
+     -119250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "DE Connecting Bridge - SOCOM Ammo (Lower bridge rightside)",
+  "stage": "w19a",
+  "spawn": "LowerBridgeRightside1",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1701,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w19a": [
+    [
+     12750,
+     -4500,
+     3500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "DE Connecting Bridge - Stun Grenade (Lower bridge rightside)",
+  "stage": "w19a",
+  "spawn": "LowerBridgeRightside2",
+  "vanilla_item": "Stun",
+  "flag": 1700,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w19a": [
+    [
+     13250,
+     -4500,
+     2750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Parcel Room - Mine Detector (Outside level 5 doors)",
+  "stage": "w20a",
+  "spawn": "OutsideLevel5Doors",
+  "vanilla_item": "MineDetector",
+  "flag": 679,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20a": [
+    [
+     -19036,
+     -4500,
+     -87000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Parcel Room - Ration (Bottom floor crawlspace)",
+  "stage": "w20a",
+  "spawn": "BottomFloorCrawlspace",
+  "vanilla_item": "Ration",
+  "flag": 1711,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20a": [
+    [
+     -22786,
+     -4750,
+     -86000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Parcel Room - Box 5 (Unnamed)",
+  "stage": "w20a",
+  "spawn": "Unnamed",
+  "vanilla_item": null,
+  "flag": 680,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20a": [
+    [
+     -25036,
+     -4500,
+     -92000
+    ],
+    [
+     -8036,
+     750,
+     -94500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Parcel Room - M4 Ammo (Bottomside middle boxes)",
+  "stage": "w20a",
+  "spawn": "BottomsideMiddleBoxes",
+  "vanilla_item": "M4Ammo",
+  "flag": 1709,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20a": [
+    [
+     -12036,
+     0,
+     -84750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Parcel Room - M9 Ammo (Leftside middle boxes)",
+  "stage": "w20a",
+  "spawn": "LeftsideMiddleBoxes",
+  "vanilla_item": "M9Ammo",
+  "flag": 1705,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20a": [
+    [
+     -13536,
+     0,
+     -87500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Parcel Room - SOCOM Ammo (Under wire rack by ED bridge)",
+  "stage": "w20a",
+  "spawn": "UnderWireRackByEDBridge",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1706,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20a": [
+    [
+     -17536,
+     -250,
+     -100000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Parcel Room - SOCOM Ammo (Under wire rack by node)",
+  "stage": "w20a",
+  "spawn": "UnderWireRackByNode",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1707,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20a": [
+    [
+     -9536,
+     -250,
+     -100000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Parcel Room - Stun Grenade (Under conveyer belt)",
+  "stage": "w20a",
+  "spawn": "UnderConveyerBelt",
+  "vanilla_item": "Stun",
+  "flag": 1710,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20a": [
+    [
+     -14036,
+     -250,
+     -92000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Parcel Room - PSG1-T Ammo (Bottom right conveyer)",
+  "stage": "w20a",
+  "spawn": "BottomRightConveyer",
+  "vanilla_item": "Psg1tAmmo",
+  "flag": 1712,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20a": [
+    [
+     -10036,
+     0,
+     -81500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Parcel Room - Stinger Ammo (Under topside conveyer belt)",
+  "stage": "w20a",
+  "spawn": "UnderTopsideConveyerBelt",
+  "vanilla_item": "StingerAmmo",
+  "flag": 1713,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20a": [
+    [
+     -15536,
+     -250,
+     -96500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Parcel Room - Digital Camera (Level 5 door room)",
+  "stage": "w20a",
+  "spawn": "Level5DoorRoom",
+  "vanilla_item": "DigitalCamera",
+  "flag": 678,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20a": [
+    [
+     -23036,
+     -4500,
+     -96000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Parcel Room - SOCOM Ammo (Perimeter access room)",
+  "stage": "w20a",
+  "spawn": "PerimeterAccessRoom",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1708,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20a": [
+    [
+     -12536,
+     -4500,
+     -93000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Heliport - Box 3 (Roof bottom left racks)",
+  "stage": "w20b",
+  "spawn": "RoofBottomLeftRacks",
+  "vanilla_item": "Box3",
+  "flag": 683,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20b": [
+    [
+     -14036,
+     11500,
+     -84400
+    ]
+   ],
+   "w20c": [
+    [
+     -14036,
+     11500,
+     -84400
+    ]
+   ],
+   "w20d": [
+    [
+     -14036,
+     11500,
+     -84400
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Heliport - Claymore (Lower level sleeping guard)",
+  "stage": "w20b",
+  "spawn": "LowerLevelSleepingGuard",
+  "vanilla_item": "Claymore",
+  "flag": 1857,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20b": [
+    [
+     -23536,
+     5500,
+     -99000
+    ]
+   ],
+   "w20c": [
+    [
+     -23536,
+     5500,
+     -99000
+    ]
+   ],
+   "w20d": [
+    [
+     -23536,
+     5500,
+     -99000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Heliport - SOCOM Ammo (Top of stairs)",
+  "stage": "w20b",
+  "spawn": "TopOfStairs",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1858,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20b": [
+    [
+     -6536,
+     11500,
+     -80500
+    ]
+   ],
+   "w20c": [
+    [
+     -6536,
+     11500,
+     -80500
+    ]
+   ],
+   "w20d": [
+    [
+     -6536,
+     11500,
+     -80500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut E Heliport - Stun Grenade (Leftside crates)",
+  "stage": "w20b",
+  "spawn": "LeftsideCrates",
+  "vanilla_item": "Stun",
+  "flag": 682,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w20b": [
+    [
+     -18536,
+     11500,
+     -96250
+    ]
+   ],
+   "w20c": [
+    [
+     -18536,
+     11500,
+     -96250
+    ]
+   ],
+   "w20d": [
+    [
+     -18536,
+     11500,
+     -96250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "EF Connecting Bridge - AKS-74u Ammo (Near shell 1 core)",
+  "stage": "w21a",
+  "spawn": "NearShell1Core",
+  "vanilla_item": "Aks74uAmmo",
+  "flag": 1864,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w21a": [
+    [
+     23000,
+     -1500,
+     -61250
+    ]
+   ],
+   "w21b": [
+    [
+     23000,
+     -1500,
+     -61250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "EF Connecting Bridge (Return) - Chaff Grenade (Near strut F)",
+  "stage": "w21b",
+  "spawn": "NearStrutF",
+  "vanilla_item": "Chaff",
+  "flag": 1865,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w21b": [
+    [
+     -7286,
+     0,
+     -45250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - SOCOM Ammo (Outside PSG1 room)",
+  "stage": "w22a",
+  "spawn": "OutsidePSG1Room",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1895,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -2536,
+     0,
+     -25000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - Ration (Outside M9 room)",
+  "stage": "w22a",
+  "spawn": "OutsideM9Room",
+  "vanilla_item": "Ration",
+  "flag": 1930,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -6786,
+     0,
+     -18000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - Book (Bottom floor middle crates)",
+  "stage": "w22a",
+  "spawn": "BottomFloorMiddleCrates",
+  "vanilla_item": "Book",
+  "flag": 1934,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -12536,
+     -3250,
+     -29000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - Stun Grenade (Outside AK room)",
+  "stage": "w22a",
+  "spawn": "OutsideAKRoom",
+  "vanilla_item": "Stun",
+  "flag": 1928,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -13036,
+     -5000,
+     -33250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - M9 Ammo (Bottom floor parkour boxes)",
+  "stage": "w22a",
+  "spawn": "BottomFloorParkourBoxes",
+  "vanilla_item": "M9Ammo",
+  "flag": 1893,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -6536,
+     -3250,
+     -26000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - SOCOM Ammo (Bottom floor right crates)",
+  "stage": "w22a",
+  "spawn": "BottomFloorRightCrates",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1899,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -6911,
+     -4250,
+     -28500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - Chaff Grenade (Outside node room)",
+  "stage": "w22a",
+  "spawn": "OutsideNodeRoom",
+  "vanilla_item": "Chaff",
+  "flag": 1929,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -14536,
+     -5000,
+     -18625
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - M9 Ammo (M9 room 1)",
+  "stage": "w22a",
+  "spawn": "M9Room1",
+  "vanilla_item": "M9Ammo",
+  "flag": 1889,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -10286,
+     0,
+     -23250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - M9 Ammo (M9 room 2)",
+  "stage": "w22a",
+  "spawn": "M9Room2",
+  "vanilla_item": "M9Ammo",
+  "flag": 1890,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -9036,
+     0,
+     -23750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - M9 Ammo (M9 room 3)",
+  "stage": "w22a",
+  "spawn": "M9Room3",
+  "vanilla_item": "M9Ammo",
+  "flag": 1891,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -8036,
+     0,
+     -22250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - SOCOM Ammo (Room across node 1)",
+  "stage": "w22a",
+  "spawn": "RoomAcrossNode1",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1897,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -11286,
+     -5000,
+     -19375
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - Mine Detector (Room across node)",
+  "stage": "w22a",
+  "spawn": "RoomAcrossNode3.1",
+  "vanilla_item": "Bandage",
+  "flag": 686,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -10161,
+     -5000,
+     -23625
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - SOCOM Ammo (Room across node 2)",
+  "stage": "w22a",
+  "spawn": "RoomAcrossNode2",
+  "vanilla_item": "SocomAmmo",
+  "flag": 685,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -7911,
+     -5000,
+     -20375
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - Box 2 (Room with node)",
+  "stage": "w22a",
+  "spawn": "RoomWithNode",
+  "vanilla_item": "Box2",
+  "flag": 687,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -19036,
+     -5000,
+     -18750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - Pentazemin (Locker near node)",
+  "stage": "w22a",
+  "spawn": "LockerNearNode1",
+  "vanilla_item": "Pentazemin",
+  "flag": 1932,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -17286,
+     -5000,
+     -23940
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - Ration (Locker near node)",
+  "stage": "w22a",
+  "spawn": "LockerNearNode2",
+  "vanilla_item": "Ration",
+  "flag": 1931,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -19976,
+     -5000,
+     -20500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - M9 Ammo (Room across node)",
+  "stage": "w22a",
+  "spawn": "RoomAcrossNode4",
+  "vanilla_item": "M9Ammo",
+  "flag": 1892,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -8036,
+     -5250,
+     -23250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - Book (Locker near node)",
+  "stage": "w22a",
+  "spawn": "LockerNearNode3",
+  "vanilla_item": "Book",
+  "flag": 1933,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -19976,
+     -5000,
+     -21500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "w22a AKRoom1",
+  "stage": "w22a",
+  "spawn": "AKRoom1",
+  "vanilla_item": "AkSupp",
+  "flag": 684,
+  "normal": false,
+  "note": "Very Easy only",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -18786,
+     -5000,
+     -40375
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - AKS-74u Ammo (AK room 2)",
+  "stage": "w22a",
+  "spawn": "AKRoom2",
+  "vanilla_item": "Aks74uAmmo",
+  "flag": 1907,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -18661,
+     -5000,
+     -44250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - AKS-74u Ammo (AK room 3)",
+  "stage": "w22a",
+  "spawn": "AKRoom3",
+  "vanilla_item": "Aks74uAmmo",
+  "flag": 1908,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -15536,
+     -5000,
+     -36250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - AKS-74u Ammo (AK room 4-2)",
+  "stage": "w22a",
+  "spawn": "AKRoom4.2",
+  "vanilla_item": "Aks74uAmmo",
+  "flag": 1909,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -11536,
+     -5000,
+     -36250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - AKS-74u (AK room)",
+  "stage": "w22a",
+  "spawn": "AKRoom4.1",
+  "vanilla_item": "Aks74u",
+  "flag": 1906,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -8411,
+     -5000,
+     -44250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - SOCOM Ammo (AK room)",
+  "stage": "w22a",
+  "spawn": "AKRoom5",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1896,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -14286,
+     -5000,
+     -44375
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - M4 Ammo (AK room)",
+  "stage": "w22a",
+  "spawn": "AKRoom6",
+  "vanilla_item": "M4Ammo",
+  "flag": 1905,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -8786,
+     -5000,
+     -40500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - C4 (C4 room 1)",
+  "stage": "w22a",
+  "spawn": "C4Room1",
+  "vanilla_item": "C4",
+  "flag": 1920,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -11286,
+     0,
+     -39500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - C4 (C4 room 2)",
+  "stage": "w22a",
+  "spawn": "C4Room2",
+  "vanilla_item": "C4",
+  "flag": 1921,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -11476,
+     0,
+     -38000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - C4 (C4 room 3)",
+  "stage": "w22a",
+  "spawn": "C4Room3",
+  "vanilla_item": "C4",
+  "flag": 1922,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -7536,
+     0,
+     -40000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - Claymore (C4 room 4)",
+  "stage": "w22a",
+  "spawn": "C4Room4",
+  "vanilla_item": "Claymore",
+  "flag": 1923,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -11476,
+     0,
+     -37000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - Claymore (C4 room 5)",
+  "stage": "w22a",
+  "spawn": "C4Room5",
+  "vanilla_item": "Claymore",
+  "flag": 1924,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -7536,
+     0,
+     -37375
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - M4 Ammo (M4 room 1)",
+  "stage": "w22a",
+  "spawn": "M4Room1",
+  "vanilla_item": "M4Ammo",
+  "flag": 1901,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -23036,
+     0,
+     -31500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - M4 Ammo (M4 room 2)",
+  "stage": "w22a",
+  "spawn": "M4Room2",
+  "vanilla_item": "M4Ammo",
+  "flag": 1902,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -23976,
+     0,
+     -28500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - M4 (M4 room)",
+  "stage": "w22a",
+  "spawn": "M4Room3",
+  "vanilla_item": "M4",
+  "flag": 1900,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -21786,
+     0,
+     -32000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - PSG1 Ammo (M4 room)",
+  "stage": "w22a",
+  "spawn": "M4Room4",
+  "vanilla_item": "Psg1Ammo",
+  "flag": 1911,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -27286,
+     -250,
+     -31000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - M4 Ammo (M4 room 5)",
+  "stage": "w22a",
+  "spawn": "M4Room5",
+  "vanilla_item": "M4Ammo",
+  "flag": 1903,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -21036,
+     0,
+     -31000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - M4 Ammo (M4 room 6)",
+  "stage": "w22a",
+  "spawn": "M4Room6",
+  "vanilla_item": "M4Ammo",
+  "flag": 1904,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -20036,
+     0,
+     -28250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - PSG1-T Ammo (RGB room)",
+  "stage": "w22a",
+  "spawn": "RgbRoom1",
+  "vanilla_item": "Psg1tAmmo",
+  "flag": 1915,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -15596,
+     0,
+     -37250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - RGB6 Ammo (RGB room 2)",
+  "stage": "w22a",
+  "spawn": "RgbRoom2",
+  "vanilla_item": "Rgb6Ammo",
+  "flag": 1918,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -18536,
+     750,
+     -38250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - RGB6 Ammo (RGB room 3)",
+  "stage": "w22a",
+  "spawn": "RgbRoom3",
+  "vanilla_item": "Rgb6Ammo",
+  "flag": 1919,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -15786,
+     0,
+     -40250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - RGB6 (RGB room)",
+  "stage": "w22a",
+  "spawn": "RgbRoom4",
+  "vanilla_item": "Rgb6",
+  "flag": 1917,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -19661,
+     0,
+     -39375
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - PSG1 Ammo (PSG1 room 1)",
+  "stage": "w22a",
+  "spawn": "Psg1Room1",
+  "vanilla_item": "Psg1Ammo",
+  "flag": 1912,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -7286,
+     0,
+     -30250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - PSG1 Ammo (PSG1 room 2)",
+  "stage": "w22a",
+  "spawn": "Psg1Room2",
+  "vanilla_item": "Psg1Ammo",
+  "flag": 1913,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -7476,
+     0,
+     -31250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - PSG1 (PSG1 room)",
+  "stage": "w22a",
+  "spawn": "Psg1Room3",
+  "vanilla_item": "Psg1",
+  "flag": 1910,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -5536,
+     0,
+     -32000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - PSG1-T (PSG1 room)",
+  "stage": "w22a",
+  "spawn": "Psg1Room4",
+  "vanilla_item": "Psg1t",
+  "flag": 1914,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     66750,
+     -250,
+     -31000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - Grenade (Grenade room 1)",
+  "stage": "w22a",
+  "spawn": "GrenadeRoom1",
+  "vanilla_item": "Grenade",
+  "flag": 1925,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -17286,
+     0,
+     -23250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - Grenade (Grenade room 2)",
+  "stage": "w22a",
+  "spawn": "GrenadeRoom2",
+  "vanilla_item": "Grenade",
+  "flag": 1926,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -18286,
+     0,
+     -22000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - Grenade (Grenade room 3)",
+  "stage": "w22a",
+  "spawn": "GrenadeRoom3",
+  "vanilla_item": "Grenade",
+  "flag": 1927,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -17286,
+     0,
+     -20875
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - PSG1-T Ammo (Grenade room)",
+  "stage": "w22a",
+  "spawn": "GrenadeRoom4",
+  "vanilla_item": "Psg1tAmmo",
+  "flag": 1916,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -19286,
+     0,
+     -23940
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut F Warehouse - SOCOM Ammo (Grenade room)",
+  "stage": "w22a",
+  "spawn": "GrenadeRoom5",
+  "vanilla_item": "SocomAmmo",
+  "flag": 1894,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w22a": [
+    [
+     -16036,
+     0,
+     -19750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "FA Connecting Bridge - Chaff Grenade (Bottom bridge)",
+  "stage": "w23a",
+  "spawn": "BottomBridgeLeftSide",
+  "vanilla_item": "Chaff",
+  "flag": 2028,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w23a": [
+    [
+     -13000,
+     -4500,
+     2000
+    ]
+   ],
+   "w23b": [
+    [
+     -13000,
+     -4500,
+     2000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "w24a LockerRoom1",
+  "stage": "w24a",
+  "spawn": "LockerRoom1",
+  "vanilla_item": "Aks74uAmmo",
+  "flag": 691,
+  "normal": false,
+  "note": "Very Easy only",
+  "razor": true,
+  "positions": {
+   "w24a": [
+    [
+     2500,
+     0,
+     -49750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core - Book (Locker room)",
+  "stage": "w24a",
+  "spawn": "LockerRoom2",
+  "vanilla_item": "Book",
+  "flag": 692,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24a": [
+    [
+     -750,
+     0,
+     -45800
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core - C4 (Locker room)",
+  "stage": "w24a",
+  "spawn": "LockerRoom3",
+  "vanilla_item": "C4",
+  "flag": 693,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24a": [
+    [
+     -1750,
+     0,
+     -45825
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core - Chaff Grenade (Locker room)",
+  "stage": "w24a",
+  "spawn": "LockerRoom4",
+  "vanilla_item": "Chaff",
+  "flag": 694,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24a": [
+    [
+     -1000,
+     1000,
+     -52000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core - Claymore (Locker room)",
+  "stage": "w24a",
+  "spawn": "LockerRoom5",
+  "vanilla_item": "Claymore",
+  "flag": 695,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24a": [
+    [
+     1250,
+     0,
+     -45825
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core - M4 Ammo (Locker room)",
+  "stage": "w24a",
+  "spawn": "LockerRoom6",
+  "vanilla_item": "M4Ammo",
+  "flag": 696,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24a": [
+    [
+     -3750,
+     0,
+     -53250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core - M9 Ammo (Locker room)",
+  "stage": "w24a",
+  "spawn": "LockerRoom7",
+  "vanilla_item": "M9Ammo",
+  "flag": 697,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24a": [
+    [
+     -3750,
+     0,
+     -51250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core - SOCOM Ammo (Broken door)",
+  "stage": "w24a",
+  "spawn": "BrokenDoor",
+  "vanilla_item": "SocomAmmo",
+  "flag": 688,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24a": [
+    [
+     -18500,
+     -1500,
+     -55750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core - SOCOM Ammo (Locker room)",
+  "stage": "w24a",
+  "spawn": "LockerRoom8",
+  "vanilla_item": "SocomAmmo",
+  "flag": 698,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24a": [
+    [
+     2250,
+     0,
+     -45825
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core - M9 Ammo (Front door)",
+  "stage": "w24a",
+  "spawn": "FrontDoor1",
+  "vanilla_item": "M9Ammo",
+  "flag": 689,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24a": [
+    [
+     15750,
+     -1500,
+     -55750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core - SOCOM Ammo (Front door)",
+  "stage": "w24a",
+  "spawn": "FrontDoor2",
+  "vanilla_item": "SocomAmmo",
+  "flag": 690,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24a": [
+    [
+     17250,
+     -1500,
+     -55750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core B1 - M4 Ammo (Hallway)",
+  "stage": "w24b",
+  "spawn": "Hallway",
+  "vanilla_item": "M4Ammo",
+  "flag": 2108,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24b": [
+    [
+     -11250,
+     -4500,
+     -64000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core B1 - SOCOM Ammo (Lounge locker)",
+  "stage": "w24b",
+  "spawn": "LoungeLocker1",
+  "vanilla_item": "SocomAmmo",
+  "flag": 2109,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24b": [
+    [
+     -8500,
+     -4500,
+     -69100
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core B1 - Stun Grenade (Lounge locker)",
+  "stage": "w24b",
+  "spawn": "LoungeLocker2",
+  "vanilla_item": "Stun",
+  "flag": 2110,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24b": [
+    [
+     -10500,
+     -4500,
+     -69100
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core B1 - Ration (Node locker)",
+  "stage": "w24b",
+  "spawn": "NodeLocker",
+  "vanilla_item": "Ration",
+  "flag": 2107,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24b": [
+    [
+     5750,
+     -4500,
+     -73750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core Hostage Room - Bandage (Bottom left)",
+  "stage": "w24c",
+  "spawn": "BottomLeft",
+  "vanilla_item": "Bandage",
+  "flag": 2050,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24c": [
+    [
+     -11000,
+     -8500,
+     -48500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core Hostage Room - Ration (Bottom right)",
+  "stage": "w24c",
+  "spawn": "BottomRight",
+  "vanilla_item": "Ration",
+  "flag": 2049,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24c": [
+    [
+     7750,
+     -8500,
+     -51000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core Hostage Room - Thermal Goggles (Podium)",
+  "stage": "w24c",
+  "spawn": "Podium",
+  "vanilla_item": "Pentazemin",
+  "flag": 699,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24c": [
+    [
+     -10000,
+     -7500,
+     -54500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core B2 - AKS-74u Ammo (Node)",
+  "stage": "w24d",
+  "spawn": "Node1",
+  "vanilla_item": "Aks74uAmmo",
+  "flag": 703,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24d": [
+    [
+     4500,
+     -16000,
+     -55000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core B2 - Bandage (Under desk)",
+  "stage": "w24d",
+  "spawn": "UnderDesk",
+  "vanilla_item": "Bandage",
+  "flag": 707,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24d": [
+    [
+     0,
+     -16000,
+     -51250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core B2 - Box 4 (Node)",
+  "stage": "w24d",
+  "spawn": "Node2",
+  "vanilla_item": "Box4",
+  "flag": 704,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24d": [
+    [
+     3750,
+     -16000,
+     -55000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core B2 - D. Mic (Parrot)",
+  "stage": "w24d",
+  "spawn": "Parrot",
+  "vanilla_item": "Dmic1",
+  "flag": 705,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24d": [
+    [
+     -3500,
+     -16000,
+     -57500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core B2 - M4 Ammo (Locker)",
+  "stage": "w24d",
+  "spawn": "Locker1",
+  "vanilla_item": "M4Ammo",
+  "flag": 700,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24d": [
+    [
+     -8625,
+     -16000,
+     -52000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core B2 - M9 Ammo (Locker)",
+  "stage": "w24d",
+  "spawn": "Locker2",
+  "vanilla_item": "M9Ammo",
+  "flag": 701,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24d": [
+    [
+     8625,
+     -16000,
+     -53000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core B2 - SOCOM Ammo (Locker)",
+  "stage": "w24d",
+  "spawn": "Locker3",
+  "vanilla_item": "SocomAmmo",
+  "flag": 702,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24d": [
+    [
+     -8625,
+     -16000,
+     -50000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1 Core B2 - Ration (Right alcove)",
+  "stage": "w24d",
+  "spawn": "RightAlcove",
+  "vanilla_item": "Ration",
+  "flag": 706,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w24d": [
+    [
+     7250,
+     -16000,
+     -65500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1-2 Connecting Bridge - Stinger",
+  "stage": "w25a",
+  "spawn": "HarrierStinger",
+  "vanilla_item": "Stinger",
+  "flag": 708,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25a": [
+    [
+     2125,
+     -1000,
+     -147500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1-2 Connecting Bridge - AKS-74u Suppressor (Behind fire)",
+  "stage": "w25b",
+  "spawn": "BehindFireOtherwise",
+  "vanilla_item": "Aks74uAmmo",
+  "flag": 710,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25b": [
+    [
+     -2000,
+     -4000,
+     -163125
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1-2 Connecting Bridge - PSG1 Ammo (Front fire)",
+  "stage": "w25b",
+  "spawn": "FrontFire",
+  "vanilla_item": "Psg1Ammo",
+  "flag": 713,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25b": [
+    [
+     -1500,
+     -5250,
+     -156000
+    ],
+    [
+     499,
+     -3500,
+     -163597
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1-2 Connecting Bridge - PSG1-T Ammo (Front fire)",
+  "stage": "w25b",
+  "spawn": "FrontFire#2",
+  "vanilla_item": "Psg1tAmmo",
+  "flag": 714,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25b": [
+    [
+     499,
+     -3500,
+     -163597
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1-2 Connecting Bridge - Ration (Pipe)",
+  "stage": "w25b",
+  "spawn": "Pipe",
+  "vanilla_item": "Ration",
+  "flag": 715,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25b": [
+    [
+     8375,
+     -3875,
+     -145000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 1-2 Connecting Bridge - Ration (Broken stairs)",
+  "stage": "w25b",
+  "spawn": "BrokenStairs",
+  "vanilla_item": "Ration",
+  "flag": 712,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25b": [
+    [
+     -3250,
+     -4250,
+     -147000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut L Perimeter - AKS-74u Ammo (Lower catwalk)",
+  "stage": "w25c",
+  "spawn": "LowerCatwalk",
+  "vanilla_item": "Aks74uAmmo",
+  "flag": 5248,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25c": [
+    [
+     -6536,
+     -3000,
+     -226500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut L Perimeter - Chaff Grenade (Connecting bridge)",
+  "stage": "w25c",
+  "spawn": "ConnectingBridge",
+  "vanilla_item": "Chaff",
+  "flag": 5245,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25c": [
+    [
+     -12036,
+     0,
+     -253000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut L Perimeter - PSG1 Ammo (Connecting bridge)",
+  "stage": "w25c",
+  "spawn": "ConnectingBridge#2",
+  "vanilla_item": "Psg1Ammo",
+  "flag": 5244,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25c": [
+    [
+     -15036,
+     0,
+     -253000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut L Perimeter - SOCOM Ammo (Connecting bridge)",
+  "stage": "w25c",
+  "spawn": "ConnectingBridge#3",
+  "vanilla_item": "SocomAmmo",
+  "flag": 5246,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25c": [
+    [
+     -12286,
+     0,
+     -227000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Strut L Perimeter - Ration (Lower catwalk)",
+  "stage": "w25c",
+  "spawn": "LowerCatwalk#2",
+  "vanilla_item": "Ration",
+  "flag": 716,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25c": [
+    [
+     -6286,
+     -3000,
+     -253000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "KL Connecting Bridge - Chaff Grenade (Shell entrance)",
+  "stage": "w25d",
+  "spawn": "ShellEntrance",
+  "vanilla_item": "Chaff",
+  "flag": 5281,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25d": [
+    [
+     23000,
+     -1500,
+     -238500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "KL Connecting Bridge - M4 Ammo (Lower catwalk)",
+  "stage": "w25d",
+  "spawn": "LowerCatwalk",
+  "vanilla_item": "M4Ammo",
+  "flag": 5283,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25d": [
+    [
+     -6786,
+     -3000,
+     -236000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "KL Connecting Bridge - PSG1 Ammo (Shell entrance)",
+  "stage": "w25d",
+  "spawn": "ShellEntrance#2",
+  "vanilla_item": "Psg1Ammo",
+  "flag": 5280,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25d": [
+    [
+     23000,
+     -1500,
+     -241500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "KL Connecting Bridge - SOCOM Ammo (Lower catwalk)",
+  "stage": "w25d",
+  "spawn": "LowerCatwalk#2",
+  "vanilla_item": "SocomAmmo",
+  "flag": 5284,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25d": [
+    [
+     -6536,
+     -3000,
+     -253000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "KL Connecting Bridge - Ration (Shell entrance)",
+  "stage": "w25d",
+  "spawn": "ShellEntrance#3",
+  "vanilla_item": "Ration",
+  "flag": 717,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w25d": [
+    [
+     20000,
+     -1500,
+     -241250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Sewage Treatment - SOCOM Ammo (Sewage treatment)",
+  "stage": "w28a",
+  "spawn": "SewageTreatment",
+  "vanilla_item": "SocomAmmo",
+  "flag": 5312,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w28a": [
+    [
+     -8786,
+     0,
+     -222250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core - Chaff Grenade (Strut H door)",
+  "stage": "w31a",
+  "spawn": "StrutHDoor1",
+  "vanilla_item": "Chaff",
+  "flag": 2260,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31a": [
+    [
+     -18000,
+     0,
+     -236000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core - M4 Ammo (Rightside alcove)",
+  "stage": "w31a",
+  "spawn": "RightsideAlcove1",
+  "vanilla_item": "M4Ammo",
+  "flag": 2248,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31a": [
+    [
+     8500,
+     0,
+     -252000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core - M4 Ammo (Break room)",
+  "stage": "w31a",
+  "spawn": "BreakRoom",
+  "vanilla_item": "M4Ammo",
+  "flag": 2249,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31a": [
+    [
+     -4500,
+     0,
+     -243750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core - M4 Ammo (Strut H door)",
+  "stage": "w31a",
+  "spawn": "StrutHDoor2",
+  "vanilla_item": "M4Ammo",
+  "flag": 719,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31a": [
+    [
+     -18000,
+     0,
+     -234000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core - M9 Ammo (Leftside stairs)",
+  "stage": "w31a",
+  "spawn": "LeftsideStairs",
+  "vanilla_item": "M9Ammo",
+  "flag": 2242,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31a": [
+    [
+     -6500,
+     -2000,
+     -228500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core - Nikita Ammo (Camera room conditional)",
+  "stage": "w31a",
+  "spawn": "CameraRoomConditional",
+  "vanilla_item": "NikitaAmmo",
+  "flag": 2252,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31a": [
+    [
+     -5500,
+     750,
+     -231750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core - Nikita Ammo (Rightside stairs conditional)",
+  "stage": "w31a",
+  "spawn": "RightsideStairsConditional",
+  "vanilla_item": "NikitaAmmo",
+  "flag": 2253,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31a": [
+    [
+     6500,
+     -2000,
+     -228500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core - RGB6 Ammo (Rightside alcove)",
+  "stage": "w31a",
+  "spawn": "RightsideAlcove2",
+  "vanilla_item": "Rgb6Ammo",
+  "flag": 718,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31a": [
+    [
+     6500,
+     0,
+     -252000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core - SOCOM Ammo (Climbable boxes)",
+  "stage": "w31a",
+  "spawn": "ClimbableBoxes",
+  "vanilla_item": "SocomAmmo",
+  "flag": 2245,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31a": [
+    [
+     3000,
+     -1250,
+     -228500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core - Ration (Leftside landing)",
+  "stage": "w31a",
+  "spawn": "LeftsideLanding",
+  "vanilla_item": "Ration",
+  "flag": 2262,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31a": [
+    [
+     -12500,
+     0,
+     -231500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core - Book (Vents)",
+  "stage": "w31a",
+  "spawn": "Vents2",
+  "vanilla_item": "Book",
+  "flag": 2261,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31a": [
+    [
+     -3750,
+     0,
+     -237750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core - Stinger Ammo (Vents)",
+  "stage": "w31a",
+  "spawn": "Vents1",
+  "vanilla_item": "StingerAmmo",
+  "flag": 2257,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31a": [
+    [
+     -2000,
+     0,
+     -238250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core - SOCOM Ammo (Electrical room)",
+  "stage": "w31a",
+  "spawn": "ElectricalRoom",
+  "vanilla_item": "SocomAmmo",
+  "flag": 2244,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31a": [
+    [
+     625,
+     0,
+     -246250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 1 - M4 Ammo (Middle hallway alcove)",
+  "stage": "w31b",
+  "spawn": "MiddleHallwayAlcove",
+  "vanilla_item": "M4Ammo",
+  "flag": 726,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31b": [
+    [
+     9500,
+     -10500,
+     -237500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 1 - NVG (Deadend middle hallway)",
+  "stage": "w31b",
+  "spawn": "DeadendMiddleHallway",
+  "vanilla_item": "NVG",
+  "flag": 724,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31b": [
+    [
+     4250,
+     -10500,
+     -244750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 1 - Nikita (Nikita spawn)",
+  "stage": "w31b",
+  "spawn": "NikitaSpawn1",
+  "vanilla_item": "Nikita",
+  "flag": 727,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31b": [
+    [
+     11500,
+     -10250,
+     -249500
+    ],
+    [
+     -750,
+     -10250,
+     -242750
+    ],
+    [
+     5000,
+     -10250,
+     -236250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 1 - PSG1-T Ammo (Collapsed room)",
+  "stage": "w31b",
+  "spawn": "CollapsedRoom1",
+  "vanilla_item": "Psg1tAmmo",
+  "flag": 722,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31b": [
+    [
+     -2000,
+     -6250,
+     -223000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 1 - RGB6 Ammo (Air pocket)",
+  "stage": "w31b",
+  "spawn": "AirPocket2",
+  "vanilla_item": "Rgb6Ammo",
+  "flag": 720,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31b": [
+    [
+     -1500,
+     -6250,
+     -249500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 1 - Stinger Ammo (Collapsed room)",
+  "stage": "w31b",
+  "spawn": "CollapsedRoom2",
+  "vanilla_item": "StingerAmmo",
+  "flag": 723,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31b": [
+    [
+     -2000,
+     -10500,
+     -223000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 1 - Ration (Air pocket)",
+  "stage": "w31b",
+  "spawn": "AirPocket3",
+  "vanilla_item": "Ration",
+  "flag": 721,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31b": [
+    [
+     -9500,
+     -6250,
+     -222000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 1 - M4 Ammo (Elevator)",
+  "stage": "w31b",
+  "spawn": "Elevator",
+  "vanilla_item": "M4Ammo",
+  "flag": 725,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31b": [
+    [
+     -2750,
+     -4000,
+     -250750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 2 - AKS-74u Ammo (Side room)",
+  "stage": "w31c",
+  "spawn": "SideRoom1",
+  "vanilla_item": "Aks74uAmmo",
+  "flag": 2355,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31c": [
+    [
+     -18000,
+     -9500,
+     -252500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 2 - Body Armor (Locker)",
+  "stage": "w31c",
+  "spawn": "Locker1",
+  "vanilla_item": "BodyArmor",
+  "flag": 730,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31c": [
+    [
+     -4000,
+     -10750,
+     -259500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 2 - Book (Locker)",
+  "stage": "w31c",
+  "spawn": "Locker2",
+  "vanilla_item": "Book",
+  "flag": 2362,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31c": [
+    [
+     -18250,
+     -7000,
+     -253500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 2 - C4 (Locker)",
+  "stage": "w31c",
+  "spawn": "Locker3",
+  "vanilla_item": "C4",
+  "flag": 2360,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31c": [
+    [
+     -18250,
+     -7000,
+     -258500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 2 - C4 (Deadend hallway)",
+  "stage": "w31c",
+  "spawn": "DeadendHallway",
+  "vanilla_item": "C4",
+  "flag": 2361,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31c": [
+    [
+     -18250,
+     -7000,
+     -257500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 2 - PSG1-T Ammo (Side room)",
+  "stage": "w31c",
+  "spawn": "SideRoom2",
+  "vanilla_item": "Psg1tAmmo",
+  "flag": 2356,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31c": [
+    [
+     -6250,
+     -8750,
+     -246750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 2 - Pentazemin (Node stairs)",
+  "stage": "w31c",
+  "spawn": "NodeStairs",
+  "vanilla_item": "Pentazemin",
+  "flag": 2363,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31c": [
+    [
+     -15125,
+     -7000,
+     -252125
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 2 - Ration (Outside purification chamber)",
+  "stage": "w31c",
+  "spawn": "OutsidePurificationChamber",
+  "vanilla_item": "Ration",
+  "flag": 732,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31c": [
+    [
+     -5000,
+     -6250,
+     -248250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Filtration Chamber 2 - Thermal Goggles (Locker)",
+  "stage": "w31c",
+  "spawn": "Locker4",
+  "vanilla_item": "Pentazemin",
+  "flag": 731,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31c": [
+    [
+     -11250,
+     -7000,
+     -256500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core with Emma - AKS-74u Ammo (Rightside alcove)",
+  "stage": "w31d",
+  "spawn": "RightsideAlcove",
+  "vanilla_item": "Aks74uAmmo",
+  "flag": 2250,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31d": [
+    [
+     8500,
+     0,
+     -252000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core with Emma - AKS-74u Ammo (Electrical room)",
+  "stage": "w31d",
+  "spawn": "ElectricalRoom1",
+  "vanilla_item": "Aks74uAmmo",
+  "flag": 2251,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31d": [
+    [
+     7500,
+     0,
+     -243500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core with Emma - M9 Ammo (Electrical room)",
+  "stage": "w31d",
+  "spawn": "ElectricalRoom2",
+  "vanilla_item": "M9Ammo",
+  "flag": 2243,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31d": [
+    [
+     -2000,
+     0,
+     -245500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core with Emma - PSG1 Ammo (Electrical room)",
+  "stage": "w31d",
+  "spawn": "ElectricalRoom3",
+  "vanilla_item": "Psg1Ammo",
+  "flag": 2254,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31d": [
+    [
+     4750,
+     0,
+     -244500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core with Emma - PSG1-T Ammo (Vents)",
+  "stage": "w31d",
+  "spawn": "Vents1",
+  "vanilla_item": "Psg1tAmmo",
+  "flag": 2255,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31d": [
+    [
+     -2000,
+     0,
+     -238250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core with Emma - RGB6 Ammo (Vents)",
+  "stage": "w31d",
+  "spawn": "Vents2",
+  "vanilla_item": "Rgb6Ammo",
+  "flag": 2256,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31d": [
+    [
+     -3750,
+     0,
+     -237750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core with Emma - SOCOM Ammo (Leftside alcove)",
+  "stage": "w31d",
+  "spawn": "LeftsideAlcove",
+  "vanilla_item": "SocomAmmo",
+  "flag": 2246,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31d": [
+    [
+     -11500,
+     0,
+     -252000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core with Emma - SOCOM Ammo (Strut H door)",
+  "stage": "w31d",
+  "spawn": "StrutHDoor",
+  "vanilla_item": "SocomAmmo",
+  "flag": 2247,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31d": [
+    [
+     -18000,
+     0,
+     -234000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core with Emma - Pentazemin (Leftside landing)",
+  "stage": "w31d",
+  "spawn": "LeftsideLanding",
+  "vanilla_item": "Pentazemin",
+  "flag": 2264,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31d": [
+    [
+     -12500,
+     0,
+     -226500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Shell 2 Core with Emma - Ration (Electrical room)",
+  "stage": "w31d",
+  "spawn": "ElectricalRoom4",
+  "vanilla_item": "Ration",
+  "flag": 2263,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w31d": [
+    [
+     -500,
+     0,
+     -243500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Arsenal Stomach - Ration (Torture room)",
+  "stage": "w41a",
+  "spawn": "TortureRoom",
+  "vanilla_item": "Ration",
+  "flag": 733,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w41a": [
+    [
+     -5250,
+     0,
+     -3500
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Arsenal Stomach - Cold Medicine (Torture room)",
+  "stage": "w41a",
+  "spawn": "ColdMedicine",
+  "vanilla_item": "ColdMeds",
+  "flag": 2440,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "inline": true,
+  "positions": {
+   "w41a": [
+    [
+     2500,
+     200,
+     -7200
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Arsenal Jejunum - Box (Left catwalk)",
+  "stage": "w42a",
+  "spawn": "LeftCatwalk",
+  "vanilla_item": "Pentazemin",
+  "flag": 734,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w42a": [
+    [
+     9250,
+     4000,
+     -13000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Arsenal Jejunum - Cold Medicine (Back left main area)",
+  "stage": "w42a",
+  "spawn": "BackLeftMainArea",
+  "vanilla_item": "Pentazemin",
+  "flag": 2449,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w42a": [
+    [
+     9500,
+     0,
+     -66000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Arsenal Jejunum - Ration (Rightside main area)",
+  "stage": "w42a",
+  "spawn": "RightsideMainArea",
+  "vanilla_item": "Ration",
+  "flag": 735,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w42a": [
+    [
+     17750,
+     0,
+     -42000
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Arsenal Ascending Colon - Ration (Back of hallway)",
+  "stage": "w43a",
+  "spawn": "BackOfHallway",
+  "vanilla_item": "Ration",
+  "flag": 736,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w43a": [
+    [
+     -31286,
+     4000,
+     -42250
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Arsenal Sigmoid Colon - Ration (Entry room)",
+  "stage": "w45a",
+  "spawn": "EntryRoom",
+  "vanilla_item": "Ration",
+  "flag": 737,
+  "normal": true,
+  "note": "",
+  "razor": true,
+  "positions": {
+   "w45a": [
+    [
+     2500,
+     0,
+     -138750
+    ]
+   ]
+  }
+ },
+ {
+  "location": "Navigational Deck - Olga (Reward)",
+  "stage": "w00c",
+  "spawn": null,
+  "vanilla_item": null,
+  "flag": 644,
+  "normal": true,
+  "note": "",
+  "razor": false,
+  "positions": {}
+ },
+ {
+  "location": "Strut B Transformer Room - Pliskin SOCOM",
+  "stage": "w14a",
+  "spawn": null,
+  "vanilla_item": null,
+  "flag": 652,
+  "normal": true,
+  "note": "",
+  "razor": false,
+  "positions": {}
+ },
+ {
+  "location": "Strut C Dining Hall - Stillman Coolant",
+  "stage": "w16a",
+  "spawn": null,
+  "vanilla_item": null,
+  "flag": 653,
+  "normal": true,
+  "note": "",
+  "razor": false,
+  "positions": {}
+ },
+ {
+  "location": "Strut C Dining Hall - Stillman Sensor A",
+  "stage": "w16a",
+  "spawn": null,
+  "vanilla_item": null,
+  "flag": 654,
+  "normal": true,
+  "note": "",
+  "razor": false,
+  "positions": {}
+ },
+ {
+  "location": "Strut E Heliport - B.D.U.",
+  "stage": "w20b",
+  "spawn": null,
+  "vanilla_item": null,
+  "flag": 656,
+  "normal": true,
+  "note": "",
+  "razor": false,
+  "positions": {}
+ },
+ {
+  "location": "Strut E Heliport - Phone",
+  "stage": "w20b",
+  "spawn": null,
+  "vanilla_item": null,
+  "flag": 657,
+  "normal": true,
+  "note": "",
+  "razor": false,
+  "positions": {}
+ },
+ {
+  "location": "Shell 2 Core - M.O. Disc",
+  "stage": "w31a",
+  "spawn": null,
+  "vanilla_item": null,
+  "flag": 660,
+  "normal": true,
+  "note": "",
+  "razor": false,
+  "positions": {}
+ },
+ {
+  "location": "Strut C Dining Hall - Stillman Progressive Card",
+  "stage": "w16a",
+  "spawn": null,
+  "vanilla_item": null,
+  "flag": 655,
+  "normal": true,
+  "note": "",
+  "razor": false,
+  "positions": {}
+ },
+ {
+  "location": "Strut E Heliport - Progressive Card",
+  "stage": "w20b",
+  "spawn": null,
+  "vanilla_item": null,
+  "flag": 658,
+  "normal": true,
+  "note": "",
+  "razor": false,
+  "positions": {}
+ },
+ {
+  "location": "Shell 1 Core Hostage Room - Progressive Card",
+  "stage": "w24b",
+  "spawn": null,
+  "vanilla_item": null,
+  "flag": 659,
+  "normal": true,
+  "note": "",
+  "razor": false,
+  "positions": {}
+ },
+ {
+  "location": "Shell 2 Core - Progressive Card",
+  "stage": "w31a",
+  "spawn": null,
+  "vanilla_item": null,
+  "flag": 661,
+  "normal": true,
+  "note": "",
+  "razor": false,
+  "positions": {}
+ },
+ {
+  "location": "KL Connecting Bridge with Emma - Progressive Card",
+  "stage": "w25d",
+  "spawn": null,
+  "vanilla_item": null,
+  "flag": 662,
+  "normal": true,
+  "note": "",
+  "razor": false,
+  "positions": {}
+ }
+]

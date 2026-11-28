@@ -46,4 +46,12 @@ class MGS2World(World):
         return items.get_random_filler_item_name(self)
 
     def fill_slot_data(self) -> Mapping[str, Any]:
-        return {"apworld_version": Config.APWORLD_VERSION}
+        local_items = {
+            str(location.address): location.item.code
+            for location in self.multiworld.get_locations(self.player)
+            if location.address is not None and location.item and location.item.player == self.player
+        }
+        return {
+            "apworld_version": Config.APWORLD_VERSION,
+            "local_items": local_items,
+        }
