@@ -12,8 +12,11 @@ from ctypes import wintypes
 
 import pymem
 
-import offsets
-import winmodules
+try:                                    # as worlds.mgs2.client (Launcher / installed .apworld)
+    from . import offsets, winmodules
+except ImportError:                     # as a script / from the dev tools in a checkout
+    import offsets
+    import winmodules
 
 _kernel32 = ctypes.WinDLL("kernel32", use_last_error=True)
 _kernel32.VirtualProtectEx.argtypes = [wintypes.HANDLE, wintypes.LPVOID, ctypes.c_size_t,

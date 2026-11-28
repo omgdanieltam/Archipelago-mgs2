@@ -52,26 +52,71 @@ B.D.U., Phone, M.O. Disc and the five card levels.
 
 Writes ap_manifest.json (location -> stage, flag) for the client.
 
-Usage:
+Usage (from a checkout; players use the client's /patch and /unpatch instead):
     python ap_patch.py --dry-run          # build everything, write nothing to the game
     python ap_patch.py --apply            # close the game first
     python ap_patch.py --restore          # put every vanilla stage file back
+    add --install "<MGS2 folder>" if it isn't found through Steam
 """
 
 import argparse
 import json
 import os
+import pkgutil
 import re
 import shutil
 import struct
 
-import gcxpatch as g
+try:                                    # as worlds.mgs2.client (Launcher / installed .apworld)
+    from . import gcxpatch as g
+except ImportError:                     # as a script from a checkout
+    import gcxpatch as g
 
 DEFAULT_INSTALL = r"C:\Program Files (x86)\Steam\steamapps\common\MGS2"
+GAME_EXE = "METAL GEAR SOLID2.exe"
 GCX_DIR = os.path.join("assets", "gcx", "eu", "_bp")
 ROOT = os.path.dirname(os.path.abspath(__file__))
 FIELDS_JSON = os.path.join(ROOT, "spawn_fields.json")
 MANIFEST = os.path.join(ROOT, "ap_manifest.json")
+
+
+def read_resource(name: str) -> bytes:
+    """A data file shipped next to this module: a plain file in a checkout, or read from
+    inside the .apworld zip when installed."""
+    try:
+        with open(os.path.join(ROOT, name), "rb") as f:
+            return f.read()
+    except OSError:
+        data = pkgutil.get_data(__package__, name) if __package__ else None
+        if data is None:
+            raise
+        return data
+
+
+def find_install() -> str | None:
+    """The MGS2 (Master Collection) folder: the default Steam path, or any Steam library."""
+    candidates = [DEFAULT_INSTALL]
+    try:
+        import winreg
+        with winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"Software\Valve\Steam") as key:
+            steam = winreg.QueryValueEx(key, "SteamPath")[0]
+        libraries = [steam]
+        with open(os.path.join(steam, "steamapps", "libraryfolders.vdf"), encoding="utf-8") as f:
+            libraries += [m.group(1).replace("\\\\", "\\") for m in re.finditer(r'"path"\s+"([^"]+)"', f.read())]
+        candidates += [os.path.join(lib, "steamapps", "common", "MGS2") for lib in libraries]
+    except (OSError, ImportError):
+        pass
+    return next((c for c in candidates if os.path.isfile(os.path.join(c, GAME_EXE))), None)
+
+
+def is_patched(install: str) -> bool:
+    """True if the Tanker's first stage differs from its vanilla backup (w00a is always patched)."""
+    path = stage_path(install, "w00a")
+    try:
+        with open(path, "rb") as a, open(path + ".orig", "rb") as b:
+            return a.read() != b.read()
+    except OSError:
+        return False
 
 RAZOR = 28
 MARKER_BASE = 0xA90000          # marker proc id = MARKER_BASE | flag
@@ -571,7 +616,7 @@ def call_sites(data: bytes, spawn_id: int) -> list[tuple[int, int, int]]:
 def load_rows() -> dict[str, list[dict]]:
     """World spawns by stage, both chapters. A spawn id catalogued twice in a stage is
     one pickup: the first row is kept. An ALIAS row takes its partner's flag."""
-    rows = json.load(open(FIELDS_JSON, encoding="utf-8"))
+    rows = json.loads(read_resource("spawn_fields.json"))
     flags = {(r["stage"], r["spawn"]): r["flag"] for r in rows if r["stage"]}
     by_stage: dict[str, list[dict]] = {}
     seen = set()
@@ -588,7 +633,7 @@ def load_rows() -> dict[str, list[dict]]:
 
 def load_reward_flags() -> dict[str, int]:
     """Flag byte of every scripted reward (non-spawn rows of spawn_fields.json)."""
-    rows = json.load(open(FIELDS_JSON, encoding="utf-8"))
+    rows = json.loads(read_resource("spawn_fields.json"))
     flags = {r["ap_name"]: r["flag"] for r in rows if r["stage"] is None}
     missing = [name for name in REWARDS if name not in flags]
     if missing:
@@ -596,38 +641,37 @@ def load_reward_flags() -> dict[str, int]:
     return flags
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    mode = parser.add_mutually_exclusive_group(required=True)
-    mode.add_argument("--apply", action="store_true")
-    mode.add_argument("--restore", action="store_true")
-    mode.add_argument("--dry-run", action="store_true")
-    parser.add_argument("--install", default=DEFAULT_INSTALL)
-    args = parser.parse_args()
-
+def run(mode: str, install: str, write_manifest: bool = True, out=print) -> str:
+    """mode: "apply", "restore" or "dry-run". Returns a one-line summary; `out` gets the
+    per-stage notes. write_manifest: regenerate ap_manifest.json (checkouts only; an
+    installed .apworld ships it). Raises SystemExit/OSError on a problem."""
+    if not os.path.isfile(os.path.join(install, GAME_EXE)):
+        raise SystemExit(f"{install} doesn't contain {GAME_EXE}")
     by_stage = load_rows()
     reward_flags = load_reward_flags()
     for stage in (list(EXTRA) + [s for sites, _ in REWARDS.values() for s in sites]
                   + list(SUPPRESS_CALLS) + list(INLINE_SPAWNS)):
         by_stage.setdefault(stage, [])
 
-    if args.restore:
+    if mode == "restore":
+        restored = 0
         for stage in sorted(by_stage):
-            path = stage_path(args.install, stage)
+            path = stage_path(install, stage)
             if os.path.exists(path + ".orig"):
                 shutil.copyfile(path + ".orig", path)
-                print(f"restored {stage}")
-        return
+                out(f"restored {stage}")
+                restored += 1
+        return f"Restored {restored} original stage files in {install}."
 
     manifest = []
     built = {}
     for stage in sorted(by_stage):
-        path = stage_path(args.install, stage)
+        path = stage_path(install, stage)
         source = path + ".orig" if os.path.exists(path + ".orig") else path
-        patched, notes = patch_stage(open(source, "rb").read(), stage, by_stage[stage], reward_flags)
+        with open(source, "rb") as f:
+            patched, notes = patch_stage(f.read(), stage, by_stage[stage], reward_flags)
         built[stage] = patched
-        print(f"{stage}:")
-        print("\n".join(notes))
+        out(f"{stage}:\n" + "\n".join(notes))
         for r in by_stage[stage]:
             if (stage, r["spawn"]) in SUPPRESS or r.get("alias") or r.get("variant_of"):
                 continue                     # no location of its own
@@ -664,26 +708,40 @@ def main() -> None:
                          "vanilla_item": None, "flag": reward_flags[name], "normal": True, "note": "",
                          "razor": False, "positions": {}})
 
-    with open(MANIFEST, "w", encoding="utf-8") as f:
-        json.dump(manifest, f, indent=1)
     flags = [m["flag"] for m in manifest]
     if len(flags) != len(set(flags)):
         raise SystemExit("two locations share a flag")
     normal = sum(m["normal"] for m in manifest)
-    print(f"\n{len(manifest)} markers ({normal} appear on Normal); manifest -> {MANIFEST}")
-
-    if args.dry_run:
-        for stage, data in built.items():
-            g.Gcx(data)      # re-parse as a sanity check
-        print("dry run: nothing written to the game")
-        return
+    if write_manifest:
+        with open(MANIFEST, "w", encoding="utf-8") as f:
+            json.dump(manifest, f, indent=1)
+        out(f"\n{len(manifest)} markers ({normal} appear on Normal); manifest -> {MANIFEST}")
 
     for stage, data in built.items():
-        path = stage_path(args.install, stage)
+        g.Gcx(data)          # re-parse as a sanity check before anything is written
+    if mode == "dry-run":
+        return f"Dry run: {len(built)} stage files built, nothing written to the game."
+
+    for stage, data in built.items():
+        path = stage_path(install, stage)
         if not os.path.exists(path + ".orig"):
             shutil.copyfile(path, path + ".orig")
-        open(path, "wb").write(data)
-    print(f"patched {len(built)} stage files (vanilla copies kept as .orig)")
+        with open(path, "wb") as f:
+            f.write(data)
+    return f"Patched {len(built)} stage files in {install} (originals kept as .orig)."
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    mode = parser.add_mutually_exclusive_group(required=True)
+    mode.add_argument("--apply", action="store_true")
+    mode.add_argument("--restore", action="store_true")
+    mode.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--install", default=None, help="MGS2 folder (default: found through Steam)")
+    args = parser.parse_args()
+    install = args.install or find_install() or DEFAULT_INSTALL
+    mode_name = "apply" if args.apply else "restore" if args.restore else "dry-run"
+    print(run(mode_name, install))
 
 
 if __name__ == "__main__":

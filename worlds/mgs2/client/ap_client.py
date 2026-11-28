@@ -26,11 +26,12 @@ What it does every tick (CLIENT_DESIGN.md §2.2, §5, §6):
       Plant Complete) are sent once the story counter passes them
     - victory (Tanker): story counter (varbuf 0x6) >= 46 -> CLIENT_GOAL
 
-Run with the Archipelago venv (it has pymem), from the Archipelago root:
-    venv\\Scripts\\python.exe worlds\\mgs2\\client\\ap_client.py --connect localhost:38281 --name DanielMGS2
-    add --nogui for a console-only client.
+Players start it from the Archipelago Launcher ("MGS2 Client"); /patch patches the game.
+In a checkout it also runs as a script, from the Archipelago root:
+    venv\\Scripts\\python.exe worlds\\mgs2\\client\\ap_client.py --name DanielMGS2 localhost:38281
+    add --nogui for a console-only client, --debug for detail messages.
 
-Client commands: /mgs2 (state dump)
+Client commands: /patch, /unpatch, /mgs2 (state dump), /nearest, /debug
 """
 
 import asyncio
@@ -38,6 +39,7 @@ import importlib.util
 import json
 import math
 import os
+import pkgutil
 import random
 import re
 import struct
@@ -46,13 +48,38 @@ import time
 import zlib
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-AP_ROOT = os.path.abspath(os.path.join(ROOT, "..", "..", ".."))   # client -> mgs2 -> worlds -> root
-sys.path.insert(0, AP_ROOT)
-sys.path.insert(1, ROOT)
+# Loaded as worlds.mgs2.client.ap_client (Launcher, installed .apworld) or run as a script.
+PACKAGED = bool(__package__)
+if not PACKAGED:
+    AP_ROOT = os.path.abspath(os.path.join(ROOT, "..", "..", ".."))   # client -> mgs2 -> worlds -> root
+    sys.path.insert(0, AP_ROOT)
+    sys.path.insert(1, ROOT)
 
 import Utils  # noqa: E402
 
-LOG_DIR = os.path.join(ROOT, "logs")   # next to this script, wherever the client folder lives
+# Inside an installed .apworld (a zip) nothing next to this file is writable, so runtime
+# files go to Archipelago's user folder there; in a checkout they stay next to the client.
+WRITABLE_HERE = os.path.isdir(ROOT) and os.access(ROOT, os.W_OK)
+
+
+def runtime_dir(name: str) -> str:
+    return os.path.join(ROOT, name) if WRITABLE_HERE else Utils.user_path("mgs2_client", name)
+
+
+def read_resource(name: str) -> bytes:
+    """A data file shipped next to this module: a plain file in a checkout, or read from
+    inside the .apworld zip when installed."""
+    try:
+        with open(os.path.join(ROOT, name), "rb") as f:
+            return f.read()
+    except OSError:
+        data = pkgutil.get_data(__package__, name) if PACKAGED else None
+        if data is None:
+            raise
+        return data
+
+
+LOG_DIR = os.path.join(ROOT, "logs")   # checkout only; installed, logs stay in Archipelago's logs/
 KEEP_LOGS = 20
 
 
@@ -91,9 +118,15 @@ def move_log_file(folder: str) -> None:
             pass
 
 
-if __name__ == "__main__":
+def setup_logging() -> None:
+    """Archipelago's client log, moved next to the client in a checkout. Called by launch()
+    after every import (importing the GUI resets the root level, hence the setLevel)."""
+    import logging
     Utils.init_logging("MGS2Client", exception_logger="Client")
-    move_log_file(LOG_DIR)
+    if WRITABLE_HERE:
+        move_log_file(LOG_DIR)
+    logging.getLogger().setLevel(logging.INFO)
+
 
 from CommonClient import (ClientCommandProcessor, CommonContext, get_base_parser, gui_enabled,  # noqa: E402
                           handle_url_arg, logger, server_loop)
@@ -119,20 +152,24 @@ def file_only(msg: str) -> None:
     detail_logger.info(msg, extra={"NoStream": True})
 from NetUtils import ClientStatus  # noqa: E402
 
-import mgs2mem  # noqa: E402
+if PACKAGED:
+    from . import ap_patch, mgs2mem  # noqa: E402
+    from ..Config import Config as _config  # noqa: E402
+else:
+    import ap_patch  # noqa: E402
+    import mgs2mem  # noqa: E402
 
+    def _load_world_config():
+        """worlds/mgs2/Config/Config.py, loaded by path: importing worlds.mgs2 as a script would
+        load every world."""
+        spec = importlib.util.spec_from_file_location("mgs2_world_config",
+                                                      os.path.join(ROOT, "..", "Config", "Config.py"))
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        return module
 
+    _config = _load_world_config()
 
-def _load_world_config():
-    """worlds/mgs2/Config/Config.py, loaded by path: importing worlds.mgs2 would load every world."""
-    spec = importlib.util.spec_from_file_location("mgs2_world_config",
-                                                  os.path.join(ROOT, "..", "Config", "Config.py"))
-    module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
-    return module
-
-
-_config = _load_world_config()
 GAME = _config.GAME
 APWORLD_VERSION = _config.APWORLD_VERSION  # the seed's slot_data must match
 MANIFEST = os.path.join(ROOT, "ap_manifest.json")
@@ -147,7 +184,7 @@ CHAPTER_SLOT = 0x2FA                # u8 chapter N belongs to; a change resets N
 SAVE_ID_SLOT = 0x2FB                # u8 random id per game (1-255), keys this save's local-grant record
 FINGERPRINT = 0x2FC                 # u32 seed fingerprint
 LOAD_COUNTER = 0x4CA                # player struct: area-load counter, what a pickup stores in its flag
-LOCAL_GRANTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "local_grants")
+LOCAL_GRANTS_DIR = runtime_dir("local_grants")
 VICTORY_STORY = 46                  # first reached in d12t after the RAY photos
 PLANT_CLEAR_STORY = 0x1D6           # w61a sets it when the Solidus fight ends, then loads d082p01
 # The goal is both chapters cleared. Each clear is a location the client sends from the story counter
@@ -336,6 +373,13 @@ class Game:
             except Exception as e:
                 self.razor = None
                 logger.warning(f"Pickup names disabled (every AP spot will say Razor): {e}")
+            try:                    # the running game's folder: is it patched?
+                exe = mgs2mem.winmodules.main_module_path(self.mem.pm.process_handle)
+                if exe and not ap_patch.is_patched(os.path.dirname(exe)):
+                    logger.warning("MGS2 isn't patched for Archipelago: close the game, type /patch, "
+                                   "then start it again.")
+            except Exception:
+                pass
         return self.mem is not None
 
     def detach(self) -> None:
@@ -623,6 +667,39 @@ def choose_pickup_name(ctx: "MGS2Context", frame: Frame,
 # --------------------------------------------------------------------------- AP context
 
 class MGS2CommandProcessor(ClientCommandProcessor):
+    def _cmd_patch(self, folder: str = "") -> bool:
+        """Patch MGS2 for Archipelago (close the game first). Optionally give the MGS2 folder."""
+        return self._run_patcher("apply", folder)
+
+    def _cmd_unpatch(self, folder: str = "") -> bool:
+        """Put MGS2's original files back (close the game first). Optionally give the MGS2 folder."""
+        return self._run_patcher("restore", folder)
+
+    # Take the rest of the line as typed: the default parsing treats backslashes in a
+    # Windows path as escapes.
+    _cmd_patch.raw_text = True
+    _cmd_unpatch.raw_text = True
+
+    def _run_patcher(self, mode: str, folder: str) -> bool:
+        ctx: MGS2Context = self.ctx
+        if ctx.game_mem.attached():
+            self.output("Close MGS2 first: the patcher rewrites game files the game reads while running.")
+            return True
+        install = folder.strip().strip('"') or ap_patch.find_install()
+        if not install:
+            self.output("Couldn't find MGS2 through Steam. Give its folder, e.g. "
+                        r'/patch C:\Program Files (x86)\Steam\steamapps\common\MGS2')
+            return True
+        self.output(("Patching" if mode == "apply" else "Restoring") + f" MGS2 in {install}...")
+        try:
+            # The bundled manifest is what the client reads; only a checkout regenerates it.
+            summary = ap_patch.run(mode, install, write_manifest=False, out=file_only)
+        except BaseException as e:                      # the patcher raises SystemExit on problems
+            self.output(f"{'Patching' if mode == 'apply' else 'Restoring'} failed: {e}")
+            return True
+        self.output(summary + (" Start MGS2 now." if mode == "apply" else ""))
+        return True
+
     def _cmd_debug(self) -> bool:
         """Toggle showing detail messages (checks, grants, stage changes) here. They always go to the log file."""
         global DEBUG
@@ -701,7 +778,7 @@ class MGS2Context(CommonContext):
         super().__init__(server_address, password)
         self.ignore_version = ignore_version
         self.game_mem = Game()
-        self.manifest = [m for m in json.load(open(MANIFEST, encoding="utf-8")) if m["normal"]]
+        self.manifest = [m for m in json.loads(read_resource("ap_manifest.json")) if m["normal"]]
         for m in self.manifest:
             m["chapter"] = chapter_of(m["stage"])   # a flag is only read in a save of its chapter
         self.ready = False                    # connected + version ok + ids mapped
@@ -1173,20 +1250,25 @@ async def main(args) -> None:
     await ctx.shutdown()
 
 
-if __name__ == "__main__":
+def launch(*launch_args: str) -> None:
+    """Entry point for the Archipelago Launcher (worlds/mgs2/__init__.py) and the script."""
     import colorama
-    import logging
+    global DEBUG
 
-    logging.getLogger().setLevel(logging.INFO)
-    parser = get_base_parser(description="MGS2 Archipelago client (POC)")
+    setup_logging()
+    parser = get_base_parser(description="MGS2 Archipelago client")
     parser.add_argument("--name", default=None, help="Slot name to connect as.")
     parser.add_argument("--ignore-version", action="store_true", help="Run even if the apworld version differs.")
     parser.add_argument("--debug", action="store_true",
                         help="Show detail messages (checks, grants, stage changes) in the window too. "
                              "They always go to the log file.")
     parser.add_argument("url", nargs="?", help="Archipelago connection url")
-    args = handle_url_arg(parser.parse_args(), parser=parser)
+    args = handle_url_arg(parser.parse_args(launch_args), parser=parser)
     DEBUG = args.debug
     colorama.just_fix_windows_console()
     asyncio.run(main(args))
     colorama.deinit()
+
+
+if __name__ == "__main__":
+    launch(*sys.argv[1:])
