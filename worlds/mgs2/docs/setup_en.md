@@ -4,8 +4,8 @@
 
 - **Metal Gear Solid 2** from the **Master Collection on Steam** (Windows).
 - **[Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases)**, version 0.6.7 or newer.
-- **`mgs2.apworld`**, from the Releases page of the MGS2 apworld's GitHub repository.
-  <!-- TODO: link the releases page here -->
+- **`mgs2.apworld`**, from the [MGS2 apworld releases](https://github.com/omgdanieltam/Archipelago-mgs2/releases).
+  The template `MGS2.yaml` is attached to each release too.
 
 You don't need Python or anything else: the MGS2 client and patcher come inside `mgs2.apworld`
 and run from the Archipelago Launcher.

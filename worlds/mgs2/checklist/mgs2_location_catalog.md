@@ -34,7 +34,7 @@ Sent automatically (nothing to pick up):
 | ☐ | Ration (Left side platform) |  |
 | ☐ | Wet Box (Right side platform) |  |
 | ☐ | Thermal Goggles (Crow's Nest) |  |
-| ☐ | Olga (Reward) | cutscene reward: gives nothing, sends the check |
+| ☐ | Olga (USP) | cutscene reward: gives nothing, sends the check |
 | — | ~~UspSupp (CrowsNest2)~~ | not on Normal: NG+ only |
 
 ### Deck A Crew Quarters (`w01a`) — 2

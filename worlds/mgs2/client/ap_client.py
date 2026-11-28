@@ -216,7 +216,10 @@ START_CHECKS = {
 # (Tanker varbuf 0x6, Plant 0x68; CLIENT_DESIGN.md §8 item 4). Names not in the seed are ignored.
 STORY_CHECKS = {
     # 34 is what d10t (the cutscene after the rush) showed; lower it once the end-of-rush value is measured.
-    TANKER: {"Deck 2 - Guard Rush (Reward)": 34,
+    # Olga: d05t (after the fight) sets story 29, then loads w00c, where the USP is given
+    # ("Olga (USP)" is that flag); the Engine Room Grenade also appears from 29, after Olga.
+    TANKER: {"Navigational Deck - Olga (Reward)": 29,
+             "Deck 2 - Guard Rush (Reward)": 34,
              "Tanker Complete": VICTORY_STORY},
     # The first value after each fight, from logged Plant runs (2026-10/11).
     PLANT: {

@@ -183,7 +183,9 @@ CIGARETTES, SENSOR_A, BDU, PHONE, MO_DISC, CARD = 17, 10, 6, 20, 34, 18
 # Scripted rewards: AP location -> (stages and the vanilla writes there, give the item anyway).
 # Each write becomes a call to a proc that sets the location's flag (from spawn_fields.json).
 REWARDS: dict[str, tuple[dict[str, list[tuple[bytes, int]]], bool]] = {
-    "Navigational Deck - Olga (Reward)": ({
+    # Olga leaves you the USP: that's the "Olga (USP)" location. The boss reward,
+    # "Olga (Reward)", is a story check in the client (story 29, set by d05t after the fight).
+    "Navigational Deck - Olga (USP)": ({
         "w00c": [(assign(SNAKE_WEAPONS, 36, 2, 0), 1)],                # USP = 0 (owned, empty)
     }, False),
     "Strut B Transformer Room - Pliskin SOCOM": ({
@@ -232,7 +234,7 @@ REWARDS: dict[str, tuple[dict[str, list[tuple[bytes, int]]], bool]] = {
 }
 # The stage a reward's check belongs to (the client reads it only in a save of that chapter).
 REWARD_STAGE = {
-    "Navigational Deck - Olga (Reward)": "w00c",
+    "Navigational Deck - Olga (USP)": "w00c",
     "Strut B Transformer Room - Pliskin SOCOM": "w14a",
     "Strut C Dining Hall - Stillman Coolant": "w16a",
     "Strut C Dining Hall - Stillman Sensor A": "w16a",
