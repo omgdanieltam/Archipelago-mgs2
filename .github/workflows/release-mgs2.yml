@@ -62,7 +62,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          # The notes are written by hand after the release is published; the body only
+          # ends with links to the docs as of this release's tag.
+          docs="https://github.com/${GITHUB_REPOSITORY}/blob/${TAG}/worlds/mgs2/docs"
+          body=$'\n\n---\n'"**Setup guide:** ${docs}/setup_en.md"$'\n'"**Game info:** ${docs}/en_Metal_Gear_Solid_2_Sons_of_Liberty.md"
           gh release create "$TAG" dist/mgs2.apworld tools/ci_players/MGS2.yaml \
             --target "$GITHUB_SHA" \
             --title "MGS2 apworld $VERSION" \
-            --notes "Built from ${GITHUB_SHA::7} on ${GITHUB_REF_NAME}. Install: double-click mgs2.apworld, or put it in your Archipelago custom_worlds folder."
+            --notes "$body"
